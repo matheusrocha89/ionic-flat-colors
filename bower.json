@@ -5,7 +5,7 @@
     "Matheus Cruz Rocha <matheus.rocha89@gmail.com>"
   ],
   "description": "Flat colors for ionic v1 framework components",
-  "main": ["ionic-flat.scss"],
+  "main": ["scss/ionic-flat.scss"],
   "moduleType": [],
   "keywords": [
     "ionic",
