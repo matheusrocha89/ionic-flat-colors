@@ -5,5 +5,8 @@
   "author": {
     "name": "Matheus Cruz Rocha"
   },
-  "homepage": "https://github.com/matheusrocha89/ionic-flat-colors"
+  "homepage": "https://github.com/matheusrocha89/ionic-flat-colors",
+  "devDependencies": {
+    "gulp-sass": "2.1.1"
+  }
 }
