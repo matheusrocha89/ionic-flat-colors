@@ -102,6 +102,7 @@
       background-image: linear-gradient(180deg, $ripeLemon, $ripeLemon 50%, transparent 50%);
     }
   }
+  
   // --------------------------
   // Pink bars
   // --------------------------
@@ -161,4 +162,97 @@
       background-image: linear-gradient(180deg, $waxFlower, $waxFlower 50%, transparent 50%);
     }
   }
+ 
+  // --------------------------
+  // Gray bars
+  // --------------------------
+
+  &.bar-white-smoke {
+    @include bar-style($whiteSmoke, $pumice, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $pumice, $pumice 50%, transparent 50%);
+    }
+  }
+
+  &.bar-lynch {
+    @include bar-style($lynch, $pumice, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $pumice, $pumice 50%, transparent 50%);
+    }
+  }
+
+  &.bar-pumice {
+    @include bar-style($pumice, $silver, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $silver, $silver 50%, transparent 50%);
+    }
+  }
+
+  &.bar-gallery {
+    @include bar-style($gallery, $iron, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $iron, $iron 50%, transparent 50%);
+    }
+  }
+
+  &.bar-silver-sand {
+    @include bar-style($silverSand, $cararra, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $cararra, $cararra 50%, transparent 50%);
+    }
+  }
+
+  &.bar-porcelain {
+    @include bar-style($porcelain, $whiteSmoke, $dark);
+
+    .bar-footer {
+       background-image: linear-gradient(180deg, $whiteSmoke, $whiteSmoke 50%, transparent 50%);
+    }
+  }
+
+  &.bar-cascade {
+    @include bar-style($cascade, $lynch, $dark);
+
+    .bar-footer {
+       background-image: linear-gradient(180deg, $lynch, $lynch 50%, transparent 50%);
+    }
+  }
+
+  &.bar-iron {
+    @include bar-style($iron, $pumice, $dark);
+
+    .bar-footer {
+       background-image: linear-gradient(180deg, $pumice, $pumice 50%, transparent 50%);
+    }
+  }
+
+  &.bar-edward {
+    @include bar-style($edward, $iron, $dark);
+
+    .bar-footer {
+       background-image: linear-gradient(180deg, $iron, $iron 50%, transparent 50%);
+    }
+  }
+
+  &.bar-cararra {
+    @include bar-style($cararra, $silverSand, $dark);
+
+    .bar-footer {
+       background-image: linear-gradient(180deg, $silverSand, $silverSand 50%, transparent 50%);
+    }
+  }
+
+  &.bar-silver {
+    @include bar-style($silver, $lynch, $dark);
+
+    .bar-footer {
+       background-image: linear-gradient(180deg, $lynch, $lynch 50%, transparent 50%);
+    }
+  }
+
 }
