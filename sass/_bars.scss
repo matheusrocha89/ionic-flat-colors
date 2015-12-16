@@ -255,4 +255,87 @@
     }
   }
 
+  // ------------------------
+  // Purple bars
+  // ------------------------
+
+  &.bar-snuff {
+    @include bar-style($snuff, $lightWisteria, $dark);
+
+    .bar-footer {
+       background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
+    }
+  }
+
+  &.bar-rebecca-purple {
+    @include bar-style($rebeccaPurple, $honeyFlower, $gallery);
+
+    .bar-footer {
+       background-image: linear-gradient(180deg, $honeyFlower, $honeyFlower 50%, transparent 50%);
+    }
+  }
+
+  &.bar-honey-flower {
+    @include bar-style($honeyFlower, $plum, $gallery);
+
+    .bar-footer {
+       background-image: linear-gradient(180deg, $plum, $plum 50%, transparent 50%);
+    }
+  }
+
+  &.bar-wistful {
+    @include bar-style($wistful, $lightWisteria, $dark);
+
+    .bar-footer {
+       background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
+    }
+  }
+
+  &.bar-plum {
+    @include bar-style($plum, $wisteria, $gallery);
+
+    .bar-footer {
+       background-image: linear-gradient(180deg, $wisteria, $wisteria 50%, transparent 50%);
+    }
+  }
+
+  &.bar-seance {
+    @include bar-style($seance, $studio, $gallery);
+
+    .bar-footer {
+       background-image: linear-gradient(180deg, $studio, $studio 50%, transparent 50%);
+    }
+  }
+
+  &.bar-medium-purple {
+    @include bar-style($mediumPurple, $lightWisteria, $gallery);
+
+    .bar-footer {
+       background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
+    }
+  }
+
+  &.bar-light-wisteria {
+    @include bar-style($lightWisteria, $snuff, $dark);
+
+    .bar-footer {
+       background-image: linear-gradient(180deg, $snuff, $snuff 50%, transparent 50%);
+    }
+  }
+
+  &.bar-studio {
+    @include bar-style($studio, $wisteria, $gallery);
+
+    .bar-footer {
+       background-image: linear-gradient(180deg, $wisteria, $wisteria 50%, transparent 50%);
+    }
+  }
+
+  &.bar-wisteria {
+    @include bar-style($wisteria, $plum, $gallery);
+
+    .bar-footer {
+       background-image: linear-gradient(180deg, $plum, $plum 50%, transparent 50%);
+    }
+  }
 }
