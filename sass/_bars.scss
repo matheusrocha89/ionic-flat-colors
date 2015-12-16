@@ -1,8 +1,8 @@
-// --------------------------------
-// Red bars
-// --------------------------------
-
 .bar {
+  // --------------------------------
+  // Red bars
+  // --------------------------------
+
   &.bar-chestnut-rose {
     @include bar-style($chestnutRose, $valencia, $gallery);
 
@@ -72,6 +72,34 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $tallPoppy, $tallPoppy 50%, transparent 50%);
+    }
+  }
+
+  // --------------------------
+  // Yellow bars
+  // --------------------------
+
+  &.bar-cream-can {
+    @include bar-style($creamCan, $saffron, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $saffron, $saffron 50%, transparent 50%);
+    }
+  }
+
+  &.bar-ripe-lemon {
+    @include bar-style($ripeLemon, $creamCan, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $creamCan, $creamCan 50%, transparent 50%);
+    }
+  }
+
+  &.bar-saffron {
+    @include bar-style($saffron, $ripeLemon, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $ripeLemon, $ripeLemon 50%, transparent 50%);
     }
   }
 }
