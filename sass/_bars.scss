@@ -102,4 +102,63 @@
       background-image: linear-gradient(180deg, $ripeLemon, $ripeLemon 50%, transparent 50%);
     }
   }
+  // --------------------------
+  // Pink bars
+  // --------------------------
+
+  &.bar-razzmatazz {
+    @include bar-style($razzmatazz, $cabaret, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $cabaret, $cabaret 50%, transparent 50%);
+    }
+  }
+
+  &.bar-sunset-orange {
+    @include bar-style($sunsetOrange, $sunglo, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $sunglo, $sunglo 50%, transparent 50%);
+    }
+  }
+
+  &.bar-wax-flower {
+    @include bar-style($waxFlower, $sunglo, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $sunglo, $sunglo 50%, transparent 50%);
+    }
+  }
+
+  &.bar-cabaret {
+    @include bar-style($cabaret, $razzmatazz, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $razzmatazz, $razzmatazz 50%, transparent 50%);
+    }
+  }
+
+  &.bar-new-york-pink {
+    @include bar-style($newYorkPink, $sunglo, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $sunglo, $sunglo 50%, transparent 50%);
+    }
+  }
+
+  &.bar-radical-red {
+    @include bar-style($radicalRed, $cabaret, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $cabaret, $cabaret 50%, transparent 50%);
+    }
+  }
+
+  &.bar-sunglo {
+    @include bar-style($sunglo, $waxFlower, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $waxFlower, $waxFlower 50%, transparent 50%);
+    }
+  }
 }

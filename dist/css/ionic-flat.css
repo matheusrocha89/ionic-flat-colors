@@ -122,3 +122,73 @@
     color: #444444; }
   .bar.bar-saffron .bar-footer {
     background-image: linear-gradient(180deg, #F7CA18, #F7CA18 50%, transparent 50%); }
+
+.bar.bar-razzmatazz {
+  border-color: #D2527F;
+  background-color: #DB0A5B;
+  background-image: linear-gradient(0deg, #D2527F, #D2527F 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-razzmatazz .title {
+    color: #EEEEEE; }
+  .bar.bar-razzmatazz .bar-footer {
+    background-image: linear-gradient(180deg, #D2527F, #D2527F 50%, transparent 50%); }
+
+.bar.bar-sunset-orange {
+  border-color: #E26A6A;
+  background-color: #DB0A5B;
+  background-image: linear-gradient(0deg, #E26A6A, #E26A6A 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-sunset-orange .title {
+    color: #EEEEEE; }
+  .bar.bar-sunset-orange .bar-footer {
+    background-image: linear-gradient(180deg, #E26A6A, #E26A6A 50%, transparent 50%); }
+
+.bar.bar-wax-flower {
+  border-color: #E26A6A;
+  background-color: #F1A9A0;
+  background-image: linear-gradient(0deg, #E26A6A, #E26A6A 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-wax-flower .title {
+    color: #EEEEEE; }
+  .bar.bar-wax-flower .bar-footer {
+    background-image: linear-gradient(180deg, #E26A6A, #E26A6A 50%, transparent 50%); }
+
+.bar.bar-cabaret {
+  border-color: #DB0A5B;
+  background-color: #D2527F;
+  background-image: linear-gradient(0deg, #DB0A5B, #DB0A5B 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-cabaret .title {
+    color: #EEEEEE; }
+  .bar.bar-cabaret .bar-footer {
+    background-image: linear-gradient(180deg, #DB0A5B, #DB0A5B 50%, transparent 50%); }
+
+.bar.bar-new-york-pink {
+  border-color: #E26A6A;
+  background-color: #E08283;
+  background-image: linear-gradient(0deg, #E26A6A, #E26A6A 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-new-york-pink .title {
+    color: #EEEEEE; }
+  .bar.bar-new-york-pink .bar-footer {
+    background-image: linear-gradient(180deg, #E26A6A, #E26A6A 50%, transparent 50%); }
+
+.bar.bar-radical-red {
+  border-color: #D2527F;
+  background-color: #F62459;
+  background-image: linear-gradient(0deg, #D2527F, #D2527F 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-radical-red .title {
+    color: #EEEEEE; }
+  .bar.bar-radical-red .bar-footer {
+    background-image: linear-gradient(180deg, #D2527F, #D2527F 50%, transparent 50%); }
+
+.bar.bar-sunglo {
+  border-color: #F1A9A0;
+  background-color: #E26A6A;
+  background-image: linear-gradient(0deg, #F1A9A0, #F1A9A0 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-sunglo .title {
+    color: #EEEEEE; }
+  .bar.bar-sunglo .bar-footer {
+    background-image: linear-gradient(180deg, #F1A9A0, #F1A9A0 50%, transparent 50%); }
