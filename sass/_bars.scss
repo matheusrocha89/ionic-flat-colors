@@ -1,0 +1,13 @@
+// --------------------------------
+// Red bars
+// --------------------------------
+
+.bar {
+  &.bar-chestnut {
+    @include bar-style($chestnutRose, $valencia, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $valencia, $valencia 50%, transparent 50%);
+    }
+  }
+}
