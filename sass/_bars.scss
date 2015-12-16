@@ -3,11 +3,75 @@
 // --------------------------------
 
 .bar {
-  &.bar-chestnut {
+  &.bar-chestnut-rose {
     @include bar-style($chestnutRose, $valencia, $gallery);
 
     .bar-footer {
       background-image: linear-gradient(180deg, $valencia, $valencia 50%, transparent 50%);
+    }
+  }
+
+  &.bar-pomegranate {
+    @include bar-style($pomegranate, $thunderbird, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $thunderbird, $thunderbird 50%, transparent 50%);
+    }
+  }
+  
+  &.bar-thunderbird {
+    @include bar-style($thunderbird, $oldBrick, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $oldBrick, $oldBrick 50%, transparent 50%);
+    }
+  }
+
+  &.bar-old-brick {
+    @include bar-style($oldBrick, $chestnutRose, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $chestnutRose, $chestnutRose 50%, transparent 50%);
+    }
+  }
+
+  &.bar-flamingo {
+    @include bar-style($flamingo, $tallPoppy, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $tallPoppy, $tallPoppy 50%, transparent 50%);
+    }
+  }
+
+  &.bar-valencia {
+    @include bar-style($valencia, $oldBrick, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $oldBrick, $oldBrick 50%, transparent 50%);
+    }
+  }
+
+  &.bar-tall-poppy {
+    @include bar-style($tallPoppy, $cinnabar, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $cinnabar, $cinnabar 50%, transparent 50%);
+    }
+  }
+
+  &.bar-monza {
+    @include bar-style($monza, $cinnabar, $gallery);
+
+    .bar-footer{
+      background-image: linear-gradient(180deg, $cinnabar, $cinnabar 50%, transparent 50%);
+    }
+  }
+
+  &.bar-cinnabar {
+    @include bar-style($cinnabar, $tallPoppy, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $tallPoppy, $tallPoppy 50%, transparent 50%);
     }
   }
 }
