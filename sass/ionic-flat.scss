@@ -1,4 +1,12 @@
+/*
+ * Flat colors used on this lib. I'd like to thanks to
+ * vbaimas (http://www.vbaimas.com/) to share this colors on
+ * his web page.
+ */
+
 @charset "UTF-8";
 
 @import
-  "colors/_colors.scss";
+  "mixins",
+  "colors/colors.scss",
+  "bars";
