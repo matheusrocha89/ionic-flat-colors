@@ -8,6 +8,8 @@
   "homepage": "https://github.com/matheusrocha89/ionic-flat-colors",
   "devDependencies": {
     "gulp": "3.9.0",
+    "gulp-minify-css": "1.2.2",
+    "gulp-rename": "1.2.2",
     "gulp-sass": "2.1.1"
   }
 }
