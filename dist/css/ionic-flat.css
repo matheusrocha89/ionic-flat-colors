@@ -3,44 +3,12 @@
  * vbaimas (http://www.vbaimas.com/) to share this colors on
  * his web page.
  */
-/*
- * Flat colors used on this lib. I'd like to thanks to
- * vbaimas (http://www.vbaimas.com/) to share this colors on
- * his web page.
- */
-/*
- * RED: flat red colors
- */
-/*
- * Flat colors used on this lib. I'd like to thanks to
- * vbaimas (http://www.vbaimas.com/) to share this colors on
- * his web page.
- */
-/*
- * Flat colors used on this lib. I'd like to thanks to
- * vbaimas (http://www.vbaimas.com/) to share this colors on
- * his web page.
- */
-/*
- * Flat colors used on this lib. I'd like to thanks to
- * vbaimas (http://www.vbaimas.com/) to share this colors on
- * his web page.
- */
-/*
- * Flat colors used on this lib. I'd like to thanks to
- * vbaimas (http://www.vbaimas.com/) to share this colors on
- * his web page.
- */
-/*
- * PINK: Flat pink colors 
- */
-/*
- * Flat colors used on this lib. I'd like to thanks to
- * vbaimas (http://www.vbaimas.com/) to share this colors on
- * his web page.
- */
-/*
- * Flat colors used on this lib. I'd like to thanks to
- * vbaimas (http://www.vbaimas.com/) to share this colors on
- * his web page.
- */
+.bar.bar-chestnut {
+  border-color: #D64541;
+  background-color: #D24D57;
+  background-image: linear-gradient(0deg, #D64541, #D64541 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-chestnut .title {
+    color: #EEEEEE; }
+  .bar.bar-chestnut .bar-footer {
+    background-image: linear-gradient(180deg, #D64541, #D64541 50%, transparent 50%); }
