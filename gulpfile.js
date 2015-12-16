@@ -7,13 +7,13 @@ var rename = require('gulp-rename');
 
 
 gulp.task('sass', function() {
-  gulp.src('./sass/**/*.scss')
+  gulp.src('./sass/ionic-flat.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./dist/css'));
 });
 
 gulp.task('css-minify', function() {
-  gulp.src('./dist/css/*.css')
+  gulp.src('./dist/css/ionic-flat.css')
     .pipe(minify())
     .pipe(rename({
       'suffix': '.min'
