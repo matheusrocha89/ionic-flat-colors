@@ -211,7 +211,7 @@
     @include bar-style($porcelain, $whiteSmoke, $dark);
 
     .bar-footer {
-       background-image: linear-gradient(180deg, $whiteSmoke, $whiteSmoke 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $whiteSmoke, $whiteSmoke 50%, transparent 50%);
     }
   }
 
@@ -219,7 +219,7 @@
     @include bar-style($cascade, $lynch, $dark);
 
     .bar-footer {
-       background-image: linear-gradient(180deg, $lynch, $lynch 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $lynch, $lynch 50%, transparent 50%);
     }
   }
 
@@ -227,7 +227,7 @@
     @include bar-style($iron, $pumice, $dark);
 
     .bar-footer {
-       background-image: linear-gradient(180deg, $pumice, $pumice 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $pumice, $pumice 50%, transparent 50%);
     }
   }
 
@@ -235,7 +235,7 @@
     @include bar-style($edward, $iron, $dark);
 
     .bar-footer {
-       background-image: linear-gradient(180deg, $iron, $iron 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $iron, $iron 50%, transparent 50%);
     }
   }
 
@@ -243,7 +243,7 @@
     @include bar-style($cararra, $silverSand, $dark);
 
     .bar-footer {
-       background-image: linear-gradient(180deg, $silverSand, $silverSand 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $silverSand, $silverSand 50%, transparent 50%);
     }
   }
 
@@ -251,7 +251,7 @@
     @include bar-style($silver, $lynch, $dark);
 
     .bar-footer {
-       background-image: linear-gradient(180deg, $lynch, $lynch 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $lynch, $lynch 50%, transparent 50%);
     }
   }
 
@@ -263,7 +263,7 @@
     @include bar-style($snuff, $lightWisteria, $dark);
 
     .bar-footer {
-       background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
     }
   }
 
@@ -271,7 +271,7 @@
     @include bar-style($rebeccaPurple, $honeyFlower, $gallery);
 
     .bar-footer {
-       background-image: linear-gradient(180deg, $honeyFlower, $honeyFlower 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $honeyFlower, $honeyFlower 50%, transparent 50%);
     }
   }
 
@@ -279,7 +279,7 @@
     @include bar-style($honeyFlower, $plum, $gallery);
 
     .bar-footer {
-       background-image: linear-gradient(180deg, $plum, $plum 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $plum, $plum 50%, transparent 50%);
     }
   }
 
@@ -287,7 +287,7 @@
     @include bar-style($wistful, $lightWisteria, $dark);
 
     .bar-footer {
-       background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
     }
   }
 
@@ -295,7 +295,7 @@
     @include bar-style($plum, $wisteria, $gallery);
 
     .bar-footer {
-       background-image: linear-gradient(180deg, $wisteria, $wisteria 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $wisteria, $wisteria 50%, transparent 50%);
     }
   }
 
@@ -303,7 +303,7 @@
     @include bar-style($seance, $studio, $gallery);
 
     .bar-footer {
-       background-image: linear-gradient(180deg, $studio, $studio 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $studio, $studio 50%, transparent 50%);
     }
   }
 
@@ -311,7 +311,7 @@
     @include bar-style($mediumPurple, $lightWisteria, $gallery);
 
     .bar-footer {
-       background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
     }
   }
 
@@ -319,7 +319,7 @@
     @include bar-style($lightWisteria, $snuff, $dark);
 
     .bar-footer {
-       background-image: linear-gradient(180deg, $snuff, $snuff 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $snuff, $snuff 50%, transparent 50%);
     }
   }
 
@@ -327,7 +327,7 @@
     @include bar-style($studio, $wisteria, $gallery);
 
     .bar-footer {
-       background-image: linear-gradient(180deg, $wisteria, $wisteria 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $wisteria, $wisteria 50%, transparent 50%);
     }
   }
 
@@ -335,7 +335,132 @@
     @include bar-style($wisteria, $plum, $gallery);
 
     .bar-footer {
-       background-image: linear-gradient(180deg, $plum, $plum 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $plum, $plum 50%, transparent 50%);
+    }
+  }
+
+  // ------------------------
+  // Orange bars
+  // ------------------------
+
+
+  &.bar-confetti {
+    @include bar-style($confetti, $capeHoney, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $capeHoney, $capeHoney 50%, transparent 50%);
+    }
+  }
+
+  &.bar-cape-honey {
+    @include bar-style($capeHoney, $capeHoney, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $capeHoney, $capeHoney 50%, transparent 50%);
+    }
+  }
+
+  &.bar-california {
+    @include bar-style($california, $confetti, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $confetti, $confetti 50%, transparent 50%);
+    }
+  }
+
+  &.bar-fire-bush {
+    @include bar-style($fireBush, $casablanca, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $casablanca, $casablanca 50%, transparent 50%);
+    }
+  }
+
+  &.bar-tahiti-gold {
+    @include bar-style($tahitiGold, $california, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $california, $california 50%, transparent 50%);
+    }
+  }
+
+  &.bar-casablanca {
+    @include bar-style($casablanca, $confetti, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $confetti, $confetti 50%, transparent 50%);
+    }
+  }
+
+  &.bar-crusta {
+    @include bar-style($crusta, $jaffa, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $jaffa, $jaffa 50%, transparent 50%);
+    }
+  }
+
+  &.bar-sea-buckthorn {
+    @include bar-style($seaBuckthorn, $jaffa, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $jaffa, $jaffa 50%, transparent 50%);
+    }
+  }
+
+  &.bar-lightning-yellow {
+    @include bar-style($lightningYellow, $sandstorm, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $sandstorm, $sandstorm 50%, transparent 50%);
+    }
+  }
+
+  &.bar-burnt-orange {
+    @include bar-style($burntOrange, $ecstasy, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $ecstasy, $ecstasy 50%, transparent 50%);
+    }
+  }
+
+  &.bar-buttercup {
+    @include bar-style($buttercup, $fireBush, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $fireBush, $fireBush 50%, transparent 50%);
+    }
+  }
+
+  &.bar-ecstasy {
+    @include bar-style($ecstasy, $burntOrange, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $burntOrange, $burntOrange 50%, transparent 50%);
+    }
+  }
+
+  &.bar-sandstorm {
+    @include bar-style($sandstorm, $casablanca, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $casablanca, $casablanca 50%, transparent 50%);
+    }
+  }
+
+  &.bar-jaffa {
+    @include bar-style($jaffa, $seaBuckthorn, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $seaBuckthorn, $seaBuckthorn 50%, transparent 50%);
+    }
+  }
+
+  &.bar-zest {
+    @include bar-style($zest, $california, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $california, $california 50%, transparent 50%);
     }
   }
 }

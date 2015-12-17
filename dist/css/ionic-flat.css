@@ -402,3 +402,153 @@
     color: #EEEEEE; }
   .bar.bar-wisteria .bar-footer {
     background-image: linear-gradient(180deg, #913D88, #913D88 50%, transparent 50%); }
+
+.bar.bar-confetti {
+  border-color: #FDE3A7;
+  background-color: #E9D460;
+  background-image: linear-gradient(0deg, #FDE3A7, #FDE3A7 50%, transparent 50%);
+  color: #444444; }
+  .bar.bar-confetti .title {
+    color: #444444; }
+  .bar.bar-confetti .bar-footer {
+    background-image: linear-gradient(180deg, #FDE3A7, #FDE3A7 50%, transparent 50%); }
+
+.bar.bar-cape-honey {
+  border-color: #FDE3A7;
+  background-color: #FDE3A7;
+  background-image: linear-gradient(0deg, #FDE3A7, #FDE3A7 50%, transparent 50%);
+  color: #444444; }
+  .bar.bar-cape-honey .title {
+    color: #444444; }
+  .bar.bar-cape-honey .bar-footer {
+    background-image: linear-gradient(180deg, #FDE3A7, #FDE3A7 50%, transparent 50%); }
+
+.bar.bar-california {
+  border-color: #E9D460;
+  background-color: #F89406;
+  background-image: linear-gradient(0deg, #E9D460, #E9D460 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-california .title {
+    color: #EEEEEE; }
+  .bar.bar-california .bar-footer {
+    background-image: linear-gradient(180deg, #E9D460, #E9D460 50%, transparent 50%); }
+
+.bar.bar-fire-bush {
+  border-color: #F4B350;
+  background-color: #EB9532;
+  background-image: linear-gradient(0deg, #F4B350, #F4B350 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-fire-bush .title {
+    color: #EEEEEE; }
+  .bar.bar-fire-bush .bar-footer {
+    background-image: linear-gradient(180deg, #F4B350, #F4B350 50%, transparent 50%); }
+
+.bar.bar-tahiti-gold {
+  border-color: #F89406;
+  background-color: #E87E04;
+  background-image: linear-gradient(0deg, #F89406, #F89406 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-tahiti-gold .title {
+    color: #EEEEEE; }
+  .bar.bar-tahiti-gold .bar-footer {
+    background-image: linear-gradient(180deg, #F89406, #F89406 50%, transparent 50%); }
+
+.bar.bar-casablanca {
+  border-color: #E9D460;
+  background-color: #F4B350;
+  background-image: linear-gradient(0deg, #E9D460, #E9D460 50%, transparent 50%);
+  color: #444444; }
+  .bar.bar-casablanca .title {
+    color: #444444; }
+  .bar.bar-casablanca .bar-footer {
+    background-image: linear-gradient(180deg, #E9D460, #E9D460 50%, transparent 50%); }
+
+.bar.bar-crusta {
+  border-color: #F27935;
+  background-color: #F2784B;
+  background-image: linear-gradient(0deg, #F27935, #F27935 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-crusta .title {
+    color: #EEEEEE; }
+  .bar.bar-crusta .bar-footer {
+    background-image: linear-gradient(180deg, #F27935, #F27935 50%, transparent 50%); }
+
+.bar.bar-sea-buckthorn {
+  border-color: #F27935;
+  background-color: #EB974E;
+  background-image: linear-gradient(0deg, #F27935, #F27935 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-sea-buckthorn .title {
+    color: #EEEEEE; }
+  .bar.bar-sea-buckthorn .bar-footer {
+    background-image: linear-gradient(180deg, #F27935, #F27935 50%, transparent 50%); }
+
+.bar.bar-lightning-yellow {
+  border-color: #F9BF3B;
+  background-color: #F5AB35;
+  background-image: linear-gradient(0deg, #F9BF3B, #F9BF3B 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-lightning-yellow .title {
+    color: #EEEEEE; }
+  .bar.bar-lightning-yellow .bar-footer {
+    background-image: linear-gradient(180deg, #F9BF3B, #F9BF3B 50%, transparent 50%); }
+
+.bar.bar-burnt-orange {
+  border-color: #F9690E;
+  background-color: #D35400;
+  background-image: linear-gradient(0deg, #F9690E, #F9690E 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-burnt-orange .title {
+    color: #EEEEEE; }
+  .bar.bar-burnt-orange .bar-footer {
+    background-image: linear-gradient(180deg, #F9690E, #F9690E 50%, transparent 50%); }
+
+.bar.bar-buttercup {
+  border-color: #EB9532;
+  background-color: #F39C12;
+  background-image: linear-gradient(0deg, #EB9532, #EB9532 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-buttercup .title {
+    color: #EEEEEE; }
+  .bar.bar-buttercup .bar-footer {
+    background-image: linear-gradient(180deg, #EB9532, #EB9532 50%, transparent 50%); }
+
+.bar.bar-ecstasy {
+  border-color: #D35400;
+  background-color: #F9690E;
+  background-image: linear-gradient(0deg, #D35400, #D35400 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-ecstasy .title {
+    color: #EEEEEE; }
+  .bar.bar-ecstasy .bar-footer {
+    background-image: linear-gradient(180deg, #D35400, #D35400 50%, transparent 50%); }
+
+.bar.bar-sandstorm {
+  border-color: #F4B350;
+  background-color: #F9BF3B;
+  background-image: linear-gradient(0deg, #F4B350, #F4B350 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-sandstorm .title {
+    color: #EEEEEE; }
+  .bar.bar-sandstorm .bar-footer {
+    background-image: linear-gradient(180deg, #F4B350, #F4B350 50%, transparent 50%); }
+
+.bar.bar-jaffa {
+  border-color: #EB974E;
+  background-color: #F27935;
+  background-image: linear-gradient(0deg, #EB974E, #EB974E 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-jaffa .title {
+    color: #EEEEEE; }
+  .bar.bar-jaffa .bar-footer {
+    background-image: linear-gradient(180deg, #EB974E, #EB974E 50%, transparent 50%); }
+
+.bar.bar-zest {
+  border-color: #F89406;
+  background-color: #E67E22;
+  background-image: linear-gradient(0deg, #F89406, #F89406 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-zest .title {
+    color: #EEEEEE; }
+  .bar.bar-zest .bar-footer {
+    background-image: linear-gradient(180deg, #F89406, #F89406 50%, transparent 50%); }
