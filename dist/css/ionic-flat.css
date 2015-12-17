@@ -802,3 +802,233 @@
     color: #EEEEEE; }
   .bar.bar-jungle-green .bar-footer {
     background-image: linear-gradient(180deg, #2ECC71, #2ECC71 50%, transparent 50%); }
+
+.bar.bar-san-marino {
+  border-color: #4183D7;
+  background-color: #446CB3;
+  background-image: linear-gradient(0deg, #4183D7, #4183D7 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-san-marino .title {
+    color: #EEEEEE; }
+  .bar.bar-san-marino .bar-footer {
+    background-image: linear-gradient(180deg, #4183D7, #4183D7 50%, transparent 50%); }
+
+.bar.bar-alice-blue {
+  border-color: #C5EFF7;
+  background-color: #E4F1FE;
+  background-image: linear-gradient(0deg, #C5EFF7, #C5EFF7 50%, transparent 50%);
+  color: #444444; }
+  .bar.bar-alice-blue .title {
+    color: #444444; }
+  .bar.bar-alice-blue .bar-footer {
+    background-image: linear-gradient(180deg, #C5EFF7, #C5EFF7 50%, transparent 50%); }
+
+.bar.bar-royal-blue {
+  border-color: #446CB3;
+  background-color: #4183D7;
+  background-image: linear-gradient(0deg, #446CB3, #446CB3 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-royal-blue .title {
+    color: #EEEEEE; }
+  .bar.bar-royal-blue .bar-footer {
+    background-image: linear-gradient(180deg, #446CB3, #446CB3 50%, transparent 50%); }
+
+.bar.bar-picton-blue {
+  border-color: #3498DB;
+  background-color: #59ABE3;
+  background-image: linear-gradient(0deg, #3498DB, #3498DB 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-picton-blue .title {
+    color: #EEEEEE; }
+  .bar.bar-picton-blue .bar-footer {
+    background-image: linear-gradient(180deg, #3498DB, #3498DB 50%, transparent 50%); }
+
+.bar.bar-spray {
+  border-color: #52B3D9;
+  background-color: #81CFE0;
+  background-image: linear-gradient(0deg, #52B3D9, #52B3D9 50%, transparent 50%);
+  color: #444444; }
+  .bar.bar-spray .title {
+    color: #444444; }
+  .bar.bar-spray .bar-footer {
+    background-image: linear-gradient(180deg, #52B3D9, #52B3D9 50%, transparent 50%); }
+
+.bar.bar-shakespeare {
+  border-color: #81CFE0;
+  background-color: #52B3D9;
+  background-image: linear-gradient(0deg, #81CFE0, #81CFE0 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-shakespeare .title {
+    color: #EEEEEE; }
+  .bar.bar-shakespeare .bar-footer {
+    background-image: linear-gradient(180deg, #81CFE0, #81CFE0 50%, transparent 50%); }
+
+.bar.bar-humming-bird {
+  border-color: #E4F1FE;
+  background-color: #C5EFF7;
+  background-image: linear-gradient(0deg, #E4F1FE, #E4F1FE 50%, transparent 50%);
+  color: #444444; }
+  .bar.bar-humming-bird .title {
+    color: #444444; }
+  .bar.bar-humming-bird .bar-footer {
+    background-image: linear-gradient(180deg, #E4F1FE, #E4F1FE 50%, transparent 50%); }
+
+.bar.bar-picton-two-blue {
+  border-color: #3498DB;
+  background-color: #59ABE3;
+  background-image: linear-gradient(0deg, #3498DB, #3498DB 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-picton-two-blue .title {
+    color: #EEEEEE; }
+  .bar.bar-picton-two-blue .bar-footer {
+    background-image: linear-gradient(180deg, #3498DB, #3498DB 50%, transparent 50%); }
+
+.bar.bar-curious-blue {
+  border-color: #59ABE3;
+  background-color: #3498DB;
+  background-image: linear-gradient(0deg, #59ABE3, #59ABE3 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-curious-blue .title {
+    color: #EEEEEE; }
+  .bar.bar-curious-blue .bar-footer {
+    background-image: linear-gradient(180deg, #59ABE3, #59ABE3 50%, transparent 50%); }
+
+.bar.bar-madison {
+  border-color: #336E7B;
+  background-color: #2C3E50;
+  background-image: linear-gradient(0deg, #336E7B, #336E7B 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-madison .title {
+    color: #EEEEEE; }
+  .bar.bar-madison .bar-footer {
+    background-image: linear-gradient(180deg, #336E7B, #336E7B 50%, transparent 50%); }
+
+.bar.bar-dodger-blue {
+  border-color: #52B3D9;
+  background-color: #19B5FE;
+  background-image: linear-gradient(0deg, #52B3D9, #52B3D9 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-dodger-blue .title {
+    color: #EEEEEE; }
+  .bar.bar-dodger-blue .bar-footer {
+    background-image: linear-gradient(180deg, #52B3D9, #52B3D9 50%, transparent 50%); }
+
+.bar.bar-ming {
+  border-color: #2C3E50;
+  background-color: #336E7B;
+  background-image: linear-gradient(0deg, #2C3E50, #2C3E50 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-ming .title {
+    color: #EEEEEE; }
+  .bar.bar-ming .bar-footer {
+    background-image: linear-gradient(180deg, #2C3E50, #2C3E50 50%, transparent 50%); }
+
+.bar.bar-ebony-clay {
+  border-color: #2C3E50;
+  background-color: #22313F;
+  background-image: linear-gradient(0deg, #2C3E50, #2C3E50 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-ebony-clay .title {
+    color: #EEEEEE; }
+  .bar.bar-ebony-clay .bar-footer {
+    background-image: linear-gradient(180deg, #2C3E50, #2C3E50 50%, transparent 50%); }
+
+.bar.bar-malibu {
+  border-color: #3498DB;
+  background-color: #6BB9F0;
+  background-image: linear-gradient(0deg, #3498DB, #3498DB 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-malibu .title {
+    color: #EEEEEE; }
+  .bar.bar-malibu .bar-footer {
+    background-image: linear-gradient(180deg, #3498DB, #3498DB 50%, transparent 50%); }
+
+.bar.bar-summer-sky {
+  border-color: #6BB9F0;
+  background-color: #1E8BC3;
+  background-image: linear-gradient(0deg, #6BB9F0, #6BB9F0 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-summer-sky .title {
+    color: #EEEEEE; }
+  .bar.bar-summer-sky .bar-footer {
+    background-image: linear-gradient(180deg, #6BB9F0, #6BB9F0 50%, transparent 50%); }
+
+.bar.bar-chambray {
+  border-color: #4B77BE;
+  background-color: #3A539B;
+  background-image: linear-gradient(0deg, #4B77BE, #4B77BE 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-chambray .title {
+    color: #EEEEEE; }
+  .bar.bar-chambray .bar-footer {
+    background-image: linear-gradient(180deg, #4B77BE, #4B77BE 50%, transparent 50%); }
+
+.bar.bar-pickled-bluewood {
+  border-color: #67809F;
+  background-color: #34495E;
+  background-image: linear-gradient(0deg, #67809F, #67809F 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-pickled-bluewood .title {
+    color: #EEEEEE; }
+  .bar.bar-pickled-bluewood .bar-footer {
+    background-image: linear-gradient(180deg, #67809F, #67809F 50%, transparent 50%); }
+
+.bar.bar-hoki {
+  border-color: #34495E;
+  background-color: #67809F;
+  background-image: linear-gradient(0deg, #34495E, #34495E 50%, transparent 50%);
+  color: #444444; }
+  .bar.bar-hoki .title {
+    color: #444444; }
+  .bar.bar-hoki .bar-footer {
+    background-image: linear-gradient(180deg, #34495E, #34495E 50%, transparent 50%); }
+
+.bar.bar-jelly-bean {
+  border-color: #6BB9F0;
+  background-color: #2574A9;
+  background-image: linear-gradient(0deg, #6BB9F0, #6BB9F0 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-jelly-bean .title {
+    color: #EEEEEE; }
+  .bar.bar-jelly-bean .bar-footer {
+    background-image: linear-gradient(180deg, #6BB9F0, #6BB9F0 50%, transparent 50%); }
+
+.bar.bar-jacksons-purple {
+  border-color: #3A539B;
+  background-color: #1F3A93;
+  background-image: linear-gradient(0deg, #3A539B, #3A539B 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-jacksons-purple .title {
+    color: #EEEEEE; }
+  .bar.bar-jacksons-purple .bar-footer {
+    background-image: linear-gradient(180deg, #3A539B, #3A539B 50%, transparent 50%); }
+
+.bar.bar-jordy-blue {
+  border-color: #67809F;
+  background-color: #89C4F4;
+  background-image: linear-gradient(0deg, #67809F, #67809F 50%, transparent 50%);
+  color: #444444; }
+  .bar.bar-jordy-blue .title {
+    color: #444444; }
+  .bar.bar-jordy-blue .bar-footer {
+    background-image: linear-gradient(180deg, #67809F, #67809F 50%, transparent 50%); }
+
+.bar.bar-steel-blue {
+  border-color: #3A539B;
+  background-color: #4B77BE;
+  background-image: linear-gradient(0deg, #3A539B, #3A539B 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-steel-blue .title {
+    color: #EEEEEE; }
+  .bar.bar-steel-blue .bar-footer {
+    background-image: linear-gradient(180deg, #3A539B, #3A539B 50%, transparent 50%); }
+
+.bar.bar-fountain-blue {
+  border-color: #2574A9;
+  background-color: #5C97BF;
+  background-image: linear-gradient(0deg, #2574A9, #2574A9 50%, transparent 50%);
+  color: #EEEEEE; }
+  .bar.bar-fountain-blue .title {
+    color: #EEEEEE; }
+  .bar.bar-fountain-blue .bar-footer {
+    background-image: linear-gradient(180deg, #2574A9, #2574A9 50%, transparent 50%); }

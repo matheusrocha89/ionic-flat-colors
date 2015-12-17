@@ -667,4 +667,193 @@
       background-image: linear-gradient(180deg, $shamrock, $shamrock 50%, transparent 50%);
     }
   }
+
+  // ------------------------------
+  // Blue bars
+  // ------------------------------
+
+
+  &.bar-san-marino {
+    @include bar-style($sanMarino, $royalBlue, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $royalBlue, $royalBlue 50%, transparent 50%);
+    }
+  }
+
+  &.bar-alice-blue {
+    @include bar-style($aliceBlue, $hummingBird, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $hummingBird, $hummingBird 50%, transparent 50%);
+    }
+  }
+
+  &.bar-royal-blue {
+    @include bar-style($royalBlue, $sanMarino, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $sanMarino, $sanMarino 50%, transparent 50%);
+    }
+  }
+
+  &.bar-picton-blue {
+    @include bar-style($pictonBlue, $curiousBlue, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $curiousBlue, $curiousBlue 50%, transparent 50%);
+    }
+  }
+
+  &.bar-spray {
+    @include bar-style($spray, $shakespeare, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $shakespeare, $shakespeare 50%, transparent 50%);
+    }
+  }
+
+  &.bar-shakespeare {
+    @include bar-style($shakespeare, $spray, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $spray, $spray 50%, transparent 50%);
+    }
+  }
+
+  &.bar-humming-bird {
+    @include bar-style($hummingBird, $aliceBlue, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $aliceBlue, $aliceBlue 50%, transparent 50%);
+    }
+  }
+
+  &.bar-picton-two-blue {
+    @include bar-style($pictonBlue, $curiousBlue, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $curiousBlue, $curiousBlue 50%, transparent 50%);
+    }
+  }
+
+  &.bar-curious-blue {
+    @include bar-style($curiousBlue, $pictonBlue, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $pictonBlue, $pictonBlue 50%, transparent 50%);
+    }
+  }
+
+  &.bar-madison {
+    @include bar-style($madison, $ming, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $ming, $ming 50%, transparent 50%);
+    }
+  }
+
+  &.bar-dodger-blue {
+    @include bar-style($dodgerBlue, $shakespeare, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $shakespeare, $shakespeare 50%, transparent 50%);
+    }
+  }
+
+  &.bar-ming {
+    @include bar-style($ming, $madison, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $madison, $madison 50%, transparent 50%);
+    }
+  }
+
+  &.bar-ebony-clay {
+    @include bar-style($ebonyClay, $madison, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $madison, $madison 50%, transparent 50%);
+    }
+  }
+
+  &.bar-malibu {
+    @include bar-style($malibu, $curiousBlue, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $curiousBlue, $curiousBlue 50%, transparent 50%);
+    }
+  }
+
+  &.bar-summer-sky {
+    @include bar-style($summerSky, $malibu, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $malibu, $malibu 50%, transparent 50%);
+    }
+  }
+
+  &.bar-chambray {
+    @include bar-style($chambray, $steelBlue, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $steelBlue, $steelBlue 50%, transparent 50%);
+    }
+  }
+
+  &.bar-pickled-bluewood {
+    @include bar-style($pickledBluewood, $hoki, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $hoki, $hoki 50%, transparent 50%);
+    }
+  }
+
+  &.bar-hoki {
+    @include bar-style($hoki, $pickledBluewood, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $pickledBluewood, $pickledBluewood 50%, transparent 50%);
+    }
+  }
+
+  &.bar-jelly-bean {
+    @include bar-style($jellyBean, $malibu, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $malibu, $malibu 50%, transparent 50%);
+    }
+  }
+
+  &.bar-jacksons-purple {
+    @include bar-style($jacksonsPurple, $chambray, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $chambray, $chambray 50%, transparent 50%);
+    }
+  }
+
+  &.bar-jordy-blue {
+    @include bar-style($jordyBlue, $hoki, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $hoki, $hoki 50%, transparent 50%);
+    }
+  }
+
+  &.bar-steel-blue {
+    @include bar-style($steelBlue, $chambray, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $chambray, $chambray 50%, transparent 50%);
+    }
+  }
+
+  &.bar-fountain-blue {
+    @include bar-style($fountainBlue, $jellyBean, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $jellyBean, $jellyBean 50%, transparent 50%);
+    }
+  }
 }
