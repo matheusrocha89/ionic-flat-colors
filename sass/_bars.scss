@@ -1,13 +1,859 @@
-// --------------------------------
-// Red bars
-// --------------------------------
-
 .bar {
-  &.bar-chestnut {
+  // --------------------------------
+  // Red bars
+  // --------------------------------
+
+  &.bar-chestnut-rose {
     @include bar-style($chestnutRose, $valencia, $gallery);
 
     .bar-footer {
       background-image: linear-gradient(180deg, $valencia, $valencia 50%, transparent 50%);
+    }
+  }
+
+  &.bar-pomegranate {
+    @include bar-style($pomegranate, $thunderbird, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $thunderbird, $thunderbird 50%, transparent 50%);
+    }
+  }
+  
+  &.bar-thunderbird {
+    @include bar-style($thunderbird, $oldBrick, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $oldBrick, $oldBrick 50%, transparent 50%);
+    }
+  }
+
+  &.bar-old-brick {
+    @include bar-style($oldBrick, $chestnutRose, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $chestnutRose, $chestnutRose 50%, transparent 50%);
+    }
+  }
+
+  &.bar-flamingo {
+    @include bar-style($flamingo, $tallPoppy, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $tallPoppy, $tallPoppy 50%, transparent 50%);
+    }
+  }
+
+  &.bar-valencia {
+    @include bar-style($valencia, $oldBrick, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $oldBrick, $oldBrick 50%, transparent 50%);
+    }
+  }
+
+  &.bar-tall-poppy {
+    @include bar-style($tallPoppy, $cinnabar, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $cinnabar, $cinnabar 50%, transparent 50%);
+    }
+  }
+
+  &.bar-monza {
+    @include bar-style($monza, $cinnabar, $gallery);
+
+    .bar-footer{
+      background-image: linear-gradient(180deg, $cinnabar, $cinnabar 50%, transparent 50%);
+    }
+  }
+
+  &.bar-cinnabar {
+    @include bar-style($cinnabar, $tallPoppy, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $tallPoppy, $tallPoppy 50%, transparent 50%);
+    }
+  }
+
+  // --------------------------
+  // Yellow bars
+  // --------------------------
+
+  &.bar-cream-can {
+    @include bar-style($creamCan, $saffron, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $saffron, $saffron 50%, transparent 50%);
+    }
+  }
+
+  &.bar-ripe-lemon {
+    @include bar-style($ripeLemon, $creamCan, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $creamCan, $creamCan 50%, transparent 50%);
+    }
+  }
+
+  &.bar-saffron {
+    @include bar-style($saffron, $ripeLemon, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $ripeLemon, $ripeLemon 50%, transparent 50%);
+    }
+  }
+  
+  // --------------------------
+  // Pink bars
+  // --------------------------
+
+  &.bar-razzmatazz {
+    @include bar-style($razzmatazz, $cabaret, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $cabaret, $cabaret 50%, transparent 50%);
+    }
+  }
+
+  &.bar-sunset-orange {
+    @include bar-style($sunsetOrange, $sunglo, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $sunglo, $sunglo 50%, transparent 50%);
+    }
+  }
+
+  &.bar-wax-flower {
+    @include bar-style($waxFlower, $sunglo, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $sunglo, $sunglo 50%, transparent 50%);
+    }
+  }
+
+  &.bar-cabaret {
+    @include bar-style($cabaret, $razzmatazz, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $razzmatazz, $razzmatazz 50%, transparent 50%);
+    }
+  }
+
+  &.bar-new-york-pink {
+    @include bar-style($newYorkPink, $sunglo, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $sunglo, $sunglo 50%, transparent 50%);
+    }
+  }
+
+  &.bar-radical-red {
+    @include bar-style($radicalRed, $cabaret, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $cabaret, $cabaret 50%, transparent 50%);
+    }
+  }
+
+  &.bar-sunglo {
+    @include bar-style($sunglo, $waxFlower, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $waxFlower, $waxFlower 50%, transparent 50%);
+    }
+  }
+ 
+  // --------------------------
+  // Gray bars
+  // --------------------------
+
+  &.bar-white-smoke {
+    @include bar-style($whiteSmoke, $pumice, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $pumice, $pumice 50%, transparent 50%);
+    }
+  }
+
+  &.bar-lynch {
+    @include bar-style($lynch, $pumice, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $pumice, $pumice 50%, transparent 50%);
+    }
+  }
+
+  &.bar-pumice {
+    @include bar-style($pumice, $silver, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $silver, $silver 50%, transparent 50%);
+    }
+  }
+
+  &.bar-gallery {
+    @include bar-style($gallery, $iron, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $iron, $iron 50%, transparent 50%);
+    }
+  }
+
+  &.bar-silver-sand {
+    @include bar-style($silverSand, $cararra, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $cararra, $cararra 50%, transparent 50%);
+    }
+  }
+
+  &.bar-porcelain {
+    @include bar-style($porcelain, $whiteSmoke, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $whiteSmoke, $whiteSmoke 50%, transparent 50%);
+    }
+  }
+
+  &.bar-cascade {
+    @include bar-style($cascade, $lynch, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $lynch, $lynch 50%, transparent 50%);
+    }
+  }
+
+  &.bar-iron {
+    @include bar-style($iron, $pumice, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $pumice, $pumice 50%, transparent 50%);
+    }
+  }
+
+  &.bar-edward {
+    @include bar-style($edward, $iron, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $iron, $iron 50%, transparent 50%);
+    }
+  }
+
+  &.bar-cararra {
+    @include bar-style($cararra, $silverSand, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $silverSand, $silverSand 50%, transparent 50%);
+    }
+  }
+
+  &.bar-silver {
+    @include bar-style($silver, $lynch, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $lynch, $lynch 50%, transparent 50%);
+    }
+  }
+
+  // ------------------------
+  // Purple bars
+  // ------------------------
+
+  &.bar-snuff {
+    @include bar-style($snuff, $lightWisteria, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
+    }
+  }
+
+  &.bar-rebecca-purple {
+    @include bar-style($rebeccaPurple, $honeyFlower, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $honeyFlower, $honeyFlower 50%, transparent 50%);
+    }
+  }
+
+  &.bar-honey-flower {
+    @include bar-style($honeyFlower, $plum, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $plum, $plum 50%, transparent 50%);
+    }
+  }
+
+  &.bar-wistful {
+    @include bar-style($wistful, $lightWisteria, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
+    }
+  }
+
+  &.bar-plum {
+    @include bar-style($plum, $wisteria, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $wisteria, $wisteria 50%, transparent 50%);
+    }
+  }
+
+  &.bar-seance {
+    @include bar-style($seance, $studio, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $studio, $studio 50%, transparent 50%);
+    }
+  }
+
+  &.bar-medium-purple {
+    @include bar-style($mediumPurple, $lightWisteria, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
+    }
+  }
+
+  &.bar-light-wisteria {
+    @include bar-style($lightWisteria, $snuff, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $snuff, $snuff 50%, transparent 50%);
+    }
+  }
+
+  &.bar-studio {
+    @include bar-style($studio, $wisteria, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $wisteria, $wisteria 50%, transparent 50%);
+    }
+  }
+
+  &.bar-wisteria {
+    @include bar-style($wisteria, $plum, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $plum, $plum 50%, transparent 50%);
+    }
+  }
+
+  // ------------------------
+  // Orange bars
+  // ------------------------
+
+
+  &.bar-confetti {
+    @include bar-style($confetti, $capeHoney, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $capeHoney, $capeHoney 50%, transparent 50%);
+    }
+  }
+
+  &.bar-cape-honey {
+    @include bar-style($capeHoney, $capeHoney, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $capeHoney, $capeHoney 50%, transparent 50%);
+    }
+  }
+
+  &.bar-california {
+    @include bar-style($california, $confetti, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $confetti, $confetti 50%, transparent 50%);
+    }
+  }
+
+  &.bar-fire-bush {
+    @include bar-style($fireBush, $casablanca, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $casablanca, $casablanca 50%, transparent 50%);
+    }
+  }
+
+  &.bar-tahiti-gold {
+    @include bar-style($tahitiGold, $california, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $california, $california 50%, transparent 50%);
+    }
+  }
+
+  &.bar-casablanca {
+    @include bar-style($casablanca, $confetti, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $confetti, $confetti 50%, transparent 50%);
+    }
+  }
+
+  &.bar-crusta {
+    @include bar-style($crusta, $jaffa, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $jaffa, $jaffa 50%, transparent 50%);
+    }
+  }
+
+  &.bar-sea-buckthorn {
+    @include bar-style($seaBuckthorn, $jaffa, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $jaffa, $jaffa 50%, transparent 50%);
+    }
+  }
+
+  &.bar-lightning-yellow {
+    @include bar-style($lightningYellow, $sandstorm, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $sandstorm, $sandstorm 50%, transparent 50%);
+    }
+  }
+
+  &.bar-burnt-orange {
+    @include bar-style($burntOrange, $ecstasy, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $ecstasy, $ecstasy 50%, transparent 50%);
+    }
+  }
+
+  &.bar-buttercup {
+    @include bar-style($buttercup, $fireBush, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $fireBush, $fireBush 50%, transparent 50%);
+    }
+  }
+
+  &.bar-ecstasy {
+    @include bar-style($ecstasy, $burntOrange, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $burntOrange, $burntOrange 50%, transparent 50%);
+    }
+  }
+
+  &.bar-sandstorm {
+    @include bar-style($sandstorm, $casablanca, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $casablanca, $casablanca 50%, transparent 50%);
+    }
+  }
+
+  &.bar-jaffa {
+    @include bar-style($jaffa, $seaBuckthorn, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $seaBuckthorn, $seaBuckthorn 50%, transparent 50%);
+    }
+  }
+
+  &.bar-zest {
+    @include bar-style($zest, $california, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $california, $california 50%, transparent 50%);
+    }
+  }
+
+  // -----------------------------
+  // Green Bars
+  // -----------------------------
+
+  &.bar-medium-turquoise {
+    @include bar-style($mediumTurquoise, $aquaIsland, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $aquaIsland, $aquaIsland 50%, transparent 50%);
+    }
+  }
+
+  &.bar-aqua-island {
+    @include bar-style($aquaIsland, $mediumTurquoise, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $mediumTurquoise, $mediumTurquoise 50%, transparent 50%);
+    }
+  }
+
+  &.bar-gossip {
+    @include bar-style($gossip, $darkSeaGreen, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $darkSeaGreen, $darkSeaGreen 50%, transparent 50%);
+    }
+  }
+
+  &.bar-dark-sea-green {
+    @include bar-style($darkSeaGreen, $oceanGreen, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $oceanGreen, $oceanGreen 50%, transparent 50%);
+    }
+  }
+
+  &.bar-eucalyptus {
+    @include bar-style($eucalyptus, $gossip, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $gossip, $gossip 50%, transparent 50%);
+    }
+  }
+
+  &.bar-caribbean-green {
+    @include bar-style($caribbeanGreen, $silverTree, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $silverTree, $silverTree 50%, transparent 50%);
+    }
+  }
+
+  &.bar-silver-tree {
+    @include bar-style($silverTree, $caribbeanGreen, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $caribbeanGreen, $caribbeanGreen 50%, transparent 50%);
+    }
+  }
+
+  &.bar-downy {
+    @include bar-style($downy, $riptide, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $riptide, $riptide 50%, transparent 50%);
+    }
+  }
+
+  &.bar-mountain-meadow {
+    @include bar-style($mountainMeadow, $riptide, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $riptide, $riptide 50%, transparent 50%);
+    }
+  }
+
+  &.bar-light-sea-green {
+    @include bar-style($lightSeaGreen, $downy, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $downy, $downy 50%, transparent 50%);
+    }
+  }
+
+  &.bar-medium-aquamarine {
+    @include bar-style($mediumAquamarine, $silverTree, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $silverTree, $silverTree 50%, transparent 50%);
+    }
+  }
+
+  &.bar-turquoise {
+    @include bar-style($turquoise, $caribbeanGreen, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $caribbeanGreen, $caribbeanGreen 50%, transparent 50%);
+    }
+  }
+
+  &.bar-madang {
+    @include bar-style($madang, $gossip, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $gossip, $gossip 50%, transparent 50%);
+    }
+  }
+
+  &.bar-riptide {
+    @include bar-style($riptide, $downy, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $downy, $downy 50%, transparent 50%);
+    }
+  }
+
+  &.bar-shamrock {
+    @include bar-style($shamrock, $esmerald, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $esmerald, $esmerald 50%, transparent 50%);
+    }
+  }
+
+  &.bar-niagara {
+    @include bar-style($niagara, $greenHaze, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $greenHaze, $greenHaze 50%, transparent 50%);
+    }
+  }
+
+  &.bar-esmerald {
+    @include bar-style($esmerald, $shamrock, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $shamrock, $shamrock 50%, transparent 50%);
+    }
+  }
+
+  &.bar-green-haze {
+    @include bar-style($greenHaze, $niagara, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $niagara, $niagara 50%, transparent 50%);
+    }
+  }
+
+  &.bar-free-speech-aquamarine {
+    @include bar-style($freeSpeechAquamarine, $oceanGreen, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $oceanGreen, $oceanGreen 50%, transparent 50%);
+    }
+  }
+
+  &.bar-ocean-green {
+    @include bar-style($oceanGreen, $jade, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $jade, $jade 50%, transparent 50%);
+    }
+  }
+
+  &.bar-niagara-one {
+    @include bar-style($niagaraOne, $niagara, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $niagara, $niagara 50%, transparent 50%);
+    }
+  }
+
+  &.bar-jade {
+    @include bar-style($jade, $esmerald, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $esmerald, $esmerald 50%, transparent 50%);
+    }
+  }
+
+  &.bar-salem {
+    @include bar-style($salem, $jade, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $jade, $jade 50%, transparent 50%);
+    }
+  }
+
+  &.bar-observatory {
+    @include bar-style($observatory, $greenHaze, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $greenHaze, $greenHaze 50%, transparent 50%);
+    }
+  }
+
+  &.bar-jungle-green {
+    @include bar-style($jungleGreen, $shamrock, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $shamrock, $shamrock 50%, transparent 50%);
+    }
+  }
+
+  // ------------------------------
+  // Blue bars
+  // ------------------------------
+
+
+  &.bar-san-marino {
+    @include bar-style($sanMarino, $royalBlue, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $royalBlue, $royalBlue 50%, transparent 50%);
+    }
+  }
+
+  &.bar-alice-blue {
+    @include bar-style($aliceBlue, $hummingBird, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $hummingBird, $hummingBird 50%, transparent 50%);
+    }
+  }
+
+  &.bar-royal-blue {
+    @include bar-style($royalBlue, $sanMarino, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $sanMarino, $sanMarino 50%, transparent 50%);
+    }
+  }
+
+  &.bar-picton-blue {
+    @include bar-style($pictonBlue, $curiousBlue, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $curiousBlue, $curiousBlue 50%, transparent 50%);
+    }
+  }
+
+  &.bar-spray {
+    @include bar-style($spray, $shakespeare, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $shakespeare, $shakespeare 50%, transparent 50%);
+    }
+  }
+
+  &.bar-shakespeare {
+    @include bar-style($shakespeare, $spray, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $spray, $spray 50%, transparent 50%);
+    }
+  }
+
+  &.bar-humming-bird {
+    @include bar-style($hummingBird, $aliceBlue, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $aliceBlue, $aliceBlue 50%, transparent 50%);
+    }
+  }
+
+  &.bar-picton-two-blue {
+    @include bar-style($pictonBlue, $curiousBlue, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $curiousBlue, $curiousBlue 50%, transparent 50%);
+    }
+  }
+
+  &.bar-curious-blue {
+    @include bar-style($curiousBlue, $pictonBlue, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $pictonBlue, $pictonBlue 50%, transparent 50%);
+    }
+  }
+
+  &.bar-madison {
+    @include bar-style($madison, $ming, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $ming, $ming 50%, transparent 50%);
+    }
+  }
+
+  &.bar-dodger-blue {
+    @include bar-style($dodgerBlue, $shakespeare, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $shakespeare, $shakespeare 50%, transparent 50%);
+    }
+  }
+
+  &.bar-ming {
+    @include bar-style($ming, $madison, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $madison, $madison 50%, transparent 50%);
+    }
+  }
+
+  &.bar-ebony-clay {
+    @include bar-style($ebonyClay, $madison, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $madison, $madison 50%, transparent 50%);
+    }
+  }
+
+  &.bar-malibu {
+    @include bar-style($malibu, $curiousBlue, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $curiousBlue, $curiousBlue 50%, transparent 50%);
+    }
+  }
+
+  &.bar-summer-sky {
+    @include bar-style($summerSky, $malibu, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $malibu, $malibu 50%, transparent 50%);
+    }
+  }
+
+  &.bar-chambray {
+    @include bar-style($chambray, $steelBlue, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $steelBlue, $steelBlue 50%, transparent 50%);
+    }
+  }
+
+  &.bar-pickled-bluewood {
+    @include bar-style($pickledBluewood, $hoki, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $hoki, $hoki 50%, transparent 50%);
+    }
+  }
+
+  &.bar-hoki {
+    @include bar-style($hoki, $pickledBluewood, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $pickledBluewood, $pickledBluewood 50%, transparent 50%);
+    }
+  }
+
+  &.bar-jelly-bean {
+    @include bar-style($jellyBean, $malibu, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $malibu, $malibu 50%, transparent 50%);
+    }
+  }
+
+  &.bar-jacksons-purple {
+    @include bar-style($jacksonsPurple, $chambray, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $chambray, $chambray 50%, transparent 50%);
+    }
+  }
+
+  &.bar-jordy-blue {
+    @include bar-style($jordyBlue, $hoki, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $hoki, $hoki 50%, transparent 50%);
+    }
+  }
+
+  &.bar-steel-blue {
+    @include bar-style($steelBlue, $chambray, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $chambray, $chambray 50%, transparent 50%);
+    }
+  }
+
+  &.bar-fountain-blue {
+    @include bar-style($fountainBlue, $jellyBean, $gallery);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $jellyBean, $jellyBean 50%, transparent 50%);
     }
   }
 }
