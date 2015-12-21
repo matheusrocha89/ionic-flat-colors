@@ -73,17 +73,24 @@
   // --------------------------
 
   &.button-cream-can {
-    @include button-style($creamCan, $saffron, $dark);
+    @include button-style(
+      $creamCan, $creamCan-d10, $creamCan-d10, $creamCan-d10, $white);
+    @include button-clear($creamCan);
+    @include button-outline($creamCan);
   }
 
   &.button-ripe-lemon {
-    @include button-style($ripeLemon, $creamCan, $dark);
-
+    @include button-style(
+      $ripeLemon, $ripeLemon-d10, $ripeLemon-d10, $ripeLemon-d10, $white);
+    @include button-clear($ripeLemon);
+    @include button-outline($ripeLemon);
   }
 
   &.button-saffron {
-    @include button-style($saffron, $ripeLemon, $dark);
-
+    @include button-style(
+      $saffron, $saffron-d10, $saffron-d10, $saffron-d10, $white);
+    @include button-clear($saffron);
+    @include button-outline($saffron);
   }
   
   // --------------------------
