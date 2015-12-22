@@ -873,14 +873,14 @@
   .bar.bar-humming-bird .bar-footer {
     background-image: linear-gradient(180deg, #E4F1FE, #E4F1FE 50%, transparent 50%); }
 
-.bar.bar-picton-two-blue {
+.bar.bar-picton-blue-two {
   border-color: #3498DB;
-  background-color: #59ABE3;
+  background-color: #22A7F0;
   background-image: linear-gradient(0deg, #3498DB, #3498DB 50%, transparent 50%);
   color: #FFFFFF; }
-  .bar.bar-picton-two-blue .title {
+  .bar.bar-picton-blue-two .title {
     color: #FFFFFF; }
-  .bar.bar-picton-two-blue .bar-footer {
+  .bar.bar-picton-blue-two .bar-footer {
     background-image: linear-gradient(180deg, #3498DB, #3498DB 50%, transparent 50%); }
 
 .bar.bar-curious-blue {
