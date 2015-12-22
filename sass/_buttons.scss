@@ -1,0 +1,772 @@
+.button {
+  
+  // --------------------------------
+  // Red buttons
+  // --------------------------------
+
+  &.button-chestnut-rose {
+    @include button-style(
+      $chestnutRose, $chestnutRose-d10, $chestnutRose-d10, 
+      $chestnutRose-d10, $white);
+    @include button-clear($chestnutRose);
+    @include button-outline($chestnutRose);
+  }
+
+  &.button-pomegranate {
+    @include button-style(
+      $pomegranate, $pomegranate-d10, $pomegranate-d10, $pomegranate-d10, $white);
+    @include button-clear($pomegranate);
+    @include button-outline($pomegranate);
+  }
+  
+  &.button-thunderbird {
+    @include button-style(
+      $thunderbird, $thunderbird-d10, $thunderbird-d10, $thunderbird-d10, $white);
+    @include button-clear($thunderbird);
+    @include button-outline($thunderbird);
+  }
+
+  &.button-old-brick {
+    @include button-style(
+      $oldBrick, $oldBrick-d10, $oldBrick-d10, $oldBrick-d10, $white);
+    @include button-clear($oldBrick);
+    @include button-outline($oldBrick);
+  }
+
+  &.button-flamingo {
+    @include button-style(
+      $flamingo, $flamingo-d10, $flamingo-d10, $flamingo-d10, $white);
+    @include button-clear($flamingo);
+    @include button-outline($flamingo);
+  }
+
+  &.button-valencia {
+    @include button-style(
+      $valencia, $valencia-d10, $valencia-d10, $valencia-d10, $white);
+    @include button-clear($valencia);
+    @include button-outline($valencia);
+  }
+
+  &.button-tall-poppy {
+    @include button-style(
+      $tallPoppy, $tallPoppy-d10, $tallPoppy-d10, $tallPoppy-d10, $white);
+    @include button-clear($tallPoppy);
+    @include button-outline($tallPoppy);
+  }
+
+  &.button-monza {
+    @include button-style(
+      $monza, $monza-d10, $monza-d10, $monza-d10, $white);
+    @include button-clear($monza);
+    @include button-outline($monza);
+  }
+
+  &.button-cinnabar {
+    @include button-style(
+      $cinnabar, $cinnabar-d10, $cinnabar-d10, $cinnabar-d10, $white);
+    @include button-clear($cinnabar);
+    @include button-outline($cinnabar);
+  }
+
+  // --------------------------
+  // Yellow buttons
+  // --------------------------
+
+  &.button-cream-can {
+    @include button-style(
+      $creamCan, $creamCan-d10, $creamCan-d10, $creamCan-d10, $dark);
+    @include button-clear($creamCan);
+    @include button-outline($creamCan);
+  }
+
+  &.button-ripe-lemon {
+    @include button-style(
+      $ripeLemon, $ripeLemon-d10, $ripeLemon-d10, $ripeLemon-d10, $dark);
+    @include button-clear($ripeLemon);
+    @include button-outline($ripeLemon);
+  }
+
+  &.button-saffron {
+    @include button-style(
+      $saffron, $saffron-d10, $saffron-d10, $saffron-d10, $dark);
+    @include button-clear($saffron);
+    @include button-outline($saffron);
+  }
+  
+  // --------------------------
+  // Pink buttons
+  // --------------------------
+
+  &.button-razzmatazz {
+    @include button-style(
+      $razzmatazz, $razzmatazz-d10, $razzmatazz-d10, $razzmatazz-d10, $white);
+    @include button-clear($razzmatazz);
+    @include button-outline($razzmatazz);
+  }
+
+  &.button-sunset-orange {
+    @include button-style(
+      $sunsetOrange, $sunsetOrange-d10, $sunsetOrange-d10, $sunsetOrange-d10, $white);
+    @include button-clear($sunsetOrange);
+    @include button-outline($sunsetOrange);
+  }
+
+  &.button-wax-flower {
+    @include button-style(
+      $waxFlower, $waxFlower-d10, $waxFlower-d10, $waxFlower-d10, $white);
+    @include button-clear($waxFlower);
+    @include button-outline($waxFlower);
+  }
+
+  &.button-cabaret {
+    @include button-style(
+      $cabaret, $cabaret-d10, $cabaret-d10, $cabaret-d10, $white);
+    @include button-clear($cabaret);
+    @include button-outline($cabaret);
+  }
+
+  &.button-new-york-pink {
+    @include button-style(
+      $newYorkPink, $newYorkPink-d10, $newYorkPink-d10, $newYorkPink-d10, $white);
+    @include button-clear($newYorkPink);
+    @include button-outline($newYorkPink);
+  }
+
+  &.button-radical-red {
+    @include button-style(
+      $radicalRed, $radicalRed-d10, $radicalRed-d10, $radicalRed-d10, $white);
+    @include button-clear($radicalRed);
+    @include button-outline($radicalRed);
+  }
+
+  &.button-sunglo {
+    @include button-style(
+      $sunglo, $sunglo-d10, $sunglo-d10, $sunglo-d10, $white);
+    @include button-clear($sunglo);
+    @include button-outline($sunglo);
+  }
+ 
+  // --------------------------
+  // Gray buttons
+  // --------------------------
+
+  &.button-white-smoke {
+    @include button-style(
+      $whiteSmoke, $whiteSmoke-d10, $whiteSmoke-d10, $whiteSmoke-d10, $dark);
+    @include button-clear($whiteSmoke);
+    @include button-outline($whiteSmoke);
+  }
+
+  &.button-lynch {
+    @include button-style(
+      $lynch, $lynch-d10, $lynch-d10, $lynch-d10, $white);
+    @include button-clear($lynch);
+    @include button-outline($lynch);
+  }
+
+  &.button-pumice {
+    @include button-style(
+      $pumice, $pumice-d10, $pumice-d10, $pumice-d10, $dark);
+    @include button-clear($pumice);
+    @include button-outline($pumice);
+  }
+
+  &.button-gallery {
+    @include button-style(
+      $gallery, $gallery-d10, $gallery-d10, $gallery-d10, $dark);
+    @include button-clear($gallery);
+    @include button-outline($gallery);
+  }
+
+  &.button-silver-sand {
+    @include button-style(
+      $silverSand, $silverSand-d10, $silverSand-d10, $silverSand-d10, $dark);
+    @include button-clear($silverSand);
+    @include button-outline($silverSand);
+  }
+
+  &.button-porcelain {
+    @include button-style(
+      $porcelain, $porcelain-d10, $porcelain-d10, $porcelain-d10, $dark);
+    @include button-clear($porcelain);
+    @include button-outline($porcelain);
+  }
+
+  &.button-cascade {
+    @include button-style(
+      $cascade, $cascade-d10, $cascade-d10, $cascade-d10, $dark);
+    @include button-clear($cascade);
+    @include button-outline($cascade);
+  }
+
+  &.button-iron {
+    @include button-style(
+      $iron, $iron-d10, $iron-d10, $iron-d10, $dark);
+    @include button-clear($iron);
+    @include button-outline($iron);
+  }
+
+  &.button-edward {
+    @include button-style(
+      $edward, $edward-d10, $edward-d10, $edward-d10, $dark);
+    @include button-clear($edward);
+    @include button-outline($edward);
+  }
+
+  &.button-cararra {
+    @include button-style(
+      $cararra, $cararra-d10, $cararra-d10, $cararra-d10, $dark);
+    @include button-clear($cararra);
+    @include button-outline($cararra);
+  }
+
+  &.button-silver {
+    @include button-style(
+      $silver, $silver-d10, $silver-d10, $silver-d10, $dark);
+    @include button-clear($silver);
+    @include button-outline($silver);
+  }
+
+  // ------------------------
+  // Purple buttons
+  // ------------------------
+
+  &.button-snuff {
+    @include button-style(
+      $snuff, $snuff-d10, $snuff-d10, $snuff-d10, $dark);
+    @include button-clear($snuff);
+    @include button-outline($snuff);
+  }
+
+  &.button-rebecca-purple {
+    @include button-style(
+      $rebeccaPurple, $rebeccaPurple-d10, $rebeccaPurple-d10,
+      $rebeccaPurple-d10, $white);
+    @include button-clear($rebeccaPurple);
+    @include button-outline($rebeccaPurple);
+  }
+
+  &.button-honey-flower {
+    @include button-style(
+      $honeyFlower, $honeyFlower-d10, $honeyFlower-d10,
+      $honeyFlower-d10, $white);
+    @include button-clear($honeyFlower);
+    @include button-outline($honeyFlower);
+  }
+
+  &.button-wistful {
+    @include button-style(
+      $wistful, $wistful-d10, $wistful-d10, $wistful-d10, $dark);
+    @include button-clear($wistful);
+    @include button-outline($wistful);
+  }
+
+  &.button-plum {
+    @include button-style(
+      $plum, $plum-d10, $plum-d10, $plum-d10, $white);
+    @include button-clear($plum);
+    @include button-outline($plum);
+  }
+
+  &.button-seance {
+    @include button-style(
+      $seance, $seance-d10, $seance-d10, $seance-d10, $white);
+    @include button-clear($seance);
+    @include button-outline($seance);
+  }
+
+  &.button-medium-purple {
+    @include button-style(
+      $mediumPurple, $mediumPurple-d10, $mediumPurple-d10, $mediumPurple-d10, $white);
+    @include button-clear($mediumPurple);
+    @include button-outline($mediumPurple);
+  }
+
+  &.button-light-wisteria {
+    @include button-style(
+      $lightWisteria, $lightWisteria-d10, $lightWisteria-d10,
+      $lightWisteria-d10, $dark);
+    @include button-clear($lightWisteria);
+    @include button-outline($lightWisteria);
+  }
+
+  &.button-studio {
+    @include button-style(
+      $studio, $studio-d10, $studio-d10, $studio-d10, $white);
+    @include button-clear($studio);
+    @include button-outline($studio);
+  }
+
+  &.button-wisteria {
+    @include button-style(
+      $wisteria, $wisteria-d10, $wisteria-d10, $wisteria-d10, $white);
+    @include button-clear($wisteria);
+    @include button-outline($wisteria);
+  }
+
+  // ------------------------
+  // Orange buttons
+  // ------------------------
+
+
+  &.button-confetti {
+    @include button-style(
+      $confetti, $confetti-d10, $confetti-d10, $confetti-d10, $dark);
+    @include button-clear($confetti);
+    @include button-outline($confetti);
+  }
+
+  &.button-cape-honey {
+    @include button-style(
+      $capeHoney, $capeHoney-d10, $capeHoney-d10, $capeHoney-d10, $dark);
+    @include button-clear($capeHoney);
+    @include button-outline($capeHoney);
+  }
+
+  &.button-california {
+    @include button-style(
+      $california, $california-d10, $california-d10, $california-d10, $white);
+    @include button-clear($california);
+    @include button-outline($california);
+  }
+
+  &.button-fire-bush {
+    @include button-style(
+      $fireBush, $fireBush-d10, $fireBush-d10, $fireBush-d10, $white);
+    @include button-clear($fireBush);
+    @include button-outline($fireBush);
+  }
+
+  &.button-tahiti-gold {
+    @include button-style(
+      $tahitiGold, $tahitiGold-d10, $tahitiGold-d10, $tahitiGold-d10, $white);
+    @include button-clear($tahitiGold);
+    @include button-outline($tahitiGold);
+  }
+
+  &.button-casablanca {
+    @include button-style(
+      $casablanca, $casablanca-d10, $casablanca-d10, $casablanca-d10, $dark);
+    @include button-clear($casablanca);
+    @include button-outline($casablanca);
+  }
+
+  &.button-crusta {
+    @include button-style(
+      $crusta, $crusta-d10, $crusta-d10, $crusta-d10, $white);
+    @include button-clear($crusta);
+    @include button-outline($crusta);
+  }
+
+  &.button-sea-buckthorn {
+    @include button-style(
+      $seaBuckthorn, $seaBuckthorn-d10, $seaBuckthorn-d10, $seaBuckthorn-d10, $white);
+    @include button-clear($seaBuckthorn);
+    @include button-outline($seaBuckthorn);
+  }
+
+  &.button-lightning-yellow {
+    @include button-style(
+      $lightningYellow, $lightningYellow-d10, $lightningYellow-d10,
+      $lightningYellow-d10, $white);
+    @include button-clear($lightningYellow);
+    @include button-outline($lightningYellow);
+  }
+
+  &.button-burnt-orange {
+    @include button-style(
+      $burntOrange, $burntOrange-d10, $burntOrange-d10, $burntOrange-d10, $white);
+    @include button-clear($burntOrange);
+    @include button-outline($burntOrange);
+  }
+
+  &.button-buttercup {
+    @include button-style(
+      $buttercup, $buttercup-d10, $buttercup-d10, $buttercup-d10, $white);
+    @include button-clear($buttercup);
+    @include button-outline($buttercup);
+  }
+
+  &.button-ecstasy {
+    @include button-style(
+      $ecstasy, $ecstasy-d10, $ecstasy-d10, $ecstasy-d10, $white);
+    @include button-clear($ecstasy);
+    @include button-outline($ecstasy);
+  }
+
+  &.button-sandstorm {
+    @include button-style(
+      $sandstorm, $sandstorm-d10, $sandstorm-d10, $sandstorm-d10, $white);
+    @include button-clear($sandstorm);
+    @include button-outline($sandstorm);
+  }
+
+  &.button-jaffa {
+    @include button-style(
+      $jaffa, $jaffa-d10, $jaffa-d10, $jaffa-d10, $white);
+    @include button-clear($jaffa);
+    @include button-outline($jaffa);
+  }
+
+  &.button-zest {
+    @include button-style(
+      $zest, $zest-d10, $zest-d10, $zest-d10, $white);
+    @include button-clear($zest);
+    @include button-outline($zest);
+  }
+
+  // -----------------------------
+  // Green buttons
+  // -----------------------------
+
+  &.button-medium-turquoise {
+    @include button-style(
+      $mediumTurquoise, $mediumTurquoise-d10, $mediumTurquoise-d10,
+      $mediumTurquoise-d10, $white);
+    @include button-clear($mediumTurquoise);
+    @include button-outline($mediumTurquoise);
+  }
+
+  &.button-aqua-island {
+    @include button-style(
+      $aquaIsland, $aquaIsland-d10, $aquaIsland-d10, $aquaIsland-d10, $dark);
+    @include button-clear($aquaIsland);
+    @include button-outline($aquaIsland);
+  }
+
+  &.button-gossip {
+    @include button-style(
+      $gossip, $gossip-d10, $gossip-d10, $gossip-d10, $white);
+    @include button-clear($gossip);
+    @include button-outline($gossip);
+  }
+
+  &.button-dark-sea-green {
+    @include button-style(
+      $darkSeaGreen, $darkSeaGreen-d10, $darkSeaGreen-d10,
+      $darkSeaGreen-d10, $white);
+    @include button-clear($darkSeaGreen);
+    @include button-outline($darkSeaGreen);
+  }
+
+  &.button-eucalyptus {
+    @include button-style(
+      $eucalyptus, $eucalyptus-d10, $eucalyptus-d10, $eucalyptus-d10, $white);
+    @include button-clear($eucalyptus);
+    @include button-outline($eucalyptus);
+  }
+
+  &.button-caribbean-green {
+    @include button-style(
+      $caribbeanGreen, $caribbeanGreen-d10, $caribbeanGreen-d10,
+      $caribbeanGreen-d10, $white);
+    @include button-clear($caribbeanGreen);
+    @include button-outline($caribbeanGreen);
+  }
+
+  &.button-silver-tree {
+    @include button-style(
+      $silverTree, $silverTree-d10, $silverTree-d10, $silverTree-d10, $white);
+    @include button-clear($silverTree);
+    @include button-outline($silverTree);
+  }
+
+  &.button-downy {
+    @include button-style(
+      $downy, $downy-d10, $downy-d10, $downy-d10, $dark);
+    @include button-clear($downy);
+    @include button-outline($downy);
+  }
+
+  &.button-mountain-meadow {
+    @include button-style(
+      $mountainMeadow, $mountainMeadow-d10, $mountainMeadow-d10,
+      $mountainMeadow-d10, $white);
+    @include button-clear($mountainMeadow);
+    @include button-outline($mountainMeadow);
+  }
+
+  &.button-light-sea-green {
+    @include button-style(
+      $lightSeaGreen, $lightSeaGreen-d10, $lightSeaGreen-d10,
+      $lightSeaGreen-d10, $white);
+    @include button-clear($lightSeaGreen);
+    @include button-outline($lightSeaGreen);
+  }
+
+  &.button-medium-aquamarine {
+    @include button-style(
+      $mediumAquamarine, $mediumAquamarine-d10, $mediumAquamarine-d10,
+      $mediumAquamarine-d10, $white);
+    @include button-clear($mediumAquamarine);
+    @include button-outline($mediumAquamarine);
+  }
+
+  &.button-turquoise {
+    @include button-style(
+      $turquoise, $turquoise-d10, $turquoise-d10, $turquoise-d10, $white);
+    @include button-clear($turquoise);
+    @include button-outline($turquoise);
+  }
+
+  &.button-madang {
+    @include button-style(
+      $madang, $madang-d10, $madang-d10, $madang-d10, $white);
+    @include button-clear($madang);
+    @include button-outline($madang);
+  }
+
+  &.button-riptide {
+    @include button-style(
+      $riptide, $riptide-d10, $riptide-d10, $riptide-d10, $white);
+    @include button-clear($riptide);
+    @include button-outline($riptide);
+  }
+
+  &.button-shamrock {
+    @include button-style(
+      $shamrock, $shamrock-d10, $shamrock-d10, $shamrock-d10, $white);
+    @include button-clear($shamrock);
+    @include button-outline($shamrock);
+  }
+
+  &.button-niagara {
+    @include button-style(
+      $niagara, $niagara-d10, $niagara-d10, $niagara-d10, $white);
+    @include button-clear($niagara);
+    @include button-outline($niagara);
+  }
+
+  &.button-esmerald {
+    @include button-style(
+      $esmerald, $esmerald-d10, $esmerald-d10, $esmerald-d10, $white);
+    @include button-clear($esmerald);
+    @include button-outline($esmerald);
+  }
+
+  &.button-green-haze {
+    @include button-style(
+      $greenHaze, $greenHaze-d10, $greenHaze-d10, $greenHaze-d10, $white);
+    @include button-clear($greenHaze);
+    @include button-outline($greenHaze);
+  }
+
+  &.button-free-speech-aquamarine {
+    @include button-style(
+      $freeSpeechAquamarine, $freeSpeechAquamarine-d10, $freeSpeechAquamarine-d10,
+      $freeSpeechAquamarine-d10, $white);
+    @include button-clear($freeSpeechAquamarine);
+    @include button-outline($freeSpeechAquamarine);
+  }
+
+  &.button-ocean-green {
+    @include button-style(
+      $oceanGreen, $oceanGreen-d10, $oceanGreen-d10, $oceanGreen-d10, $white);
+    @include button-clear($oceanGreen);
+    @include button-outline($oceanGreen);
+  }
+
+  &.button-niagara-one {
+    @include button-style(
+      $niagaraOne, $niagaraOne-d10, $niagaraOne-d10, $niagaraOne-d10, $white);
+    @include button-clear($niagaraOne);
+    @include button-outline($niagaraOne);
+  }
+
+  &.button-jade {
+    @include button-style(
+      $jade, $jade-d10, $jade-d10, $jade-d10, $white);
+    @include button-clear($jade);
+    @include button-outline($jade);
+  }
+
+  &.button-salem {
+    @include button-style(
+      $salem, $salem-d10, $salem-d10, $salem-d10, $white);
+    @include button-clear($salem);
+    @include button-outline($salem);
+  }
+
+  &.button-observatory {
+    @include button-style(
+      $observatory, $observatory-d10, $observatory-d10, $observatory-d10, $white);
+    @include button-clear($observatory);
+    @include button-outline($observatory);
+  }
+
+  &.button-jungle-green {
+    @include button-style(
+      $jungleGreen, $jungleGreen-d10, $jungleGreen-d10, $jungleGreen-d10, $white);
+    @include button-clear($jungleGreen);
+    @include button-outline($jungleGreen);
+  }
+
+  // ------------------------------
+  // Blue buttons
+  // ------------------------------
+
+
+  &.button-san-marino {
+    @include button-style(
+      $sanMarino, $sanMarino-d10, $sanMarino-d10, $sanMarino-d10, $white);
+    @include button-clear($sanMarino);
+    @include button-outline($sanMarino);
+  }
+
+  &.button-alice-blue {
+    @include button-style(
+      $aliceBlue, $aliceBlue-d10, $aliceBlue-d10, $aliceBlue-d10, $dark);
+    @include button-clear($aliceBlue);
+    @include button-outline($aliceBlue);
+  }
+
+  &.button-royal-blue {
+    @include button-style(
+      $royalBlue, $royalBlue-d10, $royalBlue-d10, $royalBlue-d10, $white);
+    @include button-clear($royalBlue);
+    @include button-outline($royalBlue);
+  }
+
+  &.button-picton-blue {
+    @include button-style(
+      $pictonBlue, $pictonBlue-d10, $pictonBlue-d10, $pictonBlue-d10, $white);
+    @include button-clear($pictonBlue);
+    @include button-outline($pictonBlue);
+  }
+
+  &.button-spray {
+    @include button-style(
+      $spray, $spray-d10, $spray-d10, $spray-d10, $dark);
+    @include button-clear($spray);
+    @include button-outline($spray);
+  }
+
+  &.button-shakespeare {
+    @include button-style(
+      $shakespeare, $shakespeare-d10, $shakespeare-d10, $shakespeare-d10, $white);
+    @include button-clear($shakespeare);
+    @include button-outline($shakespeare);
+  }
+
+  &.button-humming-bird {
+    @include button-style(
+      $hummingBird, $hummingBird-d10, $hummingBird-d10, $hummingBird-d10, $dark);
+    @include button-clear($hummingBird);
+    @include button-outline($hummingBird);
+  }
+
+  &.button-picton-blue-two {
+    @include button-style(
+      $pictonBlueTwo, $pictonBlueTwo-d10, $pictonBlueTwo-d10,
+      $pictonBlueTwo-d10, $white);
+    @include button-clear($pictonBlueTwo);
+    @include button-outline($pictonBlueTwo);
+  }
+
+  &.button-curious-blue {
+    @include button-style(
+      $curiousBlue, $curiousBlue-d10, $curiousBlue-d10, $curiousBlue-d10, $white);
+    @include button-clear($curiousBlue);
+    @include button-outline($curiousBlue);
+  }
+
+  &.button-madison {
+    @include button-style(
+      $madison, $madison-d10, $madison-d10, $madison-d10, $white);
+    @include button-clear($madison);
+    @include button-outline($madison);
+  }
+
+  &.button-dodger-blue {
+    @include button-style(
+      $dodgerBlue, $dodgerBlue-d10, $dodgerBlue-d10, $dodgerBlue-d10, $white);
+    @include button-clear($dodgerBlue);
+    @include button-outline($dodgerBlue);
+  }
+
+  &.button-ming {
+    @include button-style(
+      $ming, $ming-d10, $ming-d10, $ming-d10, $white);
+    @include button-clear($ming);
+    @include button-outline($ming);
+  }
+
+  &.button-ebony-clay {
+    @include button-style(
+      $ebonyClay, $ebonyClay-d10, $ebonyClay-d10, $ebonyClay-d10, $white);
+    @include button-clear($ebonyClay);
+    @include button-outline($ebonyClay);
+  }
+
+  &.button-malibu {
+    @include button-style(
+      $malibu, $malibu-d10, $malibu-d10, $malibu-d10, $white);
+    @include button-clear($malibu);
+    @include button-outline($malibu);
+  }
+
+  &.button-summer-sky {
+    @include button-style(
+      $summerSky, $summerSky-d10, $summerSky-d10, $summerSky-d10, $white);
+    @include button-clear($summerSky);
+    @include button-outline($summerSky);
+  }
+
+  &.button-chambray {
+    @include button-style(
+      $chambray, $chambray-d10, $chambray-d10, $chambray-d10, $white);
+    @include button-clear($chambray);
+    @include button-outline($chambray);
+  }
+
+  &.button-pickled-bluewood {
+    @include button-style(
+      $pickledBluewood, $pickledBluewood-d10, $pickledBluewood-d10,
+      $pickledBluewood-d10, $white);
+    @include button-clear($pickledBluewood);
+    @include button-outline($pickledBluewood);
+  }
+
+  &.button-hoki {
+    @include button-style(
+      $hoki, $hoki-d10, $hoki-d10, $hoki-d10, $dark);
+    @include button-clear($hoki);
+    @include button-outline($hoki);
+  }
+
+  &.button-jelly-bean {
+    @include button-style(
+      $jellyBean, $jellyBean-d10, $jellyBean-d10, $jellyBean-d10, $white);
+    @include button-clear($jellyBean);
+    @include button-outline($jellyBean);
+  }
+
+  &.button-jacksons-purple {
+    @include button-style(
+      $jacksonsPurple, $jacksonsPurple-d10, $jacksonsPurple-d10,
+      $jacksonsPurple-d10, $white);
+    @include button-clear($jacksonsPurple);
+    @include button-outline($jacksonsPurple);
+  }
+
+  &.button-jordy-blue {
+    @include button-style(
+      $jordyBlue, $jordyBlue-d10, $jordyBlue-d10, $jordyBlue-d10, $dark);
+    @include button-clear($jordyBlue);
+    @include button-outline($jordyBlue);
+  }
+
+  &.button-steel-blue {
+    @include button-style(
+      $steelBlue, $steelBlue-d10, $steelBlue-d10, $steelBlue-d10, $white);
+    @include button-clear($steelBlue);
+    @include button-outline($steelBlue);
+  }
+
+  &.button-fountain-blue {
+    @include button-style(
+      $fountainBlue, $fountainBlue-d10, $fountainBlue-d10, $fountainBlue-d10, $white);
+    @include button-clear($fountainBlue);
+    @include button-outline($fountainBlue);
+  }
+}
