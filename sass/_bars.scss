@@ -729,8 +729,8 @@
     }
   }
 
-  &.bar-picton-two-blue {
-    @include bar-style($pictonBlue, $curiousBlue, $white);
+  &.bar-picton-blue-two {
+    @include bar-style($pictonBlueTwo, $curiousBlue, $white);
 
     .bar-footer {
       background-image: linear-gradient(180deg, $curiousBlue, $curiousBlue 50%, transparent 50%);
