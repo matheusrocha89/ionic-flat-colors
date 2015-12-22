@@ -288,8 +288,6 @@
       $lightWisteria-d10, $dark);
     @include button-clear($lightWisteria);
     @include button-outline($lightWisteria);
-    @include button-style($lightWisteria, $snuff, $dark);
-
   }
 
   &.button-studio {
@@ -445,9 +443,10 @@
 
   &.button-dark-sea-green {
     @include button-style(
-      $seaGreen, $seaGreen-d10, $seaGreen-d10, $seaGreen-d10, $white);
-    @include button-clear($seaGreen);
-    @include button-outline($seaGreen);
+      $darkSeaGreen, $darkSeaGreen-d10, $darkSeaGreen-d10,
+      $darkSeaGreen-d10, $white);
+    @include button-clear($darkSeaGreen);
+    @include button-outline($darkSeaGreen);
   }
 
   &.button-eucalyptus {
@@ -459,10 +458,10 @@
 
   &.button-caribbean-green {
     @include button-style(
-      $carribeanGreen, $carribeanGreen-d10, $carribeanGreen-d10,
-      $carribeanGreen-d10, $white);
-    @include button-clear($carribeanGreen);
-    @include button-outline($carribeanGreen);
+      $caribbeanGreen, $caribbeanGreen-d10, $caribbeanGreen-d10,
+      $caribbeanGreen-d10, $white);
+    @include button-clear($caribbeanGreen);
+    @include button-outline($caribbeanGreen);
   }
 
   &.button-silver-tree {
