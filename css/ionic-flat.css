@@ -677,9 +677,9 @@
   border-color: #87D37C;
   background-color: #C8F7C5;
   background-image: linear-gradient(0deg, #87D37C, #87D37C 50%, transparent 50%);
-  color: #FFFFFF; }
+  color: #333333; }
   .bar.bar-madang .title {
-    color: #FFFFFF; }
+    color: #333333; }
   .bar.bar-madang .bar-footer {
     background-image: linear-gradient(180deg, #87D37C, #87D37C 50%, transparent 50%); }
 
@@ -977,9 +977,9 @@
   border-color: #34495E;
   background-color: #67809F;
   background-image: linear-gradient(0deg, #34495E, #34495E 50%, transparent 50%);
-  color: #333333; }
+  color: #FFFFFF; }
   .bar.bar-hoki .title {
-    color: #333333; }
+    color: #FFFFFF; }
   .bar.bar-hoki .bar-footer {
     background-image: linear-gradient(180deg, #34495E, #34495E 50%, transparent 50%); }
 
@@ -2778,9 +2778,9 @@
 .button.button-madang {
   border-color: transparent;
   background-color: #C8F7C5;
-  color: #FFFFFF; }
+  color: #333333; }
   .button.button-madang:hover {
-    color: #FFFFFF;
+    color: #333333;
     text-decoration: none; }
   .button.button-madang.active, .button.button-madang.activated {
     background-color: #9ef198; }
@@ -3558,9 +3558,9 @@
 .button.button-hoki {
   border-color: transparent;
   background-color: #67809F;
-  color: #333333; }
+  color: #FFFFFF; }
   .button.button-hoki:hover {
-    color: #333333;
+    color: #FFFFFF;
     text-decoration: none; }
   .button.button-hoki.active, .button.button-hoki.activated {
     background-color: #526781; }
