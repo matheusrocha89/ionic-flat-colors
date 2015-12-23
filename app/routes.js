@@ -5,7 +5,12 @@ function Routes($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state('home', {
       url: '/',
-      templateUrl: 'templates/home.html'
+      templateUrl: 'app/home/home.html'
+    })
+    .state('bars', {
+      url: '/bars',
+      templateUrl: 'app/bars/bars.html',
+      controller: 'BarsController as vm'
     });
   
   $urlRouterProvider.otherwise('/');
