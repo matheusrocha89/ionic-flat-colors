@@ -256,7 +256,7 @@
 
   &.button-wistful {
     @include button-style(
-      $wistful, $wistful-d10, $wistful-d10, $wistful-d10, $dark);
+      $wistful, $wistful-d10, $wistful-d10, $wistful-d10, $white);
     @include button-clear($wistful);
     @include button-outline($wistful);
   }
@@ -285,7 +285,7 @@
   &.button-light-wisteria {
     @include button-style(
       $lightWisteria, $lightWisteria-d10, $lightWisteria-d10,
-      $lightWisteria-d10, $dark);
+      $lightWisteria-d10, $white);
     @include button-clear($lightWisteria);
     @include button-outline($lightWisteria);
   }
@@ -473,7 +473,7 @@
 
   &.button-downy {
     @include button-style(
-      $downy, $downy-d10, $downy-d10, $downy-d10, $dark);
+      $downy, $downy-d10, $downy-d10, $downy-d10, $white);
     @include button-clear($downy);
     @include button-outline($downy);
   }
@@ -636,7 +636,7 @@
 
   &.button-spray {
     @include button-style(
-      $spray, $spray-d10, $spray-d10, $spray-d10, $dark);
+      $spray, $spray-d10, $spray-d10, $spray-d10, $white);
     @include button-clear($spray);
     @include button-outline($spray);
   }
@@ -751,7 +751,7 @@
 
   &.button-jordy-blue {
     @include button-style(
-      $jordyBlue, $jordyBlue-d10, $jordyBlue-d10, $jordyBlue-d10, $dark);
+      $jordyBlue, $jordyBlue-d10, $jordyBlue-d10, $jordyBlue-d10, $white);
     @include button-clear($jordyBlue);
     @include button-outline($jordyBlue);
   }

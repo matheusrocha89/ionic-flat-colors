@@ -284,7 +284,7 @@
   }
 
   &.bar-wistful {
-    @include bar-style($wistful, $lightWisteria, $dark);
+    @include bar-style($wistful, $lightWisteria, $white);
 
     .bar-footer {
       background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
@@ -316,7 +316,7 @@
   }
 
   &.bar-light-wisteria {
-    @include bar-style($lightWisteria, $snuff, $dark);
+    @include bar-style($lightWisteria, $snuff, $white);
 
     .bar-footer {
       background-image: linear-gradient(180deg, $snuff, $snuff 50%, transparent 50%);
@@ -525,7 +525,7 @@
   }
 
   &.bar-downy {
-    @include bar-style($downy, $riptide, $dark);
+    @include bar-style($downy, $riptide, $white);
 
     .bar-footer {
       background-image: linear-gradient(180deg, $riptide, $riptide 50%, transparent 50%);
@@ -706,7 +706,7 @@
   }
 
   &.bar-spray {
-    @include bar-style($spray, $shakespeare, $dark);
+    @include bar-style($spray, $shakespeare, $white);
 
     .bar-footer {
       background-image: linear-gradient(180deg, $shakespeare, $shakespeare 50%, transparent 50%);
@@ -834,7 +834,7 @@
   }
 
   &.bar-jordy-blue {
-    @include bar-style($jordyBlue, $hoki, $dark);
+    @include bar-style($jordyBlue, $hoki, $white);
 
     .bar-footer {
       background-image: linear-gradient(180deg, $hoki, $hoki 50%, transparent 50%);
