@@ -565,7 +565,7 @@
   }
 
   &.bar-madang {
-    @include bar-style($madang, $gossip, $white);
+    @include bar-style($madang, $gossip, $dark);
 
     .bar-footer {
       background-image: linear-gradient(180deg, $gossip, $gossip 50%, transparent 50%);
@@ -810,7 +810,7 @@
   }
 
   &.bar-hoki {
-    @include bar-style($hoki, $pickledBluewood, $dark);
+    @include bar-style($hoki, $pickledBluewood, $white);
 
     .bar-footer {
       background-image: linear-gradient(180deg, $pickledBluewood, $pickledBluewood 50%, transparent 50%);

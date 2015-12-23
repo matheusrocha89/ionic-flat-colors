@@ -511,7 +511,7 @@
 
   &.button-madang {
     @include button-style(
-      $madang, $madang-d10, $madang-d10, $madang-d10, $white);
+      $madang, $madang-d10, $madang-d10, $madang-d10, $dark);
     @include button-clear($madang);
     @include button-outline($madang);
   }
@@ -729,7 +729,7 @@
 
   &.button-hoki {
     @include button-style(
-      $hoki, $hoki-d10, $hoki-d10, $hoki-d10, $dark);
+      $hoki, $hoki-d10, $hoki-d10, $hoki-d10, $white);
     @include button-clear($hoki);
     @include button-outline($hoki);
   }
