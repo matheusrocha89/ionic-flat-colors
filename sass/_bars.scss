@@ -9,6 +9,13 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $valencia, $valencia 50%, transparent 50%);
     }
+    
+    .button {
+      @include button-style(
+        $chestnutRose, $chestnutRose-d10, $chestnutRose-d10, 
+        $chestnutRose-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-pomegranate {
@@ -16,6 +23,13 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $thunderbird, $thunderbird 50%, transparent 50%);
+    }
+
+    .button {
+      @include button-style(
+        $pomegranate, $pomegranate-d10, $pomegranate-d10, 
+        $pomegranate-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
   
@@ -25,6 +39,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $oldBrick, $oldBrick 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $thunderbird, $thunderbird-d10, $thunderbird-d10, 
+        $thunderbird-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-old-brick {
@@ -32,6 +52,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $chestnutRose, $chestnutRose 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $oldBrick, $oldBrick-d10, $oldBrick-d10, 
+        $oldBrick-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -41,6 +67,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $tallPoppy, $tallPoppy 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $flamingo, $flamingo-d10, $flamingo-d10, 
+        $flamingo-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-valencia {
@@ -48,6 +80,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $oldBrick, $oldBrick 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $valencia, $valencia-d10, $valencia-d10, 
+        $valencia-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -57,6 +95,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $cinnabar, $cinnabar 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $tallPoppy, $tallPoppy-d10, $tallPoppy-d10, 
+        $tallPoppy-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-monza {
@@ -65,6 +109,12 @@
     .bar-footer{
       background-image: linear-gradient(180deg, $cinnabar, $cinnabar 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $monza, $monza-d10, $monza-d10, 
+        $monza-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-cinnabar {
@@ -72,6 +122,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $tallPoppy, $tallPoppy 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $cinnabar, $cinnabar-d10, $cinnabar-d10, 
+        $cinnabar-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -85,6 +141,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $saffron, $saffron 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $creamCan, $creamCan-d10, $creamCan-d10, 
+        $creamCan-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
   }
 
   &.bar-ripe-lemon {
@@ -93,6 +155,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $creamCan, $creamCan 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $ripeLemon, $ripeLemon-d10, $ripeLemon-d10, 
+        $ripeLemon-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
   }
 
   &.bar-saffron {
@@ -100,6 +168,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $ripeLemon, $ripeLemon 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $saffron, $saffron-d10, $saffron-d10, 
+        $saffron-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
     }
   }
   
@@ -113,6 +187,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $cabaret, $cabaret 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $razzmatazz, $razzmatazz-d10, $razzmatazz-d10, 
+        $razzmatazz-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-sunset-orange {
@@ -120,6 +200,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $sunglo, $sunglo 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $sunsetOrange, $sunsetOrange-d10, $sunsetOrange-d10, 
+        $sunsetOrange-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -129,6 +215,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $sunglo, $sunglo 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $waxFlower, $waxFlower-d10, $waxFlower-d10, 
+        $waxFlower-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-cabaret {
@@ -136,6 +228,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $razzmatazz, $razzmatazz 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $cabaret, $cabaret-d10, $cabaret-d10, 
+        $cabaret-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -145,6 +243,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $sunglo, $sunglo 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $newYorkPink, $newYorkPink-d10, $newYorkPink-d10, 
+        $newYorkPink-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-radical-red {
@@ -153,6 +257,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $cabaret, $cabaret 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $radicalRed, $radicalRed-d10, $radicalRed-d10, 
+        $radicalRed-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-sunglo {
@@ -160,6 +270,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $waxFlower, $waxFlower 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $sunglo, $sunglo-d10, $sunglo-d10, 
+        $sunglo-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
  
@@ -173,6 +289,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $pumice, $pumice 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $whiteSmoke, $whiteSmoke-d10, $whiteSmoke-d10, 
+        $whiteSmoke-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
   }
 
   &.bar-lynch {
@@ -180,6 +302,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $pumice, $pumice 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $lynch, $lynch-d10, $lynch-d10, 
+        $lynch-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -189,6 +317,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $silver, $silver 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $pumice, $pumice-d10, $pumice-d10, 
+        $pumice-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-gallery {
@@ -196,6 +330,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $iron, $iron 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $gallery, $gallery-d10, $gallery-d10, 
+        $gallery-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
     }
   }
 
@@ -205,6 +345,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $cararra, $cararra 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $silverSand, $silverSand-d10, $silverSand-d10, 
+        $silverSand-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
   }
 
   &.bar-porcelain {
@@ -212,6 +358,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $whiteSmoke, $whiteSmoke 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $porcelain, $porcelain-d10, $porcelain-d10, 
+        $porcelain-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
     }
   }
 
@@ -221,6 +373,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $lynch, $lynch 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $cascade, $cascade-d10, $cascade-d10, 
+        $cascade-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
   }
 
   &.bar-iron {
@@ -228,6 +386,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $pumice, $pumice 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $iron, $iron-d10, $iron-d10, 
+        $iron-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
     }
   }
 
@@ -237,6 +401,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $iron, $iron 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $edward, $edward-d10, $edward-d10, 
+        $edward-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
   }
 
   &.bar-cararra {
@@ -245,6 +415,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $silverSand, $silverSand 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $cararra, $cararra-d10, $cararra-d10, 
+        $cararra-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
   }
 
   &.bar-silver {
@@ -252,6 +428,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $lynch, $lynch 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $silver, $silver-d10, $silver-d10, 
+        $silver-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
     }
   }
 
@@ -265,6 +447,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $snuff, $snuff-d10, $snuff-d10, 
+        $snuff-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
   }
 
   &.bar-rebecca-purple {
@@ -272,6 +460,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $honeyFlower, $honeyFlower 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $rebeccaPurple, $rebeccaPurple-d10, $rebeccaPurple-d10, 
+        $rebeccaPurple-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -281,6 +475,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $plum, $plum 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $honeyFlower, $honeyFlower-d10, $honeyFlower-d10, 
+        $honeyFlower-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-wistful {
@@ -288,6 +488,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $wistful, $wistful-d10, $wistful-d10, 
+        $wistful-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -297,6 +503,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $wisteria, $wisteria 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $plum, $plum-d10, $plum-d10, 
+        $plum-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-seance {
@@ -304,6 +516,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $studio, $studio 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $seance, $seance-d10, $seance-d10, 
+        $seance-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -313,6 +531,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $mediumPurple, $mediumPurple-d10, $mediumPurple-d10, 
+        $mediumPurple-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-light-wisteria {
@@ -320,6 +544,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $snuff, $snuff 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $lightWisteria, $lightWisteria-d10, $lightWisteria-d10, 
+        $lightWisteria-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -329,6 +559,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $wisteria, $wisteria 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $studio, $studio-d10, $studio-d10, 
+        $studio-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-wisteria {
@@ -336,6 +572,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $plum, $plum 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $wisteria, $wisteria-d10, $wisteria-d10, 
+        $wisteria-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -350,6 +592,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $capeHoney, $capeHoney 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $confetti, $confetti-d10, $confetti-d10, 
+        $confetti-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
   }
 
   &.bar-cape-honey {
@@ -357,6 +605,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $capeHoney, $capeHoney 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $capeHoney, $capeHoney-d10, $capeHoney-d10, 
+        $capeHoney-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
     }
   }
 
@@ -366,6 +620,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $confetti, $confetti 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $california, $california-d10, $california-d10, 
+        $california-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-fire-bush {
@@ -373,6 +633,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $casablanca, $casablanca 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $fireBush, $fireBush-d10, $fireBush-d10, 
+        $fireBush-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -382,6 +648,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $california, $california 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $tahitiGold, $tahitiGold-d10, $tahitiGold-d10, 
+        $tahitiGold-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-casablanca {
@@ -389,6 +661,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $confetti, $confetti 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $casablanca, $casablanca-d10, $casablanca-d10, 
+        $casablanca-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
     }
   }
 
@@ -398,6 +676,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $jaffa, $jaffa 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $crusta, $crusta-d10, $crusta-d10, 
+        $crusta-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-sea-buckthorn {
@@ -405,6 +689,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $jaffa, $jaffa 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $seaBuckthorn, $seaBuckthorn-d10, $seaBuckthorn-d10, 
+        $seaBuckthorn-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -414,6 +704,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $sandstorm, $sandstorm 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $lightningYellow, $lightningYellow-d10, $lightningYellow-d10, 
+        $lightningYellow-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-burnt-orange {
@@ -421,6 +717,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $ecstasy, $ecstasy 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $burntOrange, $burntOrange-d10, $burntOrange-d10, 
+        $burntOrange-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -430,6 +732,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $fireBush, $fireBush 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $buttercup, $buttercup-d10, $buttercup-d10, 
+        $buttercup-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-ecstasy {
@@ -437,6 +745,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $burntOrange, $burntOrange 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $ecstasy, $ecstasy-d10, $ecstasy-d10, 
+        $ecstasy-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -446,6 +760,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $casablanca, $casablanca 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $sandstorm, $sandstorm-d10, $sandstorm-d10, 
+        $sandstorm-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-jaffa {
@@ -454,6 +774,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $seaBuckthorn, $seaBuckthorn 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $jaffa, $jaffa-d10, $jaffa-d10, 
+        $jaffa-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-zest {
@@ -461,6 +787,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $california, $california 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $zest, $zest-d10, $zest-d10, 
+        $zest-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -474,6 +806,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $aquaIsland, $aquaIsland 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $mediumTurquoise, $mediumTurquoise-d10, $mediumTurquoise-d10, 
+        $mediumTurquoise-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-aqua-island {
@@ -481,6 +819,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $mediumTurquoise, $mediumTurquoise 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $aquaIsland, $aquaIsland-d10, $aquaIsland-d10, 
+        $aquaIsland-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
     }
   }
 
@@ -490,6 +834,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $darkSeaGreen, $darkSeaGreen 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $gossip, $gossip-d10, $gossip-d10, 
+        $gossip-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-dark-sea-green {
@@ -497,6 +847,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $oceanGreen, $oceanGreen 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $darkSeaGreen, $darkSeaGreen-d10, $darkSeaGreen-d10, 
+        $darkSeaGreen-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -506,6 +862,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $gossip, $gossip 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $eucalyptus, $eucalyptus-d10, $eucalyptus-d10, 
+        $eucalyptus-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-caribbean-green {
@@ -513,6 +875,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $silverTree, $silverTree 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $caribbeanGreen, $caribbeanGreen-d10, $caribbeanGreen-d10, 
+        $caribbeanGreen-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -522,6 +890,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $caribbeanGreen, $caribbeanGreen 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $silverTree, $silverTree-d10, $silverTree-d10, 
+        $silverTree-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-downy {
@@ -529,6 +903,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $riptide, $riptide 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $downy, $downy-d10, $downy-d10, 
+        $downy-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -538,6 +918,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $riptide, $riptide 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $mountainMeadow, $mountainMeadow-d10, $mountainMeadow-d10, 
+        $mountainMeadow-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-light-sea-green {
@@ -545,6 +931,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $downy, $downy 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $lightSeaGreen, $lightSeaGreen-d10, $lightSeaGreen-d10, 
+        $lightSeaGreen-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -554,6 +946,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $silverTree, $silverTree 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $mediumAquamarine, $mediumAquamarine-d10, $mediumAquamarine-d10, 
+        $mediumAquamarine-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-turquoise {
@@ -561,6 +959,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $caribbeanGreen, $caribbeanGreen 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $turquoise, $turquoise-d10, $turquoise-d10, 
+        $turquoise-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -570,6 +974,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $gossip, $gossip 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $madang, $madang-d10, $madang-d10, 
+        $madang-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
   }
 
   &.bar-riptide {
@@ -577,6 +987,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $downy, $downy 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $riptide, $riptide-d10, $riptide-d10, 
+        $riptide-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -586,6 +1002,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $esmerald, $esmerald 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $shamrock, $shamrock-d10, $shamrock-d10, 
+        $shamrock-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-niagara {
@@ -593,6 +1015,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $greenHaze, $greenHaze 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $niagara, $niagara-d10, $niagara-d10, 
+        $niagara-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -602,6 +1030,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $shamrock, $shamrock 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $esmerald, $esmerald-d10, $esmerald-d10, 
+        $esmerald-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-green-haze {
@@ -609,6 +1043,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $niagara, $niagara 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $greenHaze, $greenHaze-d10, $greenHaze-d10, 
+        $greenHaze-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -618,6 +1058,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $oceanGreen, $oceanGreen 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $freeSpeechAquamarine, $freeSpeechAquamarine-d10, $freeSpeechAquamarine-d10, 
+        $freeSpeechAquamarine-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-ocean-green {
@@ -625,6 +1071,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $jade, $jade 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $oceanGreen, $oceanGreen-d10, $oceanGreen-d10, 
+        $oceanGreen-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -634,6 +1086,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $niagara, $niagara 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $niagaraOne, $niagaraOne-d10, $niagaraOne-d10, 
+        $niagaraOne-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-jade {
@@ -641,6 +1099,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $esmerald, $esmerald 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $jade, $jade-d10, $jade-d10, 
+        $jade-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -650,6 +1114,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $jade, $jade 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $salem, $salem-d10, $salem-d10, 
+        $salem-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-observatory {
@@ -658,6 +1128,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $greenHaze, $greenHaze 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $observatory, $observatory-d10, $observatory-d10, 
+        $observatory-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-jungle-green {
@@ -665,6 +1141,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $shamrock, $shamrock 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $jungleGreen, $jungleGreen-d10, $jungleGreen-d10, 
+        $jungleGreen-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -679,6 +1161,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $royalBlue, $royalBlue 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $sanMarino, $sanMarino-d10, $sanMarino-d10, 
+        $sanMarino-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-alice-blue {
@@ -686,6 +1174,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $hummingBird, $hummingBird 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $aliceBlue, $aliceBlue-d10, $aliceBlue-d10, 
+        $aliceBlue-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
     }
   }
 
@@ -695,6 +1189,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $sanMarino, $sanMarino 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $royalBlue, $royalBlue-d10, $royalBlue-d10, 
+        $royalBlue-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-picton-blue {
@@ -702,6 +1202,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $curiousBlue, $curiousBlue 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $pictonBlue, $pictonBlue-d10, $pictonBlue-d10, 
+        $pictonBlue-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -711,6 +1217,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $shakespeare, $shakespeare 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $spray, $spray-d10, $spray-d10, 
+        $spray-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-shakespeare {
@@ -718,6 +1230,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $spray, $spray 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $shakespeare, $shakespeare-d10, $shakespeare-d10, 
+        $shakespeare-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -727,6 +1245,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $aliceBlue, $aliceBlue 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $hummingBird, $hummingBird-d10, $hummingBird-d10, 
+        $hummingBird-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
   }
 
   &.bar-picton-blue-two {
@@ -734,6 +1258,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $curiousBlue, $curiousBlue 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $pictonBlueTwo, $pictonBlueTwo-d10, $pictonBlueTwo-d10, 
+        $pictonBlueTwo-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -743,6 +1273,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $pictonBlue, $pictonBlue 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $curiousBlue, $curiousBlue-d10, $curiousBlue-d10, 
+        $curiousBlue-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-madison {
@@ -750,6 +1286,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $ming, $ming 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $madison, $madison-d10, $madison-d10, 
+        $madison-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -759,6 +1301,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $shakespeare, $shakespeare 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $dodgerBlue, $dodgerBlue-d10, $dodgerBlue-d10, 
+        $dodgerBlue-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-ming {
@@ -766,6 +1314,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $madison, $madison 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $ming, $ming-d10, $ming-d10, 
+        $ming-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -775,6 +1329,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $madison, $madison 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $ebonyClay, $ebonyClay-d10, $ebonyClay-d10, 
+        $ebonyClay-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-malibu {
@@ -782,6 +1342,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $curiousBlue, $curiousBlue 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $malibu, $malibu-d10, $malibu-d10, 
+        $malibu-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -791,6 +1357,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $malibu, $malibu 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $summerSky, $summerSky-d10, $summerSky-d10, 
+        $summerSky-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-chambray {
@@ -798,6 +1370,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $steelBlue, $steelBlue 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $chambray, $chambray-d10, $chambray-d10, 
+        $chambray-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -807,6 +1385,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $hoki, $hoki 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $pickledBluewood, $pickledBluewood-d10, $pickledBluewood-d10, 
+        $pickledBluewood-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-hoki {
@@ -814,6 +1398,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $pickledBluewood, $pickledBluewood 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $hoki, $hoki-d10, $hoki-d10, 
+        $hoki-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -823,6 +1413,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $malibu, $malibu 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $jellyBean, $jellyBean-d10, $jellyBean-d10, 
+        $jellyBean-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-jacksons-purple {
@@ -830,6 +1426,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $chambray, $chambray 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $jacksonsPurple, $jacksonsPurple-d10, $jacksonsPurple-d10, 
+        $jacksonsPurple-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -839,6 +1441,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $hoki, $hoki 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $jordyBlue, $jordyBlue-d10, $jordyBlue-d10, 
+        $jordyBlue-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-steel-blue {
@@ -847,6 +1455,12 @@
     .bar-footer {
       background-image: linear-gradient(180deg, $chambray, $chambray 50%, transparent 50%);
     }
+    .button {
+      @include button-style(
+        $steelBlue, $steelBlue-d10, $steelBlue-d10, 
+        $steelBlue-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
   }
 
   &.bar-fountain-blue {
@@ -854,6 +1468,12 @@
 
     .bar-footer {
       background-image: linear-gradient(180deg, $jellyBean, $jellyBean 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $fountainBlue, $fountainBlue-d10, $fountainBlue-d10, 
+        $fountainBlue-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 }
