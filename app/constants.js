@@ -93,7 +93,7 @@ angular.module('ionic-flat')
       'fountain-blue'
     ],
     'green': [
-      'medium-tuquoise',
+      'medium-turquoise',
       'aqua-island',
       'gossip',
       'dark-sea-green',
