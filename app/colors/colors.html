@@ -3,39 +3,74 @@
     <h2>Colors documentation</h2>
     <p>This is the name of the colors used in this project</p>
 
-    <h2>Yellow</h2>
-    <div ng-repeat="color in vm.classesYellow">
-      <div class="example color">{{color}}</div>
-    </div>
+    <ion-list>
+      <ion-item class="item-divider">Yellow:</ion-item>
+      <ion-item ng-repeat="color in vm.classesYellow">
+        <h2>{{color}}</h2>
+        <div class="example">
+          <div class="color color-{{color}}"></div>
+        </div>
+      </ion-item>
+    </ion-list>
 
-    <h2>Red</h2>
-    <div ng-repeat="color in vm.classesRed">
-      <div class="example color">{{color}}</div>
-    </div>
+    <ion-list>
+      <ion-item class="item-divider">Red:</ion-item>
+      <ion-item ng-repeat="color in vm.classesRed">
+        <h2>{{color}}</h2>
+        <div class="example">
+          <div class="color color-{{color}}"></div>
+        </div>
+      </ion-item>
+    </ion-list>
 
-    <h2>Blue</h2>
-    <div ng-repeat="color in vm.classesBlue">
-      <div class="example color">{{color}}</div>
-    </div>
+    <ion-list>
+      <ion-item class="item-divider">Blue:</ion-item>
+      <ion-item ng-repeat="color in vm.classesBlue">
+        <h2>{{color}}</h2>
+        <div class="example">
+          <div class="color color-{{color}}"></div>
+        </div>
+      </ion-item>
+    </ion-list>
 
-    <h2>Green</h2>
-    <div ng-repeat="color in vm.classesGreen">
-      <div class="example color">{{color}}</div>
-    </div>
+    <ion-list>
+      <ion-item class="item-divider">Green:</ion-item>
+      <ion-item ng-repeat="color in vm.classesGreen">
+        <h2>{{color}}</h2>
+        <div class="example">
+          <div class="color color-{{color}}"></div>
+        </div>
+      </ion-item>
+    </ion-list>
 
-    <h2>Gray</h2>
-    <div ng-repeat="color in vm.classesGray">
-      <div class="example color">{{color}}</div>
-    </div>
+    <ion-list>
+      <ion-item class="item-divider">Gray:</ion-item>
+      <ion-item ng-repeat="color in vm.classesGray">
+        <h2>{{color}}</h2>
+        <div class="example">
+          <div class="color color-{{color}}"></div>
+        </div>
+      </ion-item>
+    </ion-list>
 
-    <h2>Pink</h2>
-    <div ng-repeat="color in vm.classesPink">
-      <div class="example color">{{color}}</div>
-    </div>
+    <ion-list>
+      <ion-item class="item-divider">Pink:</ion-item>
+      <ion-item ng-repeat="color in vm.classesPink">
+        <h2>{{color}}</h2>
+        <div class="example">
+          <div class="color color-{{color}}"></div>
+        </div>
+      </ion-item>
+    </ion-list>
 
-    <h2>Purple</h2>
-    <div ng-repeat="color in vm.classesPurple">
-      <div class="example color">{{color}}</div>
-    </div>
+    <ion-list>
+      <ion-item class="item-divider">Purple:</ion-item>
+      <ion-item ng-repeat="color in vm.classesPurple">
+        <h2>{{color}}</h2>
+        <div class="example">
+          <div class="color color-{{color}}"></div>
+        </div>
+      </ion-item>
+    </ion-list>
   </ion-content>
 </ion-view>
