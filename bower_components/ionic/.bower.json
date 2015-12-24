@@ -1,7 +1,7 @@
 {
   "name": "ionic",
-  "version": "1.1.1",
-  "codename": "yttrium-yeti",
+  "version": "1.2.1",
+  "codename": "amsterdam",
   "homepage": "https://github.com/driftyco/ionic",
   "authors": [
     "Max Lynch <max@drifty.com>",
@@ -34,14 +34,14 @@
     "angular-sanitize": "1.4.3",
     "angular-ui-router": "0.2.13"
   },
-  "_release": "1.1.1",
+  "_release": "1.2.1",
   "_resolution": {
     "type": "version",
-    "tag": "v1.1.1",
-    "commit": "cfd7acef85e3717a5093c213e761970ec524130b"
+    "tag": "v1.2.1",
+    "commit": "ada777d5f1dd71417df722a0ec2c044acbd06125"
   },
   "_source": "git://github.com/driftyco/ionic-bower.git",
-  "_target": "v1.1.1",
+  "_target": "v1.2.1",
   "_originalSource": "driftyco/ionic-bower",
   "_direct": true
 }
