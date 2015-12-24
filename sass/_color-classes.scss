@@ -1,0 +1,447 @@
+.color {
+  // --------------------------------
+  // Red checkboxes
+  // --------------------------------
+
+  .checkbox-chestnut-rose {
+    @include checkbox-style($chestnutRose, $chestnutRose, $chestnutRose);
+  }
+
+  .checkbox-pomegranate {
+    @include checkbox-style($pomegranate, $pomegranate, $pomegranate);
+  }
+
+  .checkbox-thunderbird {
+    @include checkbox-style($thunderbird, $thunderbird, $thunderbird);
+  }
+
+  .checkbox-old-brick {
+    @include checkbox-style($oldBrick, $oldBrick, $oldBrick);
+  }
+
+  .checkbox-flamingo {
+    @include checkbox-style($flamingo, $flamingo, $flamingo);
+  }
+
+  .checkbox-valencia {
+    @include checkbox-style($valencia, $valencia, $valencia);
+  }
+
+  .checkbox-tall-poppy {
+    @include checkbox-style($tallPoppy, $tallPoppy, $tallPoppy);
+  }
+
+  .checkbox-monza {
+    @include checkbox-style($monza, $monza, $monza);
+  }
+
+  .checkbox-cinnabar {
+    @include checkbox-style($cinnabar, $cinnabar, $cinnabar);
+  }
+
+  // --------------------------
+  // Yellow checkboxes
+  // --------------------------
+
+  .checkbox-cream-can {
+    @include checkbox-style($creamCan, $creamCan, $creamCan);
+  }
+
+  .checkbox-ripe-lemon {
+    @include checkbox-style($ripeLemon, $ripeLemon, $ripeLemon);
+  }
+
+  .checkbox-saffron {
+    @include checkbox-style($saffron, $saffron, $saffron);
+  }
+
+  // --------------------------
+  // Pink checkboxes
+  // --------------------------
+
+  .checkbox-razzmatazz {
+    @include checkbox-style($razzmatazz, $razzmatazz, $razzmatazz);
+  }
+
+  .checkbox-sunset-orange {
+    @include checkbox-style($sunsetOrange, $sunsetOrange, $sunsetOrange);
+  }
+
+  .checkbox-wax-flower {
+    @include checkbox-style($waxFlower, $waxFlower, $waxFlower);
+  }
+
+  .checkbox-cabaret {
+    @include checkbox-style($cabaret, $cabaret, $cabaret);
+  }
+
+  .checkbox-new-york-pink {
+    @include checkbox-style($newYorkPink, $newYorkPink, $newYorkPink);
+  }
+
+  .checkbox-radical-red {
+    @include checkbox-style($radicalRed, $radicalRed, $radicalRed);
+  }
+
+  .checkbox-sunglo {
+    @include checkbox-style($sunglo, $sunglo, $sunglo);
+  }
+
+  // --------------------------
+  // Gray checkboxes
+  // --------------------------
+
+  .checkbox-white-smoke {
+    @include checkbox-style($whiteSmoke, $whiteSmoke, $whiteSmoke);
+  }
+
+  .checkbox-lynch {
+    @include checkbox-style($lynch, $lynch, $lynch);
+  }
+
+  .checkbox-pumice {
+    @include checkbox-style($pumice, $pumice, $pumice);
+  }
+
+  .checkbox-gallery {
+    @include checkbox-style($gallery, $gallery, $gallery);
+  }
+
+  .checkbox-silver-sand {
+    @include checkbox-style($silverSand, $silverSand, $silverSand);
+  }
+
+  .checkbox-porcelain {
+    @include checkbox-style($porcelain, $porcelain, $porcelain);
+  }
+
+  .checkbox-cascade {
+    @include checkbox-style($cascade, $cascade, $cascade);
+  }
+
+  .checkbox-iron {
+    @include checkbox-style($iron, $iron, $iron);
+  }
+
+  .checkbox-edward {
+    @include checkbox-style($edward, $edward, $edward);
+  }
+
+  .checkbox-cararra {
+    @include checkbox-style($cararra, $cararra, $cararra);
+  }
+
+  .checkbox-silver {
+    @include checkbox-style($silver, $silver, $silver);
+  }
+
+  // ------------------------
+  // Purple checkboxes
+  // ------------------------
+
+  .checkbox-snuff {
+    @include checkbox-style($snuff, $snuff, $snuff);
+  }
+
+  .checkbox-rebecca-purple {
+    @include checkbox-style($rebeccaPurple, $rebeccaPurple, $rebeccaPurple);
+  }
+
+  .checkbox-honey-flower {
+    @include checkbox-style($honeyFlower, $honeyFlower, $honeyFlower);
+  }
+
+  .checkbox-wistful {
+    @include checkbox-style($wistful, $wistful, $wistful);
+  }
+
+  .checkbox-plum {
+    @include checkbox-style($plum, $plum, $plum);
+  }
+
+  .checkbox-seance {
+    @include checkbox-style($seance, $seance, $seance);
+  }
+
+  .checkbox-medium-purple {
+    @include checkbox-style($mediumPurple, $mediumPurple, $mediumPurple);
+  }
+
+  .checkbox-light-wisteria {
+    @include checkbox-style($lightWisteria, $lightWisteria, $lightWisteria);
+  }
+
+  .checkbox-studio {
+    @include checkbox-style($studio, $studio, $studio);
+  }
+
+  .checkbox-wisteria {
+    @include checkbox-style($wisteria, $wisteria, $wisteria);
+  }
+
+  // ------------------------
+  // Orange checkboxes
+  // ------------------------
+
+
+  .checkbox-confetti {
+    @include checkbox-style($confetti, $confetti, $confetti);
+  }
+
+  .checkbox-cape-honey {
+    @include checkbox-style($capeHoney, $capeHoney, $capeHoney);
+  }
+
+  .checkbox-california {
+    @include checkbox-style($california, $california, $california);
+  }
+
+  .checkbox-fire-bush {
+    @include checkbox-style($fireBush, $fireBush, $fireBush);
+  }
+
+  .checkbox-tahiti-gold {
+    @include checkbox-style($tahitiGold, $tahitiGold, $tahitiGold);
+  }
+
+  .checkbox-casablanca {
+    @include checkbox-style($casablanca, $casablanca, $casablanca);
+  }
+
+  .checkbox-crusta {
+    @include checkbox-style($crusta, $crusta, $crusta);
+  }
+
+  .checkbox-sea-buckthorn {
+    @include checkbox-style($seaBuckthorn, $seaBuckthorn, $seaBuckthorn);
+  }
+
+  .checkbox-lightning-yellow {
+    @include checkbox-style($lightningYellow, $lightningYellow, $lightningYellow);
+  }
+
+  .checkbox-burnt-orange {
+    @include checkbox-style($burntOrange, $burntOrange, $burntOrange);
+  }
+
+  .checkbox-buttercup {
+    @include checkbox-style($buttercup, $buttercup, $buttercup);
+  }
+
+  .checkbox-ecstasy {
+    @include checkbox-style($ecstasy, $ecstasy, $ecstasy);
+  }
+
+  .checkbox-sandstorm {
+    @include checkbox-style($sandstorm, $sandstorm, $sandstorm);
+  }
+
+  .checkbox-jaffa {
+    @include checkbox-style($jaffa, $jaffa, $jaffa);
+  }
+
+  .checkbox-zest {
+    @include checkbox-style($zest, $zest, $zest);
+  }
+
+  // -----------------------------
+  // Green checkboxes
+  // -----------------------------
+
+  .checkbox-medium-turquoise {
+    @include checkbox-style($mediumTurquoise, $mediumTurquoise, $mediumTurquoise);
+  }
+
+  .checkbox-aqua-island {
+    @include checkbox-style($aquaIsland, $aquaIsland, $aquaIsland);
+  }
+
+  .checkbox-gossip {
+    @include checkbox-style($gossip, $gossip, $gossip);
+  }
+
+  .checkbox-dark-sea-green {
+    @include checkbox-style($darkSeaGreen, $darkSeaGreen, $darkSeaGreen);
+  }
+
+  .checkbox-eucalyptus {
+    @include checkbox-style($eucalyptus, $eucalyptus, $eucalyptus);
+  }
+
+  .checkbox-caribbean-green {
+    @include checkbox-style($caribbeanGreen, $caribbeanGreen, $caribbeanGreen);
+  }
+
+  .checkbox-silver-tree {
+    @include checkbox-style($silverTree, $silverTree, $silverTree);
+  }
+
+  .checkbox-downy {
+    @include checkbox-style($downy, $downy, $downy);
+  }
+
+  .checkbox-mountain-meadow {
+    @include checkbox-style($mountainMeadow, $mountainMeadow, $mountainMeadow);
+  }
+
+  .checkbox-light-sea-green {
+    @include checkbox-style($lightSeaGreen, $lightSeaGreen, $lightSeaGreen);
+  }
+
+  .checkbox-medium-aquamarine {
+    @include checkbox-style($mediumAquamarine, $mediumAquamarine, $mediumAquamarine);
+  }
+
+  .checkbox-turquoise {
+    @include checkbox-style($turquoise, $turquoise, $turquoise);
+  }
+
+  .checkbox-madang {
+    @include checkbox-style($madang, $madang, $madang);
+  }
+
+  .checkbox-riptide {
+    @include checkbox-style($riptide, $riptide, $riptide);
+  }
+
+  .checkbox-shamrock {
+    @include checkbox-style($shamrock, $shamrock, $shamrock);
+  }
+
+  .checkbox-niagara {
+    @include checkbox-style($niagara, $niagara, $niagara);
+  }
+
+  .checkbox-esmerald {
+    @include checkbox-style($esmerald, $esmerald, $esmerald);
+  }
+
+  .checkbox-green-haze {
+    @include checkbox-style($greenHaze, $greenHaze, $greenHaze);
+  }
+
+  .checkbox-free-speech-aquamarine {
+    @include checkbox-style($freeSpeechAquamarine, $freeSpeechAquamarine, $freeSpeechAquamarine);
+  }
+
+  .checkbox-ocean-green {
+    @include checkbox-style($oceanGreen, $oceanGreen, $oceanGreen);
+  }
+
+  .checkbox-niagara-one {
+    @include checkbox-style($niagaraOne, $niagaraOne, $niagaraOne);
+  }
+
+  .checkbox-jade {
+    @include checkbox-style($jade, $jade, $jade);
+  }
+
+  .checkbox-salem {
+    @include checkbox-style($salem, $salem, $salem);
+  }
+
+  .checkbox-observatory {
+    @include checkbox-style($observatory, $observatory, $observatory);
+  }
+
+  .checkbox-jungle-green {
+    @include checkbox-style($jungleGreen, $jungleGreen, $jungleGreen);
+  }
+
+  // ------------------------------
+  // Blue checkboxes
+  // ------------------------------
+
+
+  .checkbox-san-marino {
+    @include checkbox-style($sanMarino, $sanMarino, $sanMarino);
+  }
+
+  .checkbox-alice-blue {
+    @include checkbox-style($aliceBlue, $aliceBlue, $aliceBlue);
+  }
+
+  .checkbox-royal-blue {
+    @include checkbox-style($royalBlue, $royalBlue, $royalBlue);
+  }
+
+  .checkbox-picton-blue {
+    @include checkbox-style($pictonBlue, $pictonBlue, $pictonBlue);
+  }
+
+  .checkbox-spray {
+    @include checkbox-style($spray, $spray, $spray);
+  }
+
+  .checkbox-shakespeare {
+    @include checkbox-style($shakespeare, $shakespeare, $shakespeare);
+  }
+
+  .checkbox-humming-bird {
+    @include checkbox-style($hummingBird, $hummingBird, $hummingBird);
+  }
+
+  .checkbox-picton-blue-two {
+    @include checkbox-style($pictonBlueTwo, $pictonBlueTwo, $pictonBlueTwo);
+  }
+
+  .checkbox-curious-blue {
+    @include checkbox-style($curiousBlue, $curiousBlue, $curiousBlue);
+  }
+
+  .checkbox-madison {
+    @include checkbox-style($madison, $madison, $madison);
+  }
+
+  .checkbox-dodger-blue {
+    @include checkbox-style($dodgerBlue, $dodgerBlue, $dodgerBlue);
+  }
+
+  .checkbox-ming {
+    @include checkbox-style($ming, $ming, $ming);
+  }
+
+  .checkbox-ebony-clay {
+    @include checkbox-style($ebonyClay, $ebonyClay, $ebonyClay);
+  }
+
+  .checkbox-malibu {
+    @include checkbox-style($malibu, $malibu, $malibu);
+  }
+
+  .checkbox-summer-sky {
+    @include checkbox-style($summerSky, $summerSky, $summerSky);
+  }
+
+  .checkbox-chambray {
+    @include checkbox-style($chambray, $chambray, $chambray);
+  }
+
+  .checkbox-pickled-bluewood {
+    @include checkbox-style($pickledBluewood, $pickledBluewood, $pickledBluewood);
+  }
+
+  .checkbox-hoki {
+    @include checkbox-style($hoki, $hoki, $hoki);
+  }
+
+  .checkbox-jelly-bean {
+    @include checkbox-style($jellyBean, $jellyBean, $jellyBean);
+  }
+
+  .checkbox-jacksons-purple {
+    @include checkbox-style($jacksonsPurple, $jacksonsPurple, $jacksonsPurple);
+  }
+
+  .checkbox-jordy-blue {
+    @include checkbox-style($jordyBlue, $jordyBlue, $jordyBlue);
+  }
+
+  .checkbox-steel-blue {
+    @include checkbox-style($steelBlue, $steelBlue, $steelBlue);
+  }
+
+  .checkbox-fountain-blue {
+    @include checkbox-style($fountainBlue, $fountainBlue, $fountainBlue);
+  }
+}
