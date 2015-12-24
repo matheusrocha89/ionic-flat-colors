@@ -18,7 +18,7 @@ ionic css link tag. Example:
 ## Get started
 
 After add the lib in your project you can use any colors the lib offers in
-your Ionic components. Take a look in our doc page for examples and more information.
+your Ionic components. Take a look in our [documentation page](http://matheusrocha89.github.io/ionic-flat-colors) for examples and more information.
 
 ## Thanks
 
