@@ -11,7 +11,7 @@ The lib requires Ionic 1.2+ versions.
 Just download the distribution css file of the lib and put in your project after the
 ionic css link tag. Example: 
 ```html
-  <link href="bower_components/ionic/css/ionic.min.css" rel="stylesheet">
+  <link href="css/ionic.app.css" rel="stylesheet">
   <link href="css/ionic-flat.css" rel="stylesheet">
 ```
 
