@@ -1,447 +1,447 @@
 .color {
   // --------------------------------
-  // Red checkboxes
+  // Red colors
   // --------------------------------
 
-  .checkbox-chestnut-rose {
-    @include checkbox-style($chestnutRose, $chestnutRose, $chestnutRose);
+  .color-chestnut-rose {
+    background-color: $chestnutRose;
   }
 
-  .checkbox-pomegranate {
-    @include checkbox-style($pomegranate, $pomegranate, $pomegranate);
+  .color-pomegranate {
+    background-color: $pomegranate;
   }
 
-  .checkbox-thunderbird {
-    @include checkbox-style($thunderbird, $thunderbird, $thunderbird);
+  .color-thunderbird {
+    background-color: $thunderbird;
   }
 
-  .checkbox-old-brick {
-    @include checkbox-style($oldBrick, $oldBrick, $oldBrick);
+  .color-old-brick {
+    background-color: $oldBrick;
   }
 
-  .checkbox-flamingo {
-    @include checkbox-style($flamingo, $flamingo, $flamingo);
+  .color-flamingo {
+    background-color: $flamingo;
   }
 
-  .checkbox-valencia {
-    @include checkbox-style($valencia, $valencia, $valencia);
+  .color-valencia {
+    background-color: $valencia;
   }
 
-  .checkbox-tall-poppy {
-    @include checkbox-style($tallPoppy, $tallPoppy, $tallPoppy);
+  .color-tall-poppy {
+    background-color: $tallPoppy;
   }
 
-  .checkbox-monza {
-    @include checkbox-style($monza, $monza, $monza);
+  .color-monza {
+    background-color: $monza;
   }
 
-  .checkbox-cinnabar {
-    @include checkbox-style($cinnabar, $cinnabar, $cinnabar);
-  }
-
-  // --------------------------
-  // Yellow checkboxes
-  // --------------------------
-
-  .checkbox-cream-can {
-    @include checkbox-style($creamCan, $creamCan, $creamCan);
-  }
-
-  .checkbox-ripe-lemon {
-    @include checkbox-style($ripeLemon, $ripeLemon, $ripeLemon);
-  }
-
-  .checkbox-saffron {
-    @include checkbox-style($saffron, $saffron, $saffron);
+  .color-cinnabar {
+    background-color: $cinnabar;
   }
 
   // --------------------------
-  // Pink checkboxes
+  // Yellow colors
   // --------------------------
 
-  .checkbox-razzmatazz {
-    @include checkbox-style($razzmatazz, $razzmatazz, $razzmatazz);
+  .color-cream-can {
+    background-color: $creamCan;
   }
 
-  .checkbox-sunset-orange {
-    @include checkbox-style($sunsetOrange, $sunsetOrange, $sunsetOrange);
+  .color-ripe-lemon {
+    background-color: $ripeLemon;
   }
 
-  .checkbox-wax-flower {
-    @include checkbox-style($waxFlower, $waxFlower, $waxFlower);
-  }
-
-  .checkbox-cabaret {
-    @include checkbox-style($cabaret, $cabaret, $cabaret);
-  }
-
-  .checkbox-new-york-pink {
-    @include checkbox-style($newYorkPink, $newYorkPink, $newYorkPink);
-  }
-
-  .checkbox-radical-red {
-    @include checkbox-style($radicalRed, $radicalRed, $radicalRed);
-  }
-
-  .checkbox-sunglo {
-    @include checkbox-style($sunglo, $sunglo, $sunglo);
+  .color-saffron {
+    background-color: $saffron;
   }
 
   // --------------------------
-  // Gray checkboxes
+  // Pink colors
   // --------------------------
 
-  .checkbox-white-smoke {
-    @include checkbox-style($whiteSmoke, $whiteSmoke, $whiteSmoke);
+  .color-razzmatazz {
+    background-color: $razzmatazz;
   }
 
-  .checkbox-lynch {
-    @include checkbox-style($lynch, $lynch, $lynch);
+  .color-sunset-orange {
+    background-color: $sunsetOrange;
   }
 
-  .checkbox-pumice {
-    @include checkbox-style($pumice, $pumice, $pumice);
+  .color-wax-flower {
+    background-color: $waxFlower;
   }
 
-  .checkbox-gallery {
-    @include checkbox-style($gallery, $gallery, $gallery);
+  .color-cabaret {
+    background-color: $cabaret;
   }
 
-  .checkbox-silver-sand {
-    @include checkbox-style($silverSand, $silverSand, $silverSand);
+  .color-new-york-pink {
+    background-color: $newYorkPink;
   }
 
-  .checkbox-porcelain {
-    @include checkbox-style($porcelain, $porcelain, $porcelain);
+  .color-radical-red {
+    background-color: $radicalRed;
   }
 
-  .checkbox-cascade {
-    @include checkbox-style($cascade, $cascade, $cascade);
+  .color-sunglo {
+    background-color: $sunglo;
   }
 
-  .checkbox-iron {
-    @include checkbox-style($iron, $iron, $iron);
+  // --------------------------
+  // Gray colors
+  // --------------------------
+
+  .color-white-smoke {
+    background-color: $whiteSmoke;
   }
 
-  .checkbox-edward {
-    @include checkbox-style($edward, $edward, $edward);
+  .color-lynch {
+    background-color: $lynch;
   }
 
-  .checkbox-cararra {
-    @include checkbox-style($cararra, $cararra, $cararra);
+  .color-pumice {
+    background-color: $pumice;
   }
 
-  .checkbox-silver {
-    @include checkbox-style($silver, $silver, $silver);
+  .color-gallery {
+    background-color: $gallery;
+  }
+
+  .color-silver-sand {
+    background-color: $silverSand;
+  }
+
+  .color-porcelain {
+    background-color: $porcelain;
+  }
+
+  .color-cascade {
+    background-color: $cascade;
+  }
+
+  .color-iron {
+    background-color: $iron;
+  }
+
+  .color-edward {
+    background-color: $edward;
+  }
+
+  .color-cararra {
+    background-color: $cararra;
+  }
+
+  .color-silver {
+    background-color: $silver;
   }
 
   // ------------------------
-  // Purple checkboxes
+  // Purple colors
   // ------------------------
 
-  .checkbox-snuff {
-    @include checkbox-style($snuff, $snuff, $snuff);
+  .color-snuff {
+    background-color: $snuff;
   }
 
-  .checkbox-rebecca-purple {
-    @include checkbox-style($rebeccaPurple, $rebeccaPurple, $rebeccaPurple);
+  .color-rebecca-purple {
+    background-color: $rebeccaPurple;
   }
 
-  .checkbox-honey-flower {
-    @include checkbox-style($honeyFlower, $honeyFlower, $honeyFlower);
+  .color-honey-flower {
+    background-color: $honeyFlower;
   }
 
-  .checkbox-wistful {
-    @include checkbox-style($wistful, $wistful, $wistful);
+  .color-wistful {
+    background-color: $wistful;
   }
 
-  .checkbox-plum {
-    @include checkbox-style($plum, $plum, $plum);
+  .color-plum {
+    background-color: $plum;
   }
 
-  .checkbox-seance {
-    @include checkbox-style($seance, $seance, $seance);
+  .color-seance {
+    background-color: $seance;
   }
 
-  .checkbox-medium-purple {
-    @include checkbox-style($mediumPurple, $mediumPurple, $mediumPurple);
+  .color-medium-purple {
+    background-color: $mediumPurple;
   }
 
-  .checkbox-light-wisteria {
-    @include checkbox-style($lightWisteria, $lightWisteria, $lightWisteria);
+  .color-light-wisteria {
+    background-color: $lightWisteria;
   }
 
-  .checkbox-studio {
-    @include checkbox-style($studio, $studio, $studio);
+  .color-studio {
+    background-color: $studio;
   }
 
-  .checkbox-wisteria {
-    @include checkbox-style($wisteria, $wisteria, $wisteria);
+  .color-wisteria {
+    background-color: $wisteria;
   }
 
   // ------------------------
-  // Orange checkboxes
+  // Orange colors
   // ------------------------
 
 
-  .checkbox-confetti {
-    @include checkbox-style($confetti, $confetti, $confetti);
+  .color-confetti {
+    background-color: $confetti;
   }
 
-  .checkbox-cape-honey {
-    @include checkbox-style($capeHoney, $capeHoney, $capeHoney);
+  .color-cape-honey {
+    background-color: $capeHoney;
   }
 
-  .checkbox-california {
-    @include checkbox-style($california, $california, $california);
+  .color-california {
+    background-color: $california;
   }
 
-  .checkbox-fire-bush {
-    @include checkbox-style($fireBush, $fireBush, $fireBush);
+  .color-fire-bush {
+    background-color: $fireBush;
   }
 
-  .checkbox-tahiti-gold {
-    @include checkbox-style($tahitiGold, $tahitiGold, $tahitiGold);
+  .color-tahiti-gold {
+    background-color: $tahitiGold;
   }
 
-  .checkbox-casablanca {
-    @include checkbox-style($casablanca, $casablanca, $casablanca);
+  .color-casablanca {
+    background-color: $casablanca;
   }
 
-  .checkbox-crusta {
-    @include checkbox-style($crusta, $crusta, $crusta);
+  .color-crusta {
+    background-color: $crusta;
   }
 
-  .checkbox-sea-buckthorn {
-    @include checkbox-style($seaBuckthorn, $seaBuckthorn, $seaBuckthorn);
+  .color-sea-buckthorn {
+    background-color: $seaBuckthorn;
   }
 
-  .checkbox-lightning-yellow {
-    @include checkbox-style($lightningYellow, $lightningYellow, $lightningYellow);
+  .color-lightning-yellow {
+    background-color: $lightningYellow;
   }
 
-  .checkbox-burnt-orange {
-    @include checkbox-style($burntOrange, $burntOrange, $burntOrange);
+  .color-burnt-orange {
+    background-color: $burntOrange;
   }
 
-  .checkbox-buttercup {
-    @include checkbox-style($buttercup, $buttercup, $buttercup);
+  .color-buttercup {
+    background-color: $buttercup;
   }
 
-  .checkbox-ecstasy {
-    @include checkbox-style($ecstasy, $ecstasy, $ecstasy);
+  .color-ecstasy {
+    background-color: $ecstasy;
   }
 
-  .checkbox-sandstorm {
-    @include checkbox-style($sandstorm, $sandstorm, $sandstorm);
+  .color-sandstorm {
+    background-color: $sandstorm;
   }
 
-  .checkbox-jaffa {
-    @include checkbox-style($jaffa, $jaffa, $jaffa);
+  .color-jaffa {
+    background-color: $jaffa;
   }
 
-  .checkbox-zest {
-    @include checkbox-style($zest, $zest, $zest);
+  .color-zest {
+    background-color: $zest;
   }
 
   // -----------------------------
-  // Green checkboxes
+  // Green colors
   // -----------------------------
 
-  .checkbox-medium-turquoise {
-    @include checkbox-style($mediumTurquoise, $mediumTurquoise, $mediumTurquoise);
+  .color-medium-turquoise {
+    background-color: $mediumTurquoise;
   }
 
-  .checkbox-aqua-island {
-    @include checkbox-style($aquaIsland, $aquaIsland, $aquaIsland);
+  .color-aqua-island {
+    background-color: $aquaIsland;
   }
 
-  .checkbox-gossip {
-    @include checkbox-style($gossip, $gossip, $gossip);
+  .color-gossip {
+    background-color: $gossip;
   }
 
-  .checkbox-dark-sea-green {
-    @include checkbox-style($darkSeaGreen, $darkSeaGreen, $darkSeaGreen);
+  .color-dark-sea-green {
+    background-color: $darkSeaGreen;
   }
 
-  .checkbox-eucalyptus {
-    @include checkbox-style($eucalyptus, $eucalyptus, $eucalyptus);
+  .color-eucalyptus {
+    background-color: $eucalyptus;
   }
 
-  .checkbox-caribbean-green {
-    @include checkbox-style($caribbeanGreen, $caribbeanGreen, $caribbeanGreen);
+  .color-caribbean-green {
+    background-color: $caribbeanGreen;
   }
 
-  .checkbox-silver-tree {
-    @include checkbox-style($silverTree, $silverTree, $silverTree);
+  .color-silver-tree {
+    background-color: $silverTree;
   }
 
-  .checkbox-downy {
-    @include checkbox-style($downy, $downy, $downy);
+  .color-downy {
+    background-color: $downy;
   }
 
-  .checkbox-mountain-meadow {
-    @include checkbox-style($mountainMeadow, $mountainMeadow, $mountainMeadow);
+  .color-mountain-meadow {
+    background-color: $mountainMeadow;
   }
 
-  .checkbox-light-sea-green {
-    @include checkbox-style($lightSeaGreen, $lightSeaGreen, $lightSeaGreen);
+  .color-light-sea-green {
+    background-color: $lightSeaGreen;
   }
 
-  .checkbox-medium-aquamarine {
-    @include checkbox-style($mediumAquamarine, $mediumAquamarine, $mediumAquamarine);
+  .color-medium-aquamarine {
+    background-color: $mediumAquamarine;
   }
 
-  .checkbox-turquoise {
-    @include checkbox-style($turquoise, $turquoise, $turquoise);
+  .color-turquoise {
+    background-color: $turquoise;
   }
 
-  .checkbox-madang {
-    @include checkbox-style($madang, $madang, $madang);
+  .color-madang {
+    background-color: $madang;
   }
 
-  .checkbox-riptide {
-    @include checkbox-style($riptide, $riptide, $riptide);
+  .color-riptide {
+    background-color: $riptide;
   }
 
-  .checkbox-shamrock {
-    @include checkbox-style($shamrock, $shamrock, $shamrock);
+  .color-shamrock {
+    background-color: $shamrock;
   }
 
-  .checkbox-niagara {
-    @include checkbox-style($niagara, $niagara, $niagara);
+  .color-niagara {
+    background-color: $niagara;
   }
 
-  .checkbox-esmerald {
-    @include checkbox-style($esmerald, $esmerald, $esmerald);
+  .color-esmerald {
+    background-color: $esmerald;
   }
 
-  .checkbox-green-haze {
-    @include checkbox-style($greenHaze, $greenHaze, $greenHaze);
+  .color-green-haze {
+    background-color: $greenHaze;
   }
 
-  .checkbox-free-speech-aquamarine {
-    @include checkbox-style($freeSpeechAquamarine, $freeSpeechAquamarine, $freeSpeechAquamarine);
+  .color-free-speech-aquamarine {
+    background-color: $freeSpeechAquamarine;
   }
 
-  .checkbox-ocean-green {
-    @include checkbox-style($oceanGreen, $oceanGreen, $oceanGreen);
+  .color-ocean-green {
+    background-color: $oceanGreen;
   }
 
-  .checkbox-niagara-one {
-    @include checkbox-style($niagaraOne, $niagaraOne, $niagaraOne);
+  .color-niagara-one {
+    background-color: $niagaraOne;
   }
 
-  .checkbox-jade {
-    @include checkbox-style($jade, $jade, $jade);
+  .color-jade {
+    background-color: $jade;
   }
 
-  .checkbox-salem {
-    @include checkbox-style($salem, $salem, $salem);
+  .color-salem {
+    background-color: $salem;
   }
 
-  .checkbox-observatory {
-    @include checkbox-style($observatory, $observatory, $observatory);
+  .color-observatory {
+    background-color: $observatory;
   }
 
-  .checkbox-jungle-green {
-    @include checkbox-style($jungleGreen, $jungleGreen, $jungleGreen);
+  .color-jungle-green {
+    background-color: $jungleGreen;
   }
 
   // ------------------------------
-  // Blue checkboxes
+  // Blue colors
   // ------------------------------
 
 
-  .checkbox-san-marino {
-    @include checkbox-style($sanMarino, $sanMarino, $sanMarino);
+  .color-san-marino {
+    background-color: $sanMarino;
   }
 
-  .checkbox-alice-blue {
-    @include checkbox-style($aliceBlue, $aliceBlue, $aliceBlue);
+  .color-alice-blue {
+    background-color: $aliceBlue;
   }
 
-  .checkbox-royal-blue {
-    @include checkbox-style($royalBlue, $royalBlue, $royalBlue);
+  .color-royal-blue {
+    background-color: $royalBlue;
   }
 
-  .checkbox-picton-blue {
-    @include checkbox-style($pictonBlue, $pictonBlue, $pictonBlue);
+  .color-picton-blue {
+    background-color: $pictonBlue;
   }
 
-  .checkbox-spray {
-    @include checkbox-style($spray, $spray, $spray);
+  .color-spray {
+    background-color: $spray;
   }
 
-  .checkbox-shakespeare {
-    @include checkbox-style($shakespeare, $shakespeare, $shakespeare);
+  .color-shakespeare {
+    background-color: $shakespeare;
   }
 
-  .checkbox-humming-bird {
-    @include checkbox-style($hummingBird, $hummingBird, $hummingBird);
+  .color-humming-bird {
+    background-color: $hummingBird;
   }
 
-  .checkbox-picton-blue-two {
-    @include checkbox-style($pictonBlueTwo, $pictonBlueTwo, $pictonBlueTwo);
+  .color-picton-blue-two {
+    background-color: $pictonBlueTwo;
   }
 
-  .checkbox-curious-blue {
-    @include checkbox-style($curiousBlue, $curiousBlue, $curiousBlue);
+  .color-curious-blue {
+    background-color: $curiousBlue;
   }
 
-  .checkbox-madison {
-    @include checkbox-style($madison, $madison, $madison);
+  .color-madison {
+    background-color: $madison;
   }
 
-  .checkbox-dodger-blue {
-    @include checkbox-style($dodgerBlue, $dodgerBlue, $dodgerBlue);
+  .color-dodger-blue {
+    background-color: $dodgerBlue;
   }
 
-  .checkbox-ming {
-    @include checkbox-style($ming, $ming, $ming);
+  .color-ming {
+    background-color: $ming;
   }
 
-  .checkbox-ebony-clay {
-    @include checkbox-style($ebonyClay, $ebonyClay, $ebonyClay);
+  .color-ebony-clay {
+    background-color: $ebonyClay;
   }
 
-  .checkbox-malibu {
-    @include checkbox-style($malibu, $malibu, $malibu);
+  .color-malibu {
+    background-color: $malibu;
   }
 
-  .checkbox-summer-sky {
-    @include checkbox-style($summerSky, $summerSky, $summerSky);
+  .color-summer-sky {
+    background-color: $summerSky;
   }
 
-  .checkbox-chambray {
-    @include checkbox-style($chambray, $chambray, $chambray);
+  .color-chambray {
+    background-color: $chambray;
   }
 
-  .checkbox-pickled-bluewood {
-    @include checkbox-style($pickledBluewood, $pickledBluewood, $pickledBluewood);
+  .color-pickled-bluewood {
+    background-color: $pickledBluewood;
   }
 
-  .checkbox-hoki {
-    @include checkbox-style($hoki, $hoki, $hoki);
+  .color-hoki {
+    background-color: $hoki;
   }
 
-  .checkbox-jelly-bean {
-    @include checkbox-style($jellyBean, $jellyBean, $jellyBean);
+  .color-jelly-bean {
+    background-color: $jellyBean;
   }
 
-  .checkbox-jacksons-purple {
-    @include checkbox-style($jacksonsPurple, $jacksonsPurple, $jacksonsPurple);
+  .color-jacksons-purple {
+    background-color: $jacksonsPurple;
   }
 
-  .checkbox-jordy-blue {
-    @include checkbox-style($jordyBlue, $jordyBlue, $jordyBlue);
+  .color-jordy-blue {
+    background-color: $jordyBlue;
   }
 
-  .checkbox-steel-blue {
-    @include checkbox-style($steelBlue, $steelBlue, $steelBlue);
+  .color-steel-blue {
+    background-color: $steelBlue;
   }
 
-  .checkbox-fountain-blue {
-    @include checkbox-style($fountainBlue, $fountainBlue, $fountainBlue);
+  .color-fountain-blue {
+    background-color: $fountainBlue;
   }
 }
