@@ -16,6 +16,11 @@ function Routes($stateProvider, $urlRouterProvider) {
       url: '/buttons',
       templateUrl: 'app/buttons/buttons.html',
       controller: 'ButtonsController as vm'
+    })
+    .state('checkboxes', {
+      url: '/checkboxes',
+      templateUrl: 'app/checkboxes/checkboxes.html',
+      controller: 'CheckboxesController as vm'
     });
   
   $urlRouterProvider.otherwise('/');
