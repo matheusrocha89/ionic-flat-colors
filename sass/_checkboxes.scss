@@ -2,39 +2,39 @@
 // Red checkboxes
 // --------------------------------
 
-&.checkbox-chestnut-rose {
+.checkbox-chestnut-rose {
   @include checkbox-style($chestnutRose, $chestnutRose, $chestnutRose);
 }
 
-&.checkbox-pomegranate {
+.checkbox-pomegranate {
   @include checkbox-style($pomegranate, $pomegranate, $pomegranate);
 }
 
-&.checkbox-thunderbird {
+.checkbox-thunderbird {
   @include checkbox-style($thunderbird, $thunderbird, $thunderbird);
 }
 
-&.checkbox-old-brick {
+.checkbox-old-brick {
   @include checkbox-style($oldBrick, $oldBrick, $oldBrick);
 }
 
-&.checkbox-flamingo {
+.checkbox-flamingo {
   @include checkbox-style($flamingo, $flamingo, $flamingo);
 }
 
-&.checkbox-valencia {
+.checkbox-valencia {
   @include checkbox-style($valencia, $valencia, $valencia);
 }
 
-&.checkbox-tall-poppy {
+.checkbox-tall-poppy {
   @include checkbox-style($tallPoppy, $tallPoppy, $tallPoppy);
 }
 
-&.checkbox-monza {
+.checkbox-monza {
   @include checkbox-style($monza, $monza, $monza);
 }
 
-&.checkbox-cinnabar {
+.checkbox-cinnabar {
   @include checkbox-style($cinnabar, $cinnabar, $cinnabar);
 }
 
@@ -42,15 +42,15 @@
 // Yellow checkboxes
 // --------------------------
 
-&.checkbox-cream-can {
+.checkbox-cream-can {
   @include checkbox-style($creamCan, $creamCan, $creamCan);
 }
 
-&.checkbox-ripe-lemon {
+.checkbox-ripe-lemon {
   @include checkbox-style($ripeLemon, $ripeLemon, $ripeLemon);
 }
 
-&.checkbox-saffron {
+.checkbox-saffron {
   @include checkbox-style($saffron, $saffron, $saffron);
 }
 
@@ -58,31 +58,31 @@
 // Pink checkboxes
 // --------------------------
 
-&.checkbox-razzmatazz {
+.checkbox-razzmatazz {
   @include checkbox-style($razzmatazz, $razzmatazz, $razzmatazz);
 }
 
-&.checkbox-sunset-orange {
+.checkbox-sunset-orange {
   @include checkbox-style($sunsetOrange, $sunsetOrange, $sunsetOrange);
 }
 
-&.checkbox-wax-flower {
+.checkbox-wax-flower {
   @include checkbox-style($waxFlower, $waxFlower, $waxFlower);
 }
 
-&.checkbox-cabaret {
+.checkbox-cabaret {
   @include checkbox-style($cabaret, $cabaret, $cabaret);
 }
 
-&.checkbox-new-york-pink {
+.checkbox-new-york-pink {
   @include checkbox-style($newYorkPink, $newYorkPink, $newYorkPink);
 }
 
-&.checkbox-radical-red {
+.checkbox-radical-red {
   @include checkbox-style($radicalRed, $radicalRed, $radicalRed);
 }
 
-&.checkbox-sunglo {
+.checkbox-sunglo {
   @include checkbox-style($sunglo, $sunglo, $sunglo);
 }
 
@@ -90,47 +90,47 @@
 // Gray checkboxes
 // --------------------------
 
-&.checkbox-white-smoke {
+.checkbox-white-smoke {
   @include checkbox-style($whiteSmoke, $whiteSmoke, $whiteSmoke);
 }
 
-&.checkbox-lynch {
+.checkbox-lynch {
   @include checkbox-style($lynch, $lynch, $lynch);
 }
 
-&.checkbox-pumice {
+.checkbox-pumice {
   @include checkbox-style($pumice, $pumice, $pumice);
 }
 
-&.checkbox-gallery {
+.checkbox-gallery {
   @include checkbox-style($gallery, $gallery, $gallery);
 }
 
-&.checkbox-silver-sand {
+.checkbox-silver-sand {
   @include checkbox-style($silverSand, $silverSand, $silverSand);
 }
 
-&.checkbox-porcelain {
+.checkbox-porcelain {
   @include checkbox-style($porcelain, $porcelain, $porcelain);
 }
 
-&.checkbox-cascade {
+.checkbox-cascade {
   @include checkbox-style($cascade, $cascade, $cascade);
 }
 
-&.checkbox-iron {
+.checkbox-iron {
   @include checkbox-style($iron, $iron, $iron);
 }
 
-&.checkbox-edward {
+.checkbox-edward {
   @include checkbox-style($edward, $edward, $edward);
 }
 
-&.checkbox-cararra {
+.checkbox-cararra {
   @include checkbox-style($cararra, $cararra, $cararra);
 }
 
-&.checkbox-silver {
+.checkbox-silver {
   @include checkbox-style($silver, $silver, $silver);
 }
 
@@ -138,43 +138,43 @@
 // Purple checkboxes
 // ------------------------
 
-&.checkbox-snuff {
+.checkbox-snuff {
   @include checkbox-style($snuff, $snuff, $snuff);
 }
 
-&.checkbox-rebecca-purple {
+.checkbox-rebecca-purple {
   @include checkbox-style($rebeccaPurple, $rebeccaPurple, $rebeccaPurple);
 }
 
-&.checkbox-honey-flower {
+.checkbox-honey-flower {
   @include checkbox-style($honeyFlower, $honeyFlower, $honeyFlower);
 }
 
-&.checkbox-wistful {
+.checkbox-wistful {
   @include checkbox-style($wistful, $wistful, $wistful);
 }
 
-&.checkbox-plum {
+.checkbox-plum {
   @include checkbox-style($plum, $plum, $plum);
 }
 
-&.checkbox-seance {
+.checkbox-seance {
   @include checkbox-style($seance, $seance, $seance);
 }
 
-&.checkbox-medium-purple {
+.checkbox-medium-purple {
   @include checkbox-style($mediumPurple, $mediumPurple, $mediumPurple);
 }
 
-&.checkbox-light-wisteria {
+.checkbox-light-wisteria {
   @include checkbox-style($lightWisteria, $lightWisteria, $lightWisteria);
 }
 
-&.checkbox-studio {
+.checkbox-studio {
   @include checkbox-style($studio, $studio, $studio);
 }
 
-&.checkbox-wisteria {
+.checkbox-wisteria {
   @include checkbox-style($wisteria, $wisteria, $wisteria);
 }
 
@@ -183,63 +183,63 @@
 // ------------------------
 
 
-&.checkbox-confetti {
+.checkbox-confetti {
   @include checkbox-style($confetti, $confetti, $confetti);
 }
 
-&.checkbox-cape-honey {
+.checkbox-cape-honey {
   @include checkbox-style($capeHoney, $capeHoney, $capeHoney);
 }
 
-&.checkbox-california {
+.checkbox-california {
   @include checkbox-style($california, $california, $california);
 }
 
-&.checkbox-fire-bush {
+.checkbox-fire-bush {
   @include checkbox-style($fireBush, $fireBush, $fireBush);
 }
 
-&.checkbox-tahiti-gold {
+.checkbox-tahiti-gold {
   @include checkbox-style($tahitiGold, $tahitiGold, $tahitiGold);
 }
 
-&.checkbox-casablanca {
+.checkbox-casablanca {
   @include checkbox-style($casablanca, $casablanca, $casablanca);
 }
 
-&.checkbox-crusta {
+.checkbox-crusta {
   @include checkbox-style($crusta, $crusta, $crusta);
 }
 
-&.checkbox-sea-buckthorn {
+.checkbox-sea-buckthorn {
   @include checkbox-style($seaBuckthorn, $seaBuckthorn, $seaBuckthorn);
 }
 
-&.checkbox-lightning-yellow {
+.checkbox-lightning-yellow {
   @include checkbox-style($lightningYellow, $lightningYellow, $lightningYellow);
 }
 
-&.checkbox-burnt-orange {
+.checkbox-burnt-orange {
   @include checkbox-style($burntOrange, $burntOrange, $burntOrange);
 }
 
-&.checkbox-buttercup {
+.checkbox-buttercup {
   @include checkbox-style($buttercup, $buttercup, $buttercup);
 }
 
-&.checkbox-ecstasy {
+.checkbox-ecstasy {
   @include checkbox-style($ecstasy, $ecstasy, $ecstasy);
 }
 
-&.checkbox-sandstorm {
+.checkbox-sandstorm {
   @include checkbox-style($sandstorm, $sandstorm, $sandstorm);
 }
 
-&.checkbox-jaffa {
+.checkbox-jaffa {
   @include checkbox-style($jaffa, $jaffa, $jaffa);
 }
 
-&.checkbox-zest {
+.checkbox-zest {
   @include checkbox-style($zest, $zest, $zest);
 }
 
@@ -247,103 +247,103 @@
 // Green checkboxes
 // -----------------------------
 
-&.checkbox-medium-turquoise {
+.checkbox-medium-turquoise {
   @include checkbox-style($mediumTurquoise, $mediumTurquoise, $mediumTurquoise);
 }
 
-&.checkbox-aqua-island {
+.checkbox-aqua-island {
   @include checkbox-style($aquaIsland, $aquaIsland, $aquaIsland);
 }
 
-&.checkbox-gossip {
+.checkbox-gossip {
   @include checkbox-style($gossip, $gossip, $gossip);
 }
 
-&.checkbox-dark-sea-green {
+.checkbox-dark-sea-green {
   @include checkbox-style($darkSeaGreen, $darkSeaGreen, $darkSeaGreen);
 }
 
-&.checkbox-eucalyptus {
+.checkbox-eucalyptus {
   @include checkbox-style($eucalyptus, $eucalyptus, $eucalyptus);
 }
 
-&.checkbox-caribbean-green {
+.checkbox-caribbean-green {
   @include checkbox-style($caribbeanGreen, $caribbeanGreen, $caribbeanGreen);
 }
 
-&.checkbox-silver-tree {
+.checkbox-silver-tree {
   @include checkbox-style($silverTree, $silverTree, $silverTree);
 }
 
-&.checkbox-downy {
+.checkbox-downy {
   @include checkbox-style($downy, $downy, $downy);
 }
 
-&.checkbox-mountain-meadow {
+.checkbox-mountain-meadow {
   @include checkbox-style($mountainMeadow, $mountainMeadow, $mountainMeadow);
 }
 
-&.checkbox-light-sea-green {
+.checkbox-light-sea-green {
   @include checkbox-style($lightSeaGreen, $lightSeaGreen, $lightSeaGreen);
 }
 
-&.checkbox-medium-aquamarine {
+.checkbox-medium-aquamarine {
   @include checkbox-style($mediumAquamarine, $mediumAquamarine, $mediumAquamarine);
 }
 
-&.checkbox-turquoise {
+.checkbox-turquoise {
   @include checkbox-style($turquoise, $turquoise, $turquoise);
 }
 
-&.checkbox-madang {
+.checkbox-madang {
   @include checkbox-style($madang, $madang, $madang);
 }
 
-&.checkbox-riptide {
+.checkbox-riptide {
   @include checkbox-style($riptide, $riptide, $riptide);
 }
 
-&.checkbox-shamrock {
+.checkbox-shamrock {
   @include checkbox-style($shamrock, $shamrock, $shamrock);
 }
 
-&.checkbox-niagara {
+.checkbox-niagara {
   @include checkbox-style($niagara, $niagara, $niagara);
 }
 
-&.checkbox-esmerald {
+.checkbox-esmerald {
   @include checkbox-style($esmerald, $esmerald, $esmerald);
 }
 
-&.checkbox-green-haze {
+.checkbox-green-haze {
   @include checkbox-style($greenHaze, $greenHaze, $greenHaze);
 }
 
-&.checkbox-free-speech-aquamarine {
+.checkbox-free-speech-aquamarine {
   @include checkbox-style($freeSpeechAquamarine, $freeSpeechAquamarine, $freeSpeechAquamarine);
 }
 
-&.checkbox-ocean-green {
+.checkbox-ocean-green {
   @include checkbox-style($oceanGreen, $oceanGreen, $oceanGreen);
 }
 
-&.checkbox-niagara-one {
+.checkbox-niagara-one {
   @include checkbox-style($niagaraOne, $niagaraOne, $niagaraOne);
 }
 
-&.checkbox-jade {
+.checkbox-jade {
   @include checkbox-style($jade, $jade, $jade);
 }
 
-&.checkbox-salem {
+.checkbox-salem {
   @include checkbox-style($salem, $salem, $salem);
 }
 
-&.checkbox-observatory {
+.checkbox-observatory {
   @include checkbox-style($observatory, $observatory, $observatory);
 }
 
-&.checkbox-jungle-green {
+.checkbox-jungle-green {
   @include checkbox-style($jungleGreen, $jungleGreen, $jungleGreen);
 }
 
@@ -352,94 +352,94 @@
 // ------------------------------
 
 
-&.checkbox-san-marino {
+.checkbox-san-marino {
   @include checkbox-style($sanMarino, $sanMarino, $sanMarino);
 }
 
-&.checkbox-alice-blue {
+.checkbox-alice-blue {
   @include checkbox-style($aliceBlue, $aliceBlue, $aliceBlue);
 }
 
-&.checkbox-royal-blue {
+.checkbox-royal-blue {
   @include checkbox-style($royalBlue, $royalBlue, $royalBlue);
 }
 
-&.checkbox-picton-blue {
+.checkbox-picton-blue {
   @include checkbox-style($pictonBlue, $pictonBlue, $pictonBlue);
 }
 
-&.checkbox-spray {
+.checkbox-spray {
   @include checkbox-style($spray, $spray, $spray);
 }
 
-&.checkbox-shakespeare {
+.checkbox-shakespeare {
   @include checkbox-style($shakespeare, $shakespeare, $shakespeare);
 }
 
-&.checkbox-humming-bird {
+.checkbox-humming-bird {
   @include checkbox-style($hummingBird, $hummingBird, $hummingBird);
 }
 
-&.checkbox-picton-blue-two {
+.checkbox-picton-blue-two {
   @include checkbox-style($pictonBlueTwo, $pictonBlueTwo, $pictonBlueTwo);
 }
 
-&.checkbox-curious-blue {
+.checkbox-curious-blue {
   @include checkbox-style($curiousBlue, $curiousBlue, $curiousBlue);
 }
 
-&.checkbox-madison {
+.checkbox-madison {
   @include checkbox-style($madison, $madison, $madison);
 }
 
-&.checkbox-dodger-blue {
+.checkbox-dodger-blue {
   @include checkbox-style($dodgerBlue, $dodgerBlue, $dodgerBlue);
 }
 
-&.checkbox-ming {
+.checkbox-ming {
   @include checkbox-style($ming, $ming, $ming);
 }
 
-&.checkbox-ebony-clay {
+.checkbox-ebony-clay {
   @include checkbox-style($ebonyClay, $ebonyClay, $ebonyClay);
 }
 
-&.checkbox-malibu {
+.checkbox-malibu {
   @include checkbox-style($malibu, $malibu, $malibu);
 }
 
-&.checkbox-summer-sky {
+.checkbox-summer-sky {
   @include checkbox-style($summerSky, $summerSky, $summerSky);
 }
 
-&.checkbox-chambray {
+.checkbox-chambray {
   @include checkbox-style($chambray, $chambray, $chambray);
 }
 
-&.checkbox-pickled-bluewood {
+.checkbox-pickled-bluewood {
   @include checkbox-style($pickledBluewood, $pickledBluewood, $pickledBluewood);
 }
 
-&.checkbox-hoki {
+.checkbox-hoki {
   @include checkbox-style($hoki, $hoki, $hoki);
 }
 
-&.checkbox-jelly-bean {
+.checkbox-jelly-bean {
   @include checkbox-style($jellyBean, $jellyBean, $jellyBean);
 }
 
-&.checkbox-jacksons-purple {
+.checkbox-jacksons-purple {
   @include checkbox-style($jacksonsPurple, $jacksonsPurple, $jacksonsPurple);
 }
 
-&.checkbox-jordy-blue {
+.checkbox-jordy-blue {
   @include checkbox-style($jordyBlue, $jordyBlue, $jordyBlue);
 }
 
-&.checkbox-steel-blue {
+.checkbox-steel-blue {
   @include checkbox-style($steelBlue, $steelBlue, $steelBlue);
 }
 
-&.checkbox-fountain-blue {
+.checkbox-fountain-blue {
   @include checkbox-style($fountainBlue, $fountainBlue, $fountainBlue);
 }
