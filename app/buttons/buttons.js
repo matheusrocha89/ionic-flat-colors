@@ -1,9 +1,9 @@
-angular.module('bars.controller', [])
-  .controller('BarsController', BarsController);
+angular.module('buttons.controller', [])
+  .controller('ButtonsController', ButtonsController);
 
-BarsController.$inject = ['colorClasses']
+ButtonsController.$inject = ['colorClasses'];
 
-function BarsController(colorClasses){
+function ButtonsController(colorClasses) {
   var vm = this;
   vm.classesYellow = colorClasses.yellow;
   vm.classesBlue = colorClasses.blue;

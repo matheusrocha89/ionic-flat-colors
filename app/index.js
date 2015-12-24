@@ -1,1 +1,1 @@
-angular.module('ionic-flat', ['ionic', 'bars.controller']);
+angular.module('ionic-flat', ['ionic', 'bars.controller', 'buttons.controller']);
