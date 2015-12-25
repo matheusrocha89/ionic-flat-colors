@@ -26,6 +26,16 @@ function Routes($stateProvider, $urlRouterProvider) {
       url: '/colors',
       templateUrl: 'app/colors/colors.html',
       controller: 'ColorsController as vm'
+    })
+    .state('toggles', {
+      url: '/toggles',
+      templateUrl: 'app/toggles/toggles.html',
+      controller: 'TogglesController as vm'
+    })
+    .state('ranges', {
+      url: '/ranges',
+      templateUrl: 'app/ranges/ranges.html',
+      controller: 'RangesController as vm'
     });
   
   $urlRouterProvider.otherwise('/');
