@@ -3,5 +3,7 @@ angular.module('ionic-flat', [
   'bars.controller', 
   'buttons.controller',
   'checkboxes.controller',
-  'colors.controller'
+  'colors.controller',
+  'toggles.controller',
+  'ranges.controller'
 ]);
