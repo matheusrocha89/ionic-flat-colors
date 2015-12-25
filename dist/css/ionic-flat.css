@@ -7521,3 +7521,621 @@
 
 .toggle-small.toggle-fountain-blue input:checked + .track .handle {
   background-color: #5C97BF; }
+
+.range.range-chestnut-rose input::-webkit-slider-thumb:before {
+  background: #D24D57; }
+
+.range.range-chestnut-rose input::-ms-fill-lower {
+  background: #D24D57; }
+
+.range.range-pomegranate input::-webkit-slider-thumb:before {
+  background: #F22613; }
+
+.range.range-pomegranate input::-ms-fill-lower {
+  background: #F22613; }
+
+.range.range-thunderbird input::-webkit-slider-thumb:before {
+  background: #D91E18; }
+
+.range.range-thunderbird input::-ms-fill-lower {
+  background: #D91E18; }
+
+.range.range-old-brick input::-webkit-slider-thumb:before {
+  background: #96281B; }
+
+.range.range-old-brick input::-ms-fill-lower {
+  background: #96281B; }
+
+.range.range-flamingo input::-webkit-slider-thumb:before {
+  background: #EF4836; }
+
+.range.range-flamingo input::-ms-fill-lower {
+  background: #EF4836; }
+
+.range.range-valencia input::-webkit-slider-thumb:before {
+  background: #D64541; }
+
+.range.range-valencia input::-ms-fill-lower {
+  background: #D64541; }
+
+.range.range-tall-poppy input::-webkit-slider-thumb:before {
+  background: #C0392B; }
+
+.range.range-tall-poppy input::-ms-fill-lower {
+  background: #C0392B; }
+
+.range.range-monza input::-webkit-slider-thumb:before {
+  background: #CF000F; }
+
+.range.range-monza input::-ms-fill-lower {
+  background: #CF000F; }
+
+.range.range-cinnabar input::-webkit-slider-thumb:before {
+  background: #E74C3C; }
+
+.range.range-cinnabar input::-ms-fill-lower {
+  background: #E74C3C; }
+
+.range.range-cream-can input::-webkit-slider-thumb:before {
+  background: #F5D76E; }
+
+.range.range-cream-can input::-ms-fill-lower {
+  background: #F5D76E; }
+
+.range.range-ripe-lemon input::-webkit-slider-thumb:before {
+  background: #F7CA18; }
+
+.range.range-ripe-lemon input::-ms-fill-lower {
+  background: #F7CA18; }
+
+.range.range-saffron input::-webkit-slider-thumb:before {
+  background: #F4D03F; }
+
+.range.range-saffron input::-ms-fill-lower {
+  background: #F4D03F; }
+
+.range.range-razzmatazz input::-webkit-slider-thumb:before {
+  background: #DB0A5B; }
+
+.range.range-razzmatazz input::-ms-fill-lower {
+  background: #DB0A5B; }
+
+.range.range-sunset-orange input::-webkit-slider-thumb:before {
+  background: #DB0A5B; }
+
+.range.range-sunset-orange input::-ms-fill-lower {
+  background: #DB0A5B; }
+
+.range.range-wax-flower input::-webkit-slider-thumb:before {
+  background: #F1A9A0; }
+
+.range.range-wax-flower input::-ms-fill-lower {
+  background: #F1A9A0; }
+
+.range.range-cabaret input::-webkit-slider-thumb:before {
+  background: #D2527F; }
+
+.range.range-cabaret input::-ms-fill-lower {
+  background: #D2527F; }
+
+.range.range-new-york-pink input::-webkit-slider-thumb:before {
+  background: #E08283; }
+
+.range.range-new-york-pink input::-ms-fill-lower {
+  background: #E08283; }
+
+.range.range-radical-red input::-webkit-slider-thumb:before {
+  background: #F62459; }
+
+.range.range-radical-red input::-ms-fill-lower {
+  background: #F62459; }
+
+.range.range-sunglo input::-webkit-slider-thumb:before {
+  background: #E26A6A; }
+
+.range.range-sunglo input::-ms-fill-lower {
+  background: #E26A6A; }
+
+.range.range-white-smoke input::-webkit-slider-thumb:before {
+  background: #ECECEC; }
+
+.range.range-white-smoke input::-ms-fill-lower {
+  background: #ECECEC; }
+
+.range.range-lynch input::-webkit-slider-thumb:before {
+  background: #6C7A89; }
+
+.range.range-lynch input::-ms-fill-lower {
+  background: #6C7A89; }
+
+.range.range-pumice input::-webkit-slider-thumb:before {
+  background: #D2D7D3; }
+
+.range.range-pumice input::-ms-fill-lower {
+  background: #D2D7D3; }
+
+.range.range-gallery input::-webkit-slider-thumb:before {
+  background: #EEEEEE; }
+
+.range.range-gallery input::-ms-fill-lower {
+  background: #EEEEEE; }
+
+.range.range-silver-sand input::-webkit-slider-thumb:before {
+  background: #BDC3C7; }
+
+.range.range-silver-sand input::-ms-fill-lower {
+  background: #BDC3C7; }
+
+.range.range-porcelain input::-webkit-slider-thumb:before {
+  background: #ECF0F1; }
+
+.range.range-porcelain input::-ms-fill-lower {
+  background: #ECF0F1; }
+
+.range.range-cascade input::-webkit-slider-thumb:before {
+  background: #95A5A6; }
+
+.range.range-cascade input::-ms-fill-lower {
+  background: #95A5A6; }
+
+.range.range-iron input::-webkit-slider-thumb:before {
+  background: #DADFE1; }
+
+.range.range-iron input::-ms-fill-lower {
+  background: #DADFE1; }
+
+.range.range-edward input::-webkit-slider-thumb:before {
+  background: #ABB7B7; }
+
+.range.range-edward input::-ms-fill-lower {
+  background: #ABB7B7; }
+
+.range.range-cararra input::-webkit-slider-thumb:before {
+  background: #F2F1EF; }
+
+.range.range-cararra input::-ms-fill-lower {
+  background: #F2F1EF; }
+
+.range.range-silver input::-webkit-slider-thumb:before {
+  background: #BFBFBF; }
+
+.range.range-silver input::-ms-fill-lower {
+  background: #BFBFBF; }
+
+.range.range-snuff input::-webkit-slider-thumb:before {
+  background: #DCC6E0; }
+
+.range.range-snuff input::-ms-fill-lower {
+  background: #DCC6E0; }
+
+.range.range-rebecca-purple input::-webkit-slider-thumb:before {
+  background: #663399; }
+
+.range.range-rebecca-purple input::-ms-fill-lower {
+  background: #663399; }
+
+.range.range-honey-flower input::-webkit-slider-thumb:before {
+  background: #674172; }
+
+.range.range-honey-flower input::-ms-fill-lower {
+  background: #674172; }
+
+.range.range-wistful input::-webkit-slider-thumb:before {
+  background: #AEA8D3; }
+
+.range.range-wistful input::-ms-fill-lower {
+  background: #AEA8D3; }
+
+.range.range-plum input::-webkit-slider-thumb:before {
+  background: #913D88; }
+
+.range.range-plum input::-ms-fill-lower {
+  background: #913D88; }
+
+.range.range-seance input::-webkit-slider-thumb:before {
+  background: #9A12B3; }
+
+.range.range-seance input::-ms-fill-lower {
+  background: #9A12B3; }
+
+.range.range-medium-purple input::-webkit-slider-thumb:before {
+  background: #BF55EC; }
+
+.range.range-medium-purple input::-ms-fill-lower {
+  background: #BF55EC; }
+
+.range.range-light-wisteria input::-webkit-slider-thumb:before {
+  background: #BE90D4; }
+
+.range.range-light-wisteria input::-ms-fill-lower {
+  background: #BE90D4; }
+
+.range.range-studio input::-webkit-slider-thumb:before {
+  background: #8E44AD; }
+
+.range.range-studio input::-ms-fill-lower {
+  background: #8E44AD; }
+
+.range.range-wisteria input::-webkit-slider-thumb:before {
+  background: #9B59B6; }
+
+.range.range-wisteria input::-ms-fill-lower {
+  background: #9B59B6; }
+
+.range.range-confetti input::-webkit-slider-thumb:before {
+  background: #E9D460; }
+
+.range.range-confetti input::-ms-fill-lower {
+  background: #E9D460; }
+
+.range.range-cape-honey input::-webkit-slider-thumb:before {
+  background: #FDE3A7; }
+
+.range.range-cape-honey input::-ms-fill-lower {
+  background: #FDE3A7; }
+
+.range.range-california input::-webkit-slider-thumb:before {
+  background: #F89406; }
+
+.range.range-california input::-ms-fill-lower {
+  background: #F89406; }
+
+.range.range-fire-bush input::-webkit-slider-thumb:before {
+  background: #EB9532; }
+
+.range.range-fire-bush input::-ms-fill-lower {
+  background: #EB9532; }
+
+.range.range-tahiti-gold input::-webkit-slider-thumb:before {
+  background: #E87E04; }
+
+.range.range-tahiti-gold input::-ms-fill-lower {
+  background: #E87E04; }
+
+.range.range-casablanca input::-webkit-slider-thumb:before {
+  background: #F4B350; }
+
+.range.range-casablanca input::-ms-fill-lower {
+  background: #F4B350; }
+
+.range.range-crusta input::-webkit-slider-thumb:before {
+  background: #F2784B; }
+
+.range.range-crusta input::-ms-fill-lower {
+  background: #F2784B; }
+
+.range.range-sea-buckthorn input::-webkit-slider-thumb:before {
+  background: #EB974E; }
+
+.range.range-sea-buckthorn input::-ms-fill-lower {
+  background: #EB974E; }
+
+.range.range-lightning-yellow input::-webkit-slider-thumb:before {
+  background: #F5AB35; }
+
+.range.range-lightning-yellow input::-ms-fill-lower {
+  background: #F5AB35; }
+
+.range.range-burnt-orange input::-webkit-slider-thumb:before {
+  background: #D35400; }
+
+.range.range-burnt-orange input::-ms-fill-lower {
+  background: #D35400; }
+
+.range.range-buttercup input::-webkit-slider-thumb:before {
+  background: #F39C12; }
+
+.range.range-buttercup input::-ms-fill-lower {
+  background: #F39C12; }
+
+.range.range-ecstasy input::-webkit-slider-thumb:before {
+  background: #F9690E; }
+
+.range.range-ecstasy input::-ms-fill-lower {
+  background: #F9690E; }
+
+.range.range-sandstorm input::-webkit-slider-thumb:before {
+  background: #F9BF3B; }
+
+.range.range-sandstorm input::-ms-fill-lower {
+  background: #F9BF3B; }
+
+.range.range-jaffa input::-webkit-slider-thumb:before {
+  background: #F27935; }
+
+.range.range-jaffa input::-ms-fill-lower {
+  background: #F27935; }
+
+.range.range-zest input::-webkit-slider-thumb:before {
+  background: #E67E22; }
+
+.range.range-zest input::-ms-fill-lower {
+  background: #E67E22; }
+
+.range.range-medium-turquoise input::-webkit-slider-thumb:before {
+  background: #4ECDC4; }
+
+.range.range-medium-turquoise input::-ms-fill-lower {
+  background: #4ECDC4; }
+
+.range.range-aqua-island input::-webkit-slider-thumb:before {
+  background: #A2DED0; }
+
+.range.range-aqua-island input::-ms-fill-lower {
+  background: #A2DED0; }
+
+.range.range-gossip input::-webkit-slider-thumb:before {
+  background: #87D37C; }
+
+.range.range-gossip input::-ms-fill-lower {
+  background: #87D37C; }
+
+.range.range-dark-sea-green input::-webkit-slider-thumb:before {
+  background: #90C695; }
+
+.range.range-dark-sea-green input::-ms-fill-lower {
+  background: #90C695; }
+
+.range.range-eucalyptus input::-webkit-slider-thumb:before {
+  background: #26A65B; }
+
+.range.range-eucalyptus input::-ms-fill-lower {
+  background: #26A65B; }
+
+.range.range-caribbean-green input::-webkit-slider-thumb:before {
+  background: #03C9A9; }
+
+.range.range-caribbean-green input::-ms-fill-lower {
+  background: #03C9A9; }
+
+.range.range-silver-tree input::-webkit-slider-thumb:before {
+  background: #68C3A3; }
+
+.range.range-silver-tree input::-ms-fill-lower {
+  background: #68C3A3; }
+
+.range.range-downy input::-webkit-slider-thumb:before {
+  background: #65C6BB; }
+
+.range.range-downy input::-ms-fill-lower {
+  background: #65C6BB; }
+
+.range.range-mountain-meadow input::-webkit-slider-thumb:before {
+  background: #1BBC9B; }
+
+.range.range-mountain-meadow input::-ms-fill-lower {
+  background: #1BBC9B; }
+
+.range.range-light-sea-green input::-webkit-slider-thumb:before {
+  background: #1BA39C; }
+
+.range.range-light-sea-green input::-ms-fill-lower {
+  background: #1BA39C; }
+
+.range.range-medium-aquamarine input::-webkit-slider-thumb:before {
+  background: #66CC99; }
+
+.range.range-medium-aquamarine input::-ms-fill-lower {
+  background: #66CC99; }
+
+.range.range-turquoise input::-webkit-slider-thumb:before {
+  background: #36D7B7; }
+
+.range.range-turquoise input::-ms-fill-lower {
+  background: #36D7B7; }
+
+.range.range-madang input::-webkit-slider-thumb:before {
+  background: #C8F7C5; }
+
+.range.range-madang input::-ms-fill-lower {
+  background: #C8F7C5; }
+
+.range.range-riptide input::-webkit-slider-thumb:before {
+  background: #86E2D5; }
+
+.range.range-riptide input::-ms-fill-lower {
+  background: #86E2D5; }
+
+.range.range-shamrock input::-webkit-slider-thumb:before {
+  background: #2ECC71; }
+
+.range.range-shamrock input::-ms-fill-lower {
+  background: #2ECC71; }
+
+.range.range-niagara input::-webkit-slider-thumb:before {
+  background: #16A085; }
+
+.range.range-niagara input::-ms-fill-lower {
+  background: #16A085; }
+
+.range.range-esmerald input::-webkit-slider-thumb:before {
+  background: #3FC380; }
+
+.range.range-esmerald input::-ms-fill-lower {
+  background: #3FC380; }
+
+.range.range-green-haze input::-webkit-slider-thumb:before {
+  background: #019875; }
+
+.range.range-green-haze input::-ms-fill-lower {
+  background: #019875; }
+
+.range.range-free-speech-aquamarine input::-webkit-slider-thumb:before {
+  background: #03A678; }
+
+.range.range-free-speech-aquamarine input::-ms-fill-lower {
+  background: #03A678; }
+
+.range.range-ocean-green input::-webkit-slider-thumb:before {
+  background: #4DAF7C; }
+
+.range.range-ocean-green input::-ms-fill-lower {
+  background: #4DAF7C; }
+
+.range.range-niagara-one input::-webkit-slider-thumb:before {
+  background: #2ABB9B; }
+
+.range.range-niagara-one input::-ms-fill-lower {
+  background: #2ABB9B; }
+
+.range.range-jade input::-webkit-slider-thumb:before {
+  background: #00B16A; }
+
+.range.range-jade input::-ms-fill-lower {
+  background: #00B16A; }
+
+.range.range-salem input::-webkit-slider-thumb:before {
+  background: #1E824C; }
+
+.range.range-salem input::-ms-fill-lower {
+  background: #1E824C; }
+
+.range.range-observatory input::-webkit-slider-thumb:before {
+  background: #049372; }
+
+.range.range-observatory input::-ms-fill-lower {
+  background: #049372; }
+
+.range.range-jungle-green input::-webkit-slider-thumb:before {
+  background: #26C281; }
+
+.range.range-jungle-green input::-ms-fill-lower {
+  background: #26C281; }
+
+.range.range-san-marino input::-webkit-slider-thumb:before {
+  background: #446CB3; }
+
+.range.range-san-marino input::-ms-fill-lower {
+  background: #446CB3; }
+
+.range.range-alice-blue input::-webkit-slider-thumb:before {
+  background: #E4F1FE; }
+
+.range.range-alice-blue input::-ms-fill-lower {
+  background: #E4F1FE; }
+
+.range.range-royal-blue input::-webkit-slider-thumb:before {
+  background: #4183D7; }
+
+.range.range-royal-blue input::-ms-fill-lower {
+  background: #4183D7; }
+
+.range.range-picton-blue input::-webkit-slider-thumb:before {
+  background: #59ABE3; }
+
+.range.range-picton-blue input::-ms-fill-lower {
+  background: #59ABE3; }
+
+.range.range-spray input::-webkit-slider-thumb:before {
+  background: #81CFE0; }
+
+.range.range-spray input::-ms-fill-lower {
+  background: #81CFE0; }
+
+.range.range-shakespeare input::-webkit-slider-thumb:before {
+  background: #52B3D9; }
+
+.range.range-shakespeare input::-ms-fill-lower {
+  background: #52B3D9; }
+
+.range.range-humming-bird input::-webkit-slider-thumb:before {
+  background: #C5EFF7; }
+
+.range.range-humming-bird input::-ms-fill-lower {
+  background: #C5EFF7; }
+
+.range.range-picton-blue-two input::-webkit-slider-thumb:before {
+  background: #22A7F0; }
+
+.range.range-picton-blue-two input::-ms-fill-lower {
+  background: #22A7F0; }
+
+.range.range-curious-blue input::-webkit-slider-thumb:before {
+  background: #3498DB; }
+
+.range.range-curious-blue input::-ms-fill-lower {
+  background: #3498DB; }
+
+.range.range-madison input::-webkit-slider-thumb:before {
+  background: #2C3E50; }
+
+.range.range-madison input::-ms-fill-lower {
+  background: #2C3E50; }
+
+.range.range-dodger-blue input::-webkit-slider-thumb:before {
+  background: #19B5FE; }
+
+.range.range-dodger-blue input::-ms-fill-lower {
+  background: #19B5FE; }
+
+.range.range-ming input::-webkit-slider-thumb:before {
+  background: #336E7B; }
+
+.range.range-ming input::-ms-fill-lower {
+  background: #336E7B; }
+
+.range.range-ebony-clay input::-webkit-slider-thumb:before {
+  background: #22313F; }
+
+.range.range-ebony-clay input::-ms-fill-lower {
+  background: #22313F; }
+
+.range.range-malibu input::-webkit-slider-thumb:before {
+  background: #6BB9F0; }
+
+.range.range-malibu input::-ms-fill-lower {
+  background: #6BB9F0; }
+
+.range.range-summer-sky input::-webkit-slider-thumb:before {
+  background: #1E8BC3; }
+
+.range.range-summer-sky input::-ms-fill-lower {
+  background: #1E8BC3; }
+
+.range.range-chambray input::-webkit-slider-thumb:before {
+  background: #3A539B; }
+
+.range.range-chambray input::-ms-fill-lower {
+  background: #3A539B; }
+
+.range.range-pickled-bluewood input::-webkit-slider-thumb:before {
+  background: #34495E; }
+
+.range.range-pickled-bluewood input::-ms-fill-lower {
+  background: #34495E; }
+
+.range.range-hoki input::-webkit-slider-thumb:before {
+  background: #67809F; }
+
+.range.range-hoki input::-ms-fill-lower {
+  background: #67809F; }
+
+.range.range-jelly-bean input::-webkit-slider-thumb:before {
+  background: #2574A9; }
+
+.range.range-jelly-bean input::-ms-fill-lower {
+  background: #2574A9; }
+
+.range.range-jacksons-purple input::-webkit-slider-thumb:before {
+  background: #1F3A93; }
+
+.range.range-jacksons-purple input::-ms-fill-lower {
+  background: #1F3A93; }
+
+.range.range-jordy-blue input::-webkit-slider-thumb:before {
+  background: #89C4F4; }
+
+.range.range-jordy-blue input::-ms-fill-lower {
+  background: #89C4F4; }
+
+.range.range-steel-blue input::-webkit-slider-thumb:before {
+  background: #4B77BE; }
+
+.range.range-steel-blue input::-ms-fill-lower {
+  background: #4B77BE; }
+
+.range.range-fountain-blue input::-webkit-slider-thumb:before {
+  background: #5C97BF; }
+
+.range.range-fountain-blue input::-ms-fill-lower {
+  background: #5C97BF; }
