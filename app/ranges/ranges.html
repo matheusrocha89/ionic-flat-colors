@@ -1,3 +1,76 @@
 <ion-view view-title="Ranges">
-  <ion-content padding="true"></ion-content>
+  <ion-content padding="true">
+    <h2>Ranges documentation</h2>
+    <p>It uses the same pattern of Ionic, the name of the color with "range" as prefix</p>
+
+    <ion-list>
+      <ion-item class="item-divider">Yellow</ion-item>
+      <ion-item class="item range range-{{color}}" ng-repeat="color in vm.classesYellow">
+        <p>{{color}}</p>
+        <i class="icon ion-ios-sunny-outline"></i>
+        <input type="range" name="volume" min="0" max="100" value="50">
+        <i class="icon ion-ios-sunny"></i>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
+      <ion-item class="item-divider">Red</ion-item>
+      <ion-item class="item range range-{{color}}" ng-repeat="color in vm.classesRed">
+        <p>{{color}}</p>
+        <i class="icon ion-ios-sunny-outline"></i>
+        <input type="range" name="volume" min="0" max="100" value="50">
+        <i class="icon ion-ios-sunny"></i>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
+      <ion-item class="item-divider">Blue</ion-item>
+      <ion-item class="item range range-{{color}}" ng-repeat="color in vm.classesBlue">
+        <p>{{color}}</p>
+        <i class="icon ion-ios-sunny-outline"></i>
+        <input type="range" name="volume" min="0" max="100" value="50">
+        <i class="icon ion-ios-sunny"></i>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
+      <ion-item class="item-divider">Green</ion-item>
+      <ion-item class="item range range-{{color}}" ng-repeat="color in vm.classesGreen">
+        <p>{{color}}</p>
+        <i class="icon ion-ios-sunny-outline"></i>
+        <input type="range" name="volume" min="0" max="100" value="50">
+        <i class="icon ion-ios-sunny"></i>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
+      <ion-item class="item-divider">Gray</ion-item>
+      <ion-item class="item range range-{{color}}" ng-repeat="color in vm.classesGray">
+        <p>{{color}}</p>
+        <i class="icon ion-ios-sunny-outline"></i>
+        <input type="range" name="volume" min="0" max="100" value="50">
+        <i class="icon ion-ios-sunny"></i>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
+      <ion-item class="item-divider">Pink</ion-item>
+      <ion-item class="item range range-{{color}}" ng-repeat="color in vm.classesPink">
+        <p>{{color}}</p>
+        <i class="icon ion-ios-sunny-outline"></i>
+        <input type="range" name="volume" min="0" max="100" value="50">
+        <i class="icon ion-ios-sunny"></i>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
+      <ion-item class="item-divider">Purple</ion-item>
+      <ion-item class="item range range-{{color}}" ng-repeat="color in vm.classesPurple">
+        <p>{{color}}</p>
+        <i class="icon ion-ios-sunny-outline"></i>
+        <input type="range" name="volume" min="0" max="100" value="50">
+        <i class="icon ion-ios-sunny"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
 </ion-view>
