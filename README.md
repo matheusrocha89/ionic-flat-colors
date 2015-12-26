@@ -7,9 +7,13 @@ The Ionic Flat Colors adds new colors options for the Ionic components: buttons,
 The lib requires Ionic 1.2+ versions.
 
 ## Installation
+You can install using bower:
+```
+  bower install ionic-flat-colors
+```
+Or you can just download the distribution css file of the lib.
 
-Just download the distribution css file of the lib and put in your project after the
-ionic css link tag. Example: 
+After installing put the dist files in your project after the ionic css link tag. Example: 
 ```html
   <link href="css/ionic.app.css" rel="stylesheet">
   <link href="css/ionic-flat.css" rel="stylesheet">
