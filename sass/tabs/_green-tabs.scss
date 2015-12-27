@@ -82,7 +82,7 @@
 
 .tabs-madang > .tabs,
 .tabs.tabs-madang {
-  @include tab-style($madang, $madang-d10, $white);
+  @include tab-style($madang, $madang-d10, $dark);
   @include tab-badge-style($white, $madang);
 }
 
@@ -237,7 +237,7 @@
   @include tabs-background('tabs-background-turquoise', $turquoise, $turquoise-d10);
   @include tabs-color('tabs-color-turquoise', $turquoise);
 
-  @include tabs-striped('tabs-madang', $white, $madang);
+  @include tabs-striped('tabs-madang', $dark, $madang);
   @include tabs-striped-background('tabs-background-madang', $madang);
   @include tabs-striped-color('tabs-color-madang', $madang);
   @include tabs-background('tabs-background-madang', $madang, $madang-d10);
@@ -317,7 +317,7 @@
 }
 
 ion-tabs {
-  @include tabs-standard-color('tabs-color-active-medium-turquoise', $mediumTurquoise, $white);
+  @include tabs-standard-color('tabs-color-active-medium-turquoise', $mediumTurquoise, $dark);
   @include tabs-standard-color('tabs-color-active-aqua-island', $aquaIsland, $white);
   @include tabs-standard-color('tabs-color-active-gossip', $gossip, $dark);
   @include tabs-standard-color('tabs-color-active-dark-sea-green', $darkSeaGreen, $dark);
@@ -330,7 +330,7 @@ ion-tabs {
   @include tabs-standard-color('tabs-color-active-light-sea-green', $lightSeaGreen, $dark);
   @include tabs-standard-color('tabs-color-active-medium-aquamarine', $mediumAquamarine, $white);
   @include tabs-standard-color('tabs-color-active-turquoise', $turquoise, $dark);
-  @include tabs-standard-color('tabs-color-active-madang', $madang, $dark);
+  @include tabs-standard-color('tabs-color-active-madang', $madang, $white);
   @include tabs-standard-color('tabs-color-active-riptide', $riptide, $dark);
   @include tabs-standard-color('tabs-color-active-shamrock', $shamrock, $dark);
   @include tabs-standard-color('tabs-color-active-niagara', $niagara, $dark);

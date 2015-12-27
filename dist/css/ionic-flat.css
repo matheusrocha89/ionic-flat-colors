@@ -14060,7 +14060,7 @@ ion-tabs.tabs-color-active-zest .tab-item {
   border-color: #9ef198;
   background-color: #C8F7C5;
   background-image: linear-gradient(0deg, #9ef198, #9ef198 50%, transparent 50%);
-  color: #FFFFFF; }
+  color: #333333; }
   .tabs-madang > .tabs .tab-item .badge,
   .tabs.tabs-madang .tab-item .badge {
     background-color: #FFFFFF;
@@ -14891,16 +14891,16 @@ ion-tabs.tabs-color-active-zest .tab-item {
   background-color: #C8F7C5; }
 
 .tabs-striped.tabs-madang .tab-item {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(51, 51, 51, 0.4);
   opacity: 1; }
   .tabs-striped.tabs-madang .tab-item .badge {
     opacity: 0.4; }
   .tabs-striped.tabs-madang .tab-item.tab-item-active, .tabs-striped.tabs-madang .tab-item.active, .tabs-striped.tabs-madang .tab-item.activated {
     margin-top: -2px;
-    color: #FFFFFF;
+    color: #333333;
     border-style: solid;
     border-width: 2px 0 0 0;
-    border-color: #FFFFFF; }
+    border-color: #333333; }
 
 .tabs-striped.tabs-top .tab-item.tab-item-active .badge, .tabs-striped.tabs-top .tab-item.active .badge, .tabs-striped.tabs-top .tab-item.activated .badge {
   top: 4%; }
@@ -15577,7 +15577,7 @@ ion-tabs.tabs-color-active-zest .tab-item {
       opacity: 1; }
 
 ion-tabs.tabs-color-active-medium-turquoise .tab-item {
-  color: #FFFFFF; }
+  color: #333333; }
   ion-tabs.tabs-color-active-medium-turquoise .tab-item.tab-item-active, ion-tabs.tabs-color-active-medium-turquoise .tab-item.active, ion-tabs.tabs-color-active-medium-turquoise .tab-item.activated {
     color: #4ECDC4; }
 
@@ -15642,7 +15642,7 @@ ion-tabs.tabs-color-active-turquoise .tab-item {
     color: #36D7B7; }
 
 ion-tabs.tabs-color-active-madang .tab-item {
-  color: #333333; }
+  color: #FFFFFF; }
   ion-tabs.tabs-color-active-madang .tab-item.tab-item-active, ion-tabs.tabs-color-active-madang .tab-item.active, ion-tabs.tabs-color-active-madang .tab-item.activated {
     color: #C8F7C5; }
 
