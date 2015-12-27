@@ -117,3 +117,120 @@
     background: $track-bg-color;
   }
 }
+
+// Tab Mixins
+// --------------------------------------------------
+
+@mixin tab-style($bg-color, $border-color, $color) {
+  border-color: $border-color;
+  background-color: $bg-color;
+  background-image: linear-gradient(0deg, $border-color, $border-color 50%, transparent 50%);
+  color: $color;
+}
+
+@mixin tab-badge-style($bg-color, $color) {
+  .tab-item .badge {
+    background-color: $bg-color;
+    color: $color;
+  }
+}
+
+@mixin tabs-striped($style, $color, $background) {
+  &.#{$style} {
+    .tabs{
+      background-color: $background;
+    }
+    .tab-item {
+      color: rgba($color, $tabs-striped-off-opacity);
+      opacity: 1;
+      .badge{
+        opacity:$tabs-striped-off-opacity;
+      }
+      &.tab-item-active,
+      &.active,
+      &.activated {
+        margin-top: -$tabs-striped-border-width;
+        color: $color;
+        border-style: solid;
+        border-width: $tabs-striped-border-width 0 0 0;
+        border-color: $color;
+      }
+    }
+  }
+  &.tabs-top{
+    .tab-item {
+      &.tab-item-active,
+      &.active,
+      &.activated {
+        .badge {
+          top: 4%;
+        }
+      }
+    }
+  }
+}
+
+@mixin tabs-background($style, $color, $border-color) {
+  .#{$style} {
+    .tabs,
+    &> .tabs{
+      background-color: $color;
+      background-image: linear-gradient(0deg, $border-color, $border-color 50%, transparent 50%);
+      border-color: $border-color;
+    }
+  }
+}
+
+@mixin tabs-striped-background($style, $color) {
+  &.#{$style} {
+    .tabs {
+      background-color: $color;
+      background-image:none;
+    }
+  }
+}
+
+@mixin tabs-color($style, $color) {
+  .#{$style} {
+    .tab-item {
+      color: rgba($color, $tabs-off-opacity);
+      opacity: 1;
+      .badge{
+        opacity:$tabs-off-opacity;
+      }
+      &.tab-item-active,
+      &.active,
+      &.activated {
+        color: $color;
+        border: 0 solid $color;
+        .badge{
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+@mixin tabs-striped-color($style, $color) {
+  &.#{$style} {
+    .tab-item {
+      color: rgba($color, $tabs-striped-off-opacity);
+      opacity: 1;
+      .badge{
+        opacity:$tabs-striped-off-opacity;
+      }
+      &.tab-item-active,
+      &.active,
+      &.activated {
+        margin-top: -$tabs-striped-border-width;
+        color: $color;
+        border: 0 solid $color;
+        border-top-width: $tabs-striped-border-width;
+        .badge{
+          top:$tabs-striped-border-width;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
