@@ -1,0 +1,156 @@
+// --------------------------
+// Puple Tabs
+// --------------------------
+
+.tabs-snuff > .tabs,
+.tabs.tabs-snuff {
+  @include tab-style($snuff, $snuff-d10, $white);
+  @include tab-badge-style($white, $snuff);
+}
+
+.tabs-rebecca-purple > .tabs,
+.tabs.tabs-rebecca-purple {
+  @include tab-style($rebeccaPurple, $rebeccaPurple-d10, $white);
+  @include tab-badge-style($white, $rebeccaPurple);
+}
+
+.tabs-honey-flower > .tabs,
+.tabs.tabs-honey-flower {
+  @include tab-style($honeyFlower, $honeyFlower-d10, $white);
+  @include tab-badge-style($white, $honeyFlower);
+}
+
+.tabs-wistful > .tabs,
+.tabs.tabs-wistful {
+  @include tab-style($wistful, $wistful-d10, $white);
+  @include tab-badge-style($white, $wistful);
+}
+
+.tabs-plum > .tabs,
+.tabs.tabs-plum {
+  @include tab-style($plum, $plum-d10, $white);
+  @include tab-badge-style($white, $plum);
+}
+
+.tabs-seance > .tabs,
+.tabs.tabs-seance {
+  @include tab-style($seance, $seance-d10, $white);
+  @include tab-badge-style($white, $seance);
+}
+
+.tabs-medium-purple > .tabs,
+.tabs.tabs-medium-purple {
+  @include tab-style($mediumPurple, $mediumPurple-d10, $white);
+  @include tab-badge-style($white, $mediumPurple);
+}
+
+.tabs-light-wisteria > .tabs,
+.tabs.tabs-light-wisteria {
+  @include tab-style($lightWisteria, $lightWisteria-d10, $white);
+  @include tab-badge-style($white, $lightWisteria);
+}
+
+.tabs-studio > .tabs,
+.tabs.tabs-studio {
+  @include tab-style($studio, $studio-d10, $white);
+  @include tab-badge-style($white, $studio);
+}
+
+.tabs-wisteria > .tabs,
+.tabs.tabs-wisteria {
+  @include tab-style($wisteria, $wisteria-d10, $white);
+  @include tab-badge-style($white, $wisteria);
+}
+
+.tabs-striped {
+  @include tabs-striped('tabs-snuff', $dark, $snuff);
+  @include tabs-striped-background('tabs-background-snuff', $snuff);
+  @include tabs-striped-color('tabs-color-snuff', $snuff);
+  @include tabs-background('tabs-background-snuff', $snuff, $snuff-d10);
+  @include tabs-color('tabs-color-snuff', $snuff);
+
+  @include tabs-striped('tabs-rebecca-purple', $white, $rebeccaPurple);
+  @include tabs-striped-background('tabs-background-rebecca-purple', $rebeccaPurple);
+  @include tabs-striped-color('tabs-color-rebecca-purple', $rebeccaPurple);
+  @include tabs-background('tabs-background-rebecca-purple', $rebeccaPurple, $rebeccaPurple-d10);
+  @include tabs-color('tabs-color-rebecca-purple', $rebeccaPurple);
+
+  @include tabs-striped('tabs-honey-flower', $white, $honeyFlower);
+  @include tabs-striped-background('tabs-background-honey-flower', $honeyFlower);
+  @include tabs-striped-color('tabs-color-honey-flower', $honeyFlower);
+  @include tabs-background('tabs-background-honey-flower', $honeyFlower, $honeyFlower-d10);
+  @include tabs-color('tabs-color-honey-flower', $honeyFlower);
+
+  @include tabs-striped('tabs-wistful', $white, $wistful);
+  @include tabs-striped-background('tabs-background-wistful', $wistful);
+  @include tabs-striped-color('tabs-color-wistful', $wistful);
+  @include tabs-background('tabs-background-wistful', $wistful, $wistful-d10);
+  @include tabs-color('tabs-color-wistful', $wistful);
+
+  @include tabs-striped('tabs-plum', $white, $plum);
+  @include tabs-striped-background('tabs-background-plum', $plum);
+  @include tabs-striped-color('tabs-color-plum', $plum);
+  @include tabs-background('tabs-background-plum', $plum, $plum-d10);
+  @include tabs-color('tabs-color-plum', $plum);
+
+  @include tabs-striped('tabs-seance', $white, $seance);
+  @include tabs-striped-background('tabs-background-seance', $seance);
+  @include tabs-striped-color('tabs-color-seance', $seance);
+  @include tabs-background('tabs-background-seance', $seance, $seance-d10);
+  @include tabs-color('tabs-color-seance', $seance);
+
+  @include tabs-striped('tabs-medium-purple', $white, $mediumPurple);
+  @include tabs-striped-background('tabs-background-medium-purple', $mediumPurple);
+  @include tabs-striped-color('tabs-color-medium-purple', $mediumPurple);
+  @include tabs-background('tabs-background-medium-purple', $mediumPurple, $mediumPurple-d10);
+  @include tabs-color('tabs-color-medium-purple', $mediumPurple);
+
+  @include tabs-striped('tabs-light-wisteria', $white, $lightWisteria);
+  @include tabs-striped-background('tabs-background-light-wisteria', $lightWisteria);
+  @include tabs-striped-color('tabs-color-light-wisteria', $lightWisteria);
+  @include tabs-background('tabs-background-light-wisteria', $lightWisteria, $lightWisteria-d10);
+  @include tabs-color('tabs-color-light-wisteria', $lightWisteria);
+
+  @include tabs-striped('tabs-studio', $white, $studio);
+  @include tabs-striped-background('tabs-background-studio', $studio);
+  @include tabs-striped-color('tabs-color-studio', $studio);
+  @include tabs-background('tabs-background-studio', $studio, $studio-d10);
+  @include tabs-color('tabs-color-studio', $studio);
+
+  @include tabs-striped('tabs-wisteria', $white, $wisteria);
+  @include tabs-striped-background('tabs-background-wisteria', $wisteria);
+  @include tabs-striped-color('tabs-color-wisteria', $wisteria);
+  @include tabs-background('tabs-background-wisteria', $wisteria, $wisteria-d10);
+  @include tabs-color('tabs-color-wisteria', $wisteria);
+
+}
+
+ion-tabs {
+  @include tabs-standard-color('tabs-color-active-snuff', $snuff, $white);
+  @include tabs-standard-color('tabs-color-active-rebecca-purple', $rebeccaPurple, $dark);
+  @include tabs-standard-color('tabs-color-active-honey-flower', $honeyFlower, $dark);
+  @include tabs-standard-color('tabs-color-active-wistful', $wistful, $dark);
+  @include tabs-standard-color('tabs-color-active-plum', $plum, $dark);
+  @include tabs-standard-color('tabs-color-active-seance', $seance, $dark);
+  @include tabs-standard-color('tabs-color-active-medium-purple', $mediumPurple, $dark);
+  @include tabs-standard-color('tabs-color-active-light-wisteria', $lightWisteria, $dark);
+  @include tabs-standard-color('tabs-color-active-studio', $studio, $dark);
+  @include tabs-standard-color('tabs-color-active-wisteria', $wisteria, $dark);
+}
+
+.tab-item.tab-item-active,
+.tab-item.active,
+.tab-item.activated {
+  &.tab-item-snuff { color: $snuff; }
+  &.tab-item-rebecca-purple { color: $rebeccaPurple; }
+  &.tab-item-honey-flower { color: $honeyFlower; }
+  &.tab-item-wistful { color: $wistful; }
+  &.tab-item-plum { color: $plum; }
+  &.tab-item-seance { color: $seance; }
+  &.tab-item-medium-purple { color: $mediumPurple; }
+  &.tab-item-light-wisteria { color: $lightWisteria; }
+  &.tab-item-studio { color: $studio; }
+  &.tab-item-wisteria { color: $wisteria; }
+}
+
+
