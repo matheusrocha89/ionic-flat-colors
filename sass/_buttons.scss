@@ -311,7 +311,7 @@
 
   &.button-confetti {
     @include button-style(
-      $confetti, $confetti-d10, $confetti-d10, $confetti-d10, $dark);
+      $confetti, $confetti-d10, $confetti-d10, $confetti-d10, $white);
     @include button-clear($confetti);
     @include button-outline($confetti);
   }
@@ -346,7 +346,7 @@
 
   &.button-casablanca {
     @include button-style(
-      $casablanca, $casablanca-d10, $casablanca-d10, $casablanca-d10, $dark);
+      $casablanca, $casablanca-d10, $casablanca-d10, $casablanca-d10, $white);
     @include button-clear($casablanca);
     @include button-outline($casablanca);
   }

@@ -587,7 +587,7 @@
 
 
   &.bar-confetti {
-    @include bar-style($confetti, $capeHoney, $dark);
+    @include bar-style($confetti, $capeHoney, $white);
 
     .bar-footer {
       background-image: linear-gradient(180deg, $capeHoney, $capeHoney 50%, transparent 50%);
@@ -595,8 +595,8 @@
     .button {
       @include button-style(
         $confetti, $confetti-d10, $confetti-d10, 
-        $confetti-d10, $dark);
-      @include button-clear($dark, $bar-title-font-size);
+        $confetti-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
     }
   }
 
@@ -657,7 +657,7 @@
   }
 
   &.bar-casablanca {
-    @include bar-style($casablanca, $confetti, $dark);
+    @include bar-style($casablanca, $confetti, $white);
 
     .bar-footer {
       background-image: linear-gradient(180deg, $confetti, $confetti 50%, transparent 50%);
@@ -665,7 +665,7 @@
     .button {
       @include button-style(
         $casablanca, $casablanca-d10, $casablanca-d10, 
-        $casablanca-d10, $dark);
+        $casablanca-d10, $white);
       @include button-clear($dark, $bar-title-font-size);
     }
   }
