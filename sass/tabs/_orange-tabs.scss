@@ -93,7 +93,7 @@
 }
 
 .tabs-striped {
-  @include tabs-striped('tabs-confetti', $dark, $confetti);
+  @include tabs-striped('tabs-confetti', $white, $confetti);
   @include tabs-striped-background('tabs-background-confetti', $confetti);
   @include tabs-striped-color('tabs-color-confetti', $confetti);
   @include tabs-background('tabs-background-confetti', $confetti, $confetti-d10);
@@ -185,7 +185,7 @@
 }
 
 ion-tabs {
-  @include tabs-standard-color('tabs-color-active-confetti', $confetti, $white);
+  @include tabs-standard-color('tabs-color-active-confetti', $confetti, $dark);
   @include tabs-standard-color('tabs-color-active-cape-honey', $capeHoney, $white);
   @include tabs-standard-color('tabs-color-active-california', $california, $dark);
   @include tabs-standard-color('tabs-color-active-fire-bush', $fireBush, $dark);
