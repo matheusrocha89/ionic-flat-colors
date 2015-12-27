@@ -1,0 +1,224 @@
+// --------------------------
+// Orange Tabs
+// --------------------------
+
+.tabs-confetti > .tabs,
+.tabs.tabs-confetti {
+  @include tab-style($confetti, $confetti-d10, $white);
+  @include tab-badge-style($white, $confetti);
+}
+
+.tabs-cape-honey > .tabs,
+.tabs.tabs-cape-honey {
+  @include tab-style($capeHoney, $capeHoney-d10, $dark);
+  @include tab-badge-style($white, $capeHoney);
+}
+
+.tabs-california > .tabs,
+.tabs.tabs-california {
+  @include tab-style($california, $california-d10, $white);
+  @include tab-badge-style($white, $california);
+}
+
+.tabs-fire-bush > .tabs,
+.tabs.tabs-fire-bush {
+  @include tab-style($fireBush, $fireBush-d10, $white);
+  @include tab-badge-style($white, $fireBush);
+}
+
+.tabs-tahiti-gold > .tabs,
+.tabs.tabs-tahiti-gold {
+  @include tab-style($tahitiGold, $tahitiGold-d10, $white);
+  @include tab-badge-style($white, $tahitiGold);
+}
+
+.tabs-casablanca > .tabs,
+.tabs.tabs-casablanca {
+  @include tab-style($casablanca, $casablanca-d10, $white);
+  @include tab-badge-style($white, $casablanca);
+}
+
+.tabs-crusta > .tabs,
+.tabs.tabs-crusta {
+  @include tab-style($crusta, $crusta-d10, $dark);
+  @include tab-badge-style($white, $crusta);
+}
+
+.tabs-sea-buckthorn > .tabs,
+.tabs.tabs-sea-buckthorn {
+  @include tab-style($seaBuckthorn, $seaBuckthorn-d10, $white);
+  @include tab-badge-style($white, $seaBuckthorn);
+}
+
+.tabs-lightning-yellow > .tabs,
+.tabs.tabs-lightning-yellow {
+  @include tab-style($lightningYellow, $lightningYellow-d10, $white);
+  @include tab-badge-style($white, $lightningYellow);
+}
+
+.tabs-burnt-orange > .tabs,
+.tabs.tabs-burnt-orange {
+  @include tab-style($burntOrange, $burntOrange-d10, $white);
+  @include tab-badge-style($white, $burntOrange);
+}
+
+.tabs-buttercup > .tabs,
+.tabs.tabs-buttercup {
+  @include tab-style($buttercup, $buttercup-d10, $white);
+  @include tab-badge-style($white, $buttercup);
+}
+
+.tabs-ecstasy > .tabs,
+.tabs.tabs-ecstasy {
+  @include tab-style($ecstasy, $ecstasy-d10, $white);
+  @include tab-badge-style($white, $ecstasy);
+}
+
+.tabs-sandstorm > .tabs,
+.tabs.tabs-sandstorm {
+  @include tab-style($sandstorm, $sandstorm-d10, $white);
+  @include tab-badge-style($white, $sandstorm);
+}
+
+.tabs-jaffa > .tabs,
+.tabs.tabs-jaffa {
+  @include tab-style($jaffa, $jaffa-d10, $white);
+  @include tab-badge-style($white, $jaffa);
+}
+
+.tabs-zest > .tabs,
+.tabs.tabs-zest {
+  @include tab-style($zest, $zest-d10, $white);
+  @include tab-badge-style($white, $zest);
+}
+
+.tabs-striped {
+  @include tabs-striped('tabs-confetti', $dark, $confetti);
+  @include tabs-striped-background('tabs-background-confetti', $confetti);
+  @include tabs-striped-color('tabs-color-confetti', $confetti);
+  @include tabs-background('tabs-background-confetti', $confetti, $confetti-d10);
+  @include tabs-color('tabs-color-confetti', $confetti);
+
+  @include tabs-striped('tabs-cape-honey', $dark, $capeHoney);
+  @include tabs-striped-background('tabs-background-cape-honey', $capeHoney);
+  @include tabs-striped-color('tabs-color-cape-honey', $capeHoney);
+  @include tabs-background('tabs-background-cape-honey', $capeHoney, $capeHoney-d10);
+  @include tabs-color('tabs-color-cape-honey', $capeHoney);
+
+  @include tabs-striped('tabs-california', $white, $california);
+  @include tabs-striped-background('tabs-background-california', $california);
+  @include tabs-striped-color('tabs-color-california', $california);
+  @include tabs-background('tabs-background-california', $california, $california-d10);
+  @include tabs-color('tabs-color-california', $california);
+
+  @include tabs-striped('tabs-fire-bush', $white, $fireBush);
+  @include tabs-striped-background('tabs-background-fire-bush', $fireBush);
+  @include tabs-striped-color('tabs-color-fire-bush', $fireBush);
+  @include tabs-background('tabs-background-fire-bush', $fireBush, $fireBush-d10);
+  @include tabs-color('tabs-color-fire-bush', $fireBush);
+
+  @include tabs-striped('tabs-tahiti-gold', $white, $tahitiGold);
+  @include tabs-striped-background('tabs-background-tahiti-gold', $tahitiGold);
+  @include tabs-striped-color('tabs-color-tahiti-gold', $tahitiGold);
+  @include tabs-background('tabs-background-tahiti-gold', $tahitiGold, $tahitiGold-d10);
+  @include tabs-color('tabs-color-tahiti-gold', $tahitiGold);
+
+  @include tabs-striped('tabs-casablanca', $white, $casablanca);
+  @include tabs-striped-background('tabs-background-casablanca', $casablanca);
+  @include tabs-striped-color('tabs-color-casablanca', $casablanca);
+  @include tabs-background('tabs-background-casablanca', $casablanca, $casablanca-d10);
+  @include tabs-color('tabs-color-casablanca', $casablanca);
+
+  @include tabs-striped('tabs-crusta', $dark, $crusta);
+  @include tabs-striped-background('tabs-background-crusta', $crusta);
+  @include tabs-striped-color('tabs-color-crusta', $crusta);
+  @include tabs-background('tabs-background-crusta', $crusta, $crusta-d10);
+  @include tabs-color('tabs-color-crusta', $crusta);
+
+  @include tabs-striped('tabs-sea-buckthorn', $white, $seaBuckthorn);
+  @include tabs-striped-background('tabs-background-sea-buckthorn', $seaBuckthorn);
+  @include tabs-striped-color('tabs-color-sea-buckthorn', $seaBuckthorn);
+  @include tabs-background('tabs-background-sea-buckthorn', $seaBuckthorn, $seaBuckthorn-d10);
+  @include tabs-color('tabs-color-sea-buckthorn', $seaBuckthorn);
+
+  @include tabs-striped('tabs-lightning-yellow', $white, $lightningYellow);
+  @include tabs-striped-background('tabs-background-lightning-yellow', $lightningYellow);
+  @include tabs-striped-color('tabs-color-lightning-yellow', $lightningYellow);
+  @include tabs-background('tabs-background-lightning-yellow', $lightningYellow, $lightningYellow-d10);
+  @include tabs-color('tabs-color-lightning-yellow', $lightningYellow);
+
+  @include tabs-striped('tabs-burnt-orange', $white, $burntOrange);
+  @include tabs-striped-background('tabs-background-burnt-orange', $burntOrange);
+  @include tabs-striped-color('tabs-color-burnt-orange', $burntOrange);
+  @include tabs-background('tabs-background-burnt-orange', $burntOrange, $burntOrange-d10);
+  @include tabs-color('tabs-color-burnt-orange', $burntOrange);
+
+  @include tabs-striped('tabs-buttercup', $white, $buttercup);
+  @include tabs-striped-background('tabs-background-buttercup', $buttercup);
+  @include tabs-striped-color('tabs-color-buttercup', $buttercup);
+  @include tabs-background('tabs-background-buttercup', $buttercup, $buttercup-d10);
+  @include tabs-color('tabs-color-buttercup', $buttercup);
+
+  @include tabs-striped('tabs-ecstasy', $dark, $ecstasy);
+  @include tabs-striped-background('tabs-background-ecstasy', $ecstasy);
+  @include tabs-striped-color('tabs-color-ecstasy', $ecstasy);
+  @include tabs-background('tabs-background-ecstasy', $ecstasy, $ecstasy-d10);
+  @include tabs-color('tabs-color-ecstasy', $ecstasy);
+
+  @include tabs-striped('tabs-sandstorm', $white, $sandstorm);
+  @include tabs-striped-background('tabs-background-sandstorm', $sandstorm);
+  @include tabs-striped-color('tabs-color-sandstorm', $sandstorm);
+  @include tabs-background('tabs-background-sandstorm', $sandstorm, $sandstorm-d10);
+  @include tabs-color('tabs-color-sandstorm', $sandstorm);
+
+  @include tabs-striped('tabs-jaffa', $white, $jaffa);
+  @include tabs-striped-background('tabs-background-jaffa', $jaffa);
+  @include tabs-striped-color('tabs-color-jaffa', $jaffa);
+  @include tabs-background('tabs-background-jaffa', $jaffa, $jaffa-d10);
+  @include tabs-color('tabs-color-jaffa', $jaffa);
+
+  @include tabs-striped('tabs-zest', $white, $zest);
+  @include tabs-striped-background('tabs-background-zest', $zest);
+  @include tabs-striped-color('tabs-color-zest', $zest);
+  @include tabs-background('tabs-background-zest', $zest, $zest-d10);
+  @include tabs-color('tabs-color-zest', $zest);
+}
+
+ion-tabs {
+  @include tabs-standard-color('tabs-color-active-confetti', $confetti, $white);
+  @include tabs-standard-color('tabs-color-active-cape-honey', $capeHoney, $white);
+  @include tabs-standard-color('tabs-color-active-california', $california, $dark);
+  @include tabs-standard-color('tabs-color-active-fire-bush', $fireBush, $dark);
+  @include tabs-standard-color('tabs-color-active-tahiti-gold', $tahitiGold, $dark);
+  @include tabs-standard-color('tabs-color-active-casablanca', $casablanca, $dark);
+  @include tabs-standard-color('tabs-color-active-crusta', $crusta, $white);
+  @include tabs-standard-color('tabs-color-active-sea-buckthorn', $seaBuckthorn, $dark);
+  @include tabs-standard-color('tabs-color-active-lightning-yellow', $lightningYellow, $dark);
+  @include tabs-standard-color('tabs-color-active-burnt-orange', $burntOrange, $dark);
+  @include tabs-standard-color('tabs-color-active-buttercup', $buttercup, $dark);
+  @include tabs-standard-color('tabs-color-active-ecstasy', $ecstasy, $white);
+  @include tabs-standard-color('tabs-color-active-sandstorm', $sandstorm, $dark);
+  @include tabs-standard-color('tabs-color-active-jaffa', $jaffa, $dark);
+  @include tabs-standard-color('tabs-color-active-zest', $zest, $dark);
+}
+
+.tab-item.tab-item-active,
+.tab-item.active,
+.tab-item.activated {
+  &.tab-item-confetti { color: $confetti; }
+  &.tab-item-cape-honey { color: $capeHoney; }
+  &.tab-item-california { color: $california; }
+  &.tab-item-fire-bush { color: $fireBush; }
+  &.tab-item-tahiti-gold { color: $tahitiGold; }
+  &.tab-item-casablanca { color: $casablanca; }
+  &.tab-item-crusta { color: $crusta; }
+  &.tab-item-sea-buckthorn { color: $seaBuckthorn; }
+  &.tab-item-lightning-yellow { color: $lightningYellow; }
+  &.tab-item-burnt-orange { color: $burntOrange; }
+  &.tab-item-buttercup { color: $buttercup; }
+  &.tab-item-ecstasy { color: $ecstasy; }
+  &.tab-item-sandstorm { color: $sandstorm; }
+  &.tab-item-jaffa { color: $jaffa; }
+  &.tab-item-zest { color: $zest; }
+}
+
