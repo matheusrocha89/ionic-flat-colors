@@ -12971,16 +12971,16 @@ ion-tabs.tabs-color-active-fountain-blue .tab-item {
   background-color: #E9D460; }
 
 .tabs-striped.tabs-confetti .tab-item {
-  color: rgba(51, 51, 51, 0.4);
+  color: rgba(255, 255, 255, 0.4);
   opacity: 1; }
   .tabs-striped.tabs-confetti .tab-item .badge {
     opacity: 0.4; }
   .tabs-striped.tabs-confetti .tab-item.tab-item-active, .tabs-striped.tabs-confetti .tab-item.active, .tabs-striped.tabs-confetti .tab-item.activated {
     margin-top: -2px;
-    color: #333333;
+    color: #FFFFFF;
     border-style: solid;
     border-width: 2px 0 0 0;
-    border-color: #333333; }
+    border-color: #FFFFFF; }
 
 .tabs-striped.tabs-top .tab-item.tab-item-active .badge, .tabs-striped.tabs-top .tab-item.active .badge, .tabs-striped.tabs-top .tab-item.activated .badge {
   top: 4%; }
@@ -13763,7 +13763,7 @@ ion-tabs.tabs-color-active-fountain-blue .tab-item {
       opacity: 1; }
 
 ion-tabs.tabs-color-active-confetti .tab-item {
-  color: #FFFFFF; }
+  color: #333333; }
   ion-tabs.tabs-color-active-confetti .tab-item.tab-item-active, ion-tabs.tabs-color-active-confetti .tab-item.active, ion-tabs.tabs-color-active-confetti .tab-item.activated {
     color: #E9D460; }
 
