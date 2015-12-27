@@ -1,0 +1,139 @@
+// --------------------------
+// Red Tabs
+// --------------------------
+
+.tabs-chestnut-rose > .tabs,
+.tabs.tabs-chestnut-rose {
+  @include tab-style($chestnutRose, $chestnutRose-d10, $white);
+  @include tab-badge-style($white, $chestnutRose);
+}
+
+.tabs-pomegranate > .tabs,
+.tabs.tabs-pomegranate {
+  @include tab-style($pomegranate, $pomegranate-d10, $white);
+  @include tab-badge-style($white, $pomegranate);
+}
+
+.tabs-thunderbird > .tabs,
+.tabs.tabs-thunderbird {
+  @include tab-style($thunderbird, $thunderbird-d10, $white);
+  @include tab-badge-style($white, $thunderbird);
+}
+
+.tabs-old-brick > .tabs,
+.tabs.tabs-old-brick {
+  @include tab-style($oldBrick, $oldBrick-d10, $white);
+  @include tab-badge-style($white, $oldBrick);
+}
+
+.tabs-flamingo > .tabs,
+.tabs.tabs-flamingo {
+  @include tab-style($flamingo, $flamingo-d10, $white);
+  @include tab-badge-style($white, $flamingo);
+}
+
+.tabs-valencia > .tabs,
+.tabs.tabs-valencia {
+  @include tab-style($valencia, $valencia-d10, $white);
+  @include tab-badge-style($white, $valencia);
+}
+
+.tabs-tall-poppy > .tabs,
+.tabs.tabs-tall-poppy {
+  @include tab-style($tallPoppy, $tallPoppy-d10, $white);
+  @include tab-badge-style($white, $tallPoppy);
+}
+
+.tabs-monza > .tabs,
+.tabs.tabs-monza {
+  @include tab-style($monza, $monza-d10, $white);
+  @include tab-badge-style($white, $monza);
+}
+
+.tabs-cinnabar > .tabs,
+.tabs.tabs-cinnabar {
+  @include tab-style($cinnabar, $cinnabar-d10, $white);
+  @include tab-badge-style($white, $cinnabar);
+}
+
+.tabs-striped {
+  @include tabs-striped('tabs-chestnut-rose', $white, $chestnutRose);
+  @include tabs-striped-background('tabs-background-chestnut-rose', $chestnutRose);
+  @include tabs-striped-color('tabs-color-chestnut-rose', $chestnutRose);
+  @include tabs-background('tabs-background-chestnut-rose', $chestnutRose, $chestnutRose-d10);
+  @include tabs-color('tabs-color-chestnut-rose', $chestnutRose);
+
+  @include tabs-striped('tabs-pomegranate', $white, $pomegranate);
+  @include tabs-striped-background('tabs-background-pomegranate', $pomegranate);
+  @include tabs-striped-color('tabs-color-pomegranate', $pomegranate);
+  @include tabs-background('tabs-background-pomegranate', $pomegranate, $pomegranate-d10);
+  @include tabs-color('tabs-color-pomegranate', $pomegranate);
+
+  @include tabs-striped('tabs-thunderbird', $white, $thunderbird);
+  @include tabs-striped-background('tabs-background-thunderbird', $thunderbird);
+  @include tabs-striped-color('tabs-color-thunderbird', $thunderbird);
+  @include tabs-background('tabs-background-thunderbird', $thunderbird, $thunderbird-d10);
+  @include tabs-color('tabs-color-thunderbird', $thunderbird);
+
+  @include tabs-striped('tabs-old-brick', $white, $oldBrick);
+  @include tabs-striped-background('tabs-background-old-brick', $oldBrick);
+  @include tabs-striped-color('tabs-color-old-brick', $oldBrick);
+  @include tabs-background('tabs-background-old-brick', $oldBrick, $oldBrick-d10);
+  @include tabs-color('tabs-color-old-brick', $oldBrick);
+
+  @include tabs-striped('tabs-flamingo', $white, $flamingo);
+  @include tabs-striped-background('tabs-background-flamingo', $flamingo);
+  @include tabs-striped-color('tabs-color-flamingo', $flamingo);
+  @include tabs-background('tabs-background-flamingo', $flamingo, $flamingo-d10);
+  @include tabs-color('tabs-color-flamingo', $flamingo);
+
+  @include tabs-striped('tabs-valencia', $white, $valencia);
+  @include tabs-striped-background('tabs-background-valencia', $valencia);
+  @include tabs-striped-color('tabs-color-valencia', $valencia);
+  @include tabs-background('tabs-background-valencia', $valencia, $valencia-d10);
+  @include tabs-color('tabs-color-valencia', $valencia);
+
+  @include tabs-striped('tabs-tall-poppy', $white, $tallPoppy);
+  @include tabs-striped-background('tabs-background-tall-poppy', $tallPoppy);
+  @include tabs-striped-color('tabs-color-tall-poppy', $tallPoppy);
+  @include tabs-background('tabs-background-tall-poppy', $tallPoppy, $tallPoppy-d10);
+  @include tabs-color('tabs-color-tall-poppy', $tallPoppy);
+
+  @include tabs-striped('tabs-monza', $white, $monza);
+  @include tabs-striped-background('tabs-background-monza', $monza);
+  @include tabs-striped-color('tabs-color-monza', $monza);
+  @include tabs-background('tabs-background-monza', $monza, $monza-d10);
+  @include tabs-color('tabs-color-monza', $monza);
+
+  @include tabs-striped('tabs-cinnabar', $white, $cinnabar);
+  @include tabs-striped-background('tabs-background-cinnabar', $cinnabar);
+  @include tabs-striped-color('tabs-color-cinnabar', $cinnabar);
+  @include tabs-background('tabs-background-cinnabar', $cinnabar, $cinnabar-d10);
+  @include tabs-color('tabs-color-cinnabar', $cinnabar);
+}
+
+ion-tabs {
+  @include tabs-standard-color('tabs-color-active-chestnut-rose', $chestnutRose, $dark);
+  @include tabs-standard-color('tabs-color-active-pomegranate', $pomegranate, $dark);
+  @include tabs-standard-color('tabs-color-active-thunderbird', $thunderbird, $dark);
+  @include tabs-standard-color('tabs-color-active-old-brick', $oldBrick, $dark);
+  @include tabs-standard-color('tabs-color-active-flamingo', $flamingo, $dark);
+  @include tabs-standard-color('tabs-color-active-valencia', $valencia, $dark);
+  @include tabs-standard-color('tabs-color-active-tall-poppy', $tallPoppy, $dark);
+  @include tabs-standard-color('tabs-color-active-monza', $monza, $dark);
+  @include tabs-standard-color('tabs-color-active-cinnabar', $cinnabar, $dark);
+}
+
+.tab-item.tab-item-active,
+.tab-item.active,
+.tab-item.activated {
+  &.tab-item-chestnut-rose { color: $chestnutRose; }
+  &.tab-item-pomegranate { color: $pomegranate; }
+  &.tab-item-thunderbird { color: $thunderbird; }
+  &.tab-item-old-brick { color: $oldBrick; }
+  &.tab-item-flamingo { color: $flamingo; }
+  &.tab-item-valencia { color: $valencia; }
+  &.tab-item-tall-poppy { color: $tallPoppy; }
+  &.tab-item-monza { color: $monza; }
+  &.tab-item-cinnabar { color: $cinnabar; }
+}
