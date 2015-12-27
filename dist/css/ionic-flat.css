@@ -1127,17 +1127,17 @@
   border-color: #FDE3A7;
   background-color: #E9D460;
   background-image: linear-gradient(0deg, #FDE3A7, #FDE3A7 50%, transparent 50%);
-  color: #333333; }
+  color: #FFFFFF; }
   .bar.bar-confetti .title {
-    color: #333333; }
+    color: #FFFFFF; }
   .bar.bar-confetti .bar-footer {
     background-image: linear-gradient(180deg, #FDE3A7, #FDE3A7 50%, transparent 50%); }
   .bar.bar-confetti .button {
     border-color: transparent;
     background-color: #E9D460;
-    color: #333333; }
+    color: #FFFFFF; }
     .bar.bar-confetti .button:hover {
-      color: #333333;
+      color: #FFFFFF;
       text-decoration: none; }
     .bar.bar-confetti .button.active, .bar.bar-confetti .button.activated {
       background-color: #e3c833; }
@@ -1145,7 +1145,7 @@
       border-color: transparent;
       background: none;
       box-shadow: none;
-      color: #333333;
+      color: #FFFFFF;
       font-size: 17px; }
     .bar.bar-confetti .button.button-icon {
       border-color: transparent;
@@ -1267,17 +1267,17 @@
   border-color: #E9D460;
   background-color: #F4B350;
   background-image: linear-gradient(0deg, #E9D460, #E9D460 50%, transparent 50%);
-  color: #333333; }
+  color: #FFFFFF; }
   .bar.bar-casablanca .title {
-    color: #333333; }
+    color: #FFFFFF; }
   .bar.bar-casablanca .bar-footer {
     background-image: linear-gradient(180deg, #E9D460, #E9D460 50%, transparent 50%); }
   .bar.bar-casablanca .button {
     border-color: transparent;
     background-color: #F4B350;
-    color: #333333; }
+    color: #FFFFFF; }
     .bar.bar-casablanca .button:hover {
-      color: #333333;
+      color: #FFFFFF;
       text-decoration: none; }
     .bar.bar-casablanca .button.active, .bar.bar-casablanca .button.activated {
       background-color: #f19e20; }
@@ -3930,9 +3930,9 @@
 .button.button-confetti {
   border-color: transparent;
   background-color: #E9D460;
-  color: #333333; }
+  color: #FFFFFF; }
   .button.button-confetti:hover {
-    color: #333333;
+    color: #FFFFFF;
     text-decoration: none; }
   .button.button-confetti.active, .button.button-confetti.activated {
     background-color: #e3c833; }
@@ -4060,9 +4060,9 @@
 .button.button-casablanca {
   border-color: transparent;
   background-color: #F4B350;
-  color: #333333; }
+  color: #FFFFFF; }
   .button.button-casablanca:hover {
-    color: #333333;
+    color: #FFFFFF;
     text-decoration: none; }
   .button.button-casablanca.active, .button.button-casablanca.activated {
     background-color: #f19e20; }
