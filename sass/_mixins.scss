@@ -234,3 +234,16 @@
     }
   }
 }
+
+@mixin tabs-standard-color($style, $color, $off-color:$dark) {
+  &.#{$style} {
+    .tab-item {
+      color: $off-color;
+      &.tab-item-active,
+      &.active,
+      &.activated {
+        color: $color;
+      }
+    }
+  }
+}
