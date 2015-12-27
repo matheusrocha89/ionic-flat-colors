@@ -34,6 +34,16 @@
     </ion-list>
 
     <ion-list>
+      <ion-item class="item-divider">Orange:</ion-item>
+      <ion-item ng-repeat="color in vm.classesOrange">
+        <h2>{{color}}</h2>
+        <div class="example">
+          <div class="color color-{{color}}"></div>
+        </div>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
       <ion-item class="item-divider">Green:</ion-item>
       <ion-item ng-repeat="color in vm.classesGreen">
         <h2>{{color}}</h2>

@@ -7,6 +7,7 @@ function BarsController(colorClasses){
   var vm = this;
   vm.classesYellow = colorClasses.yellow;
   vm.classesBlue = colorClasses.blue;
+  vm.classesOrange = colorClasses.orange;
   vm.classesGreen = colorClasses.green;
   vm.classesGray = colorClasses.gray;
   vm.classesPink = colorClasses.pink;

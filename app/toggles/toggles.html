@@ -43,6 +43,19 @@
     </ion-list>
 
     <ion-list>
+      <ion-item class="item-divider">Orange</ion-item>
+      <ion-item class="item item-toggle" ng-repeat="color in vm.classesOrange">
+        <h2>.toggle-{{color}}</h2>
+        <label class="toggle toggle-{{color}}">
+          <input type="checkbox" ng-checked="true">
+          <div class="track">
+            <div class="handle"></div>
+          </div>
+        </label>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
       <ion-item class="item-divider">Green</ion-item>
       <ion-item class="item item-toggle" ng-repeat="color in vm.classesGreen">
         <h2>.toggle-{{color}}</h2>

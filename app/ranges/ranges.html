@@ -34,6 +34,16 @@
     </ion-list>
 
     <ion-list>
+      <ion-item class="item-divider">Orange</ion-item>
+      <ion-item class="item range range-{{color}}" ng-repeat="color in vm.classesOrange">
+        <h2>.range-{{color}}</h2>
+        <i class="icon ion-ios-sunny-outline"></i>
+        <input type="range" name="volume" min="0" max="100" value="50">
+        <i class="icon ion-ios-sunny"></i>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
       <ion-item class="item-divider">Green</ion-item>
       <ion-item class="item range range-{{color}}" ng-repeat="color in vm.classesGreen">
         <h2>.range-{{color}}</h2>

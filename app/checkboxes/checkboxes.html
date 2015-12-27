@@ -24,6 +24,13 @@
       </ion-checkbox>
     </ion-list>
 
+    <h2>Orange:</h2>
+    <ion-list ng-repeat="color in vm.classesOrange">
+      <ion-checkbox ng-checked="true" class="checkbox-{{color}}">
+        .checkbox-{{color}}
+      </ion-checkbox>
+    </ion-list>
+
     <h2>Green:</h2>
     <ion-list ng-repeat="color in vm.classesGreen">
       <ion-checkbox ng-checked="true" class="checkbox-{{color}}">
