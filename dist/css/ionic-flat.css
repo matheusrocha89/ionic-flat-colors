@@ -10365,7 +10365,7 @@ ion-tabs.tabs-color-active-silver .tab-item {
   border-color: #c8a5ce;
   background-color: #DCC6E0;
   background-image: linear-gradient(0deg, #c8a5ce, #c8a5ce 50%, transparent 50%);
-  color: #FFFFFF; }
+  color: #333333; }
   .tabs-snuff > .tabs .tab-item .badge,
   .tabs.tabs-snuff .tab-item .badge {
     background-color: #FFFFFF;

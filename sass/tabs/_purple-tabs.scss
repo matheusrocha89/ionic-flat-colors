@@ -4,7 +4,7 @@
 
 .tabs-snuff > .tabs,
 .tabs.tabs-snuff {
-  @include tab-style($snuff, $snuff-d10, $white);
+  @include tab-style($snuff, $snuff-d10, $dark);
   @include tab-badge-style($white, $snuff);
 }
 
@@ -152,5 +152,3 @@ ion-tabs {
   &.tab-item-studio { color: $studio; }
   &.tab-item-wisteria { color: $wisteria; }
 }
-
-
