@@ -137,7 +137,7 @@
   @include tabs-striped-background('tabs-background-buttercup', $buttercup);
   @include tabs-striped-color('tabs-color-buttercup', $buttercup);
 
-  @include tabs-striped('tabs-ecstasy', $dark, $ecstasy);
+  @include tabs-striped('tabs-ecstasy', $white, $ecstasy);
   @include tabs-striped-background('tabs-background-ecstasy', $ecstasy);
   @include tabs-striped-color('tabs-color-ecstasy', $ecstasy);
 

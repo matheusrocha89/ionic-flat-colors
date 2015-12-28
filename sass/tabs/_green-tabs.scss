@@ -159,7 +159,7 @@
 }
 
 .tabs-striped {
-  @include tabs-striped('tabs-medium-turquoise', $dark, $mediumTurquoise);
+  @include tabs-striped('tabs-medium-turquoise', $white, $mediumTurquoise);
   @include tabs-striped-background('tabs-background-medium-turquoise', $mediumTurquoise);
   @include tabs-striped-color('tabs-color-medium-turquoise', $mediumTurquoise);
 
@@ -203,7 +203,7 @@
   @include tabs-striped-background('tabs-background-light-sea-green', $lightSeaGreen);
   @include tabs-striped-color('tabs-color-light-sea-green', $lightSeaGreen);
 
-  @include tabs-striped('tabs-medium-aquamarine', $dark, $mediumAquamarine);
+  @include tabs-striped('tabs-medium-aquamarine', $white, $mediumAquamarine);
   @include tabs-striped-background('tabs-background-medium-aquamarine', $mediumAquamarine);
   @include tabs-striped-color('tabs-color-medium-aquamarine', $mediumAquamarine);
 
@@ -247,11 +247,11 @@
   @include tabs-striped-background('tabs-background-niagara-one', $niagaraOne);
   @include tabs-striped-color('tabs-color-niagara-one', $niagaraOne);
 
-  @include tabs-striped('tabs-jade', $dark, $jade);
+  @include tabs-striped('tabs-jade', $white, $jade);
   @include tabs-striped-background('tabs-background-jade', $jade);
   @include tabs-striped-color('tabs-color-jade', $jade);
 
-  @include tabs-striped('tabs-salem', $dark, $salem);
+  @include tabs-striped('tabs-salem', $white, $salem);
   @include tabs-striped-background('tabs-background-salem', $salem);
   @include tabs-striped-color('tabs-color-salem', $salem);
 

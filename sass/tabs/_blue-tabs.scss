@@ -141,7 +141,7 @@
 }
 
 .tabs-striped {
-  @include tabs-striped('tabs-san-marino', $dark, $sanMarino);
+  @include tabs-striped('tabs-san-marino', $white, $sanMarino);
   @include tabs-striped-background('tabs-background-san-marino', $sanMarino);
   @include tabs-striped-color('tabs-color-san-marino', $sanMarino);
 
@@ -185,7 +185,7 @@
   @include tabs-striped-background('tabs-background-dodger-blue', $dodgerBlue);
   @include tabs-striped-color('tabs-color-dodger-blue', $dodgerBlue);
 
-  @include tabs-striped('tabs-ming', $dark, $ming);
+  @include tabs-striped('tabs-ming', $white, $ming);
   @include tabs-striped-background('tabs-background-ming', $ming);
   @include tabs-striped-color('tabs-color-ming', $ming);
 
@@ -229,7 +229,7 @@
   @include tabs-striped-background('tabs-background-steel-blue', $steelBlue);
   @include tabs-striped-color('tabs-color-steel-blue', $steelBlue);
 
-  @include tabs-striped('tabs-fountain-blue', $dark, $fountainBlue);
+  @include tabs-striped('tabs-fountain-blue', $white, $fountainBlue);
   @include tabs-striped-background('tabs-background-fountain-blue', $fountainBlue);
   @include tabs-striped-color('tabs-color-fountain-blue', $fountainBlue);
 }
