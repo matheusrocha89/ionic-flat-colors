@@ -317,3 +317,9 @@
 .example .color {
   width: 150px;
   height: 50px; }
+
+.example .tabs {
+  position: relative; }
+
+.example.doc-tabs {
+  width: 400px; }

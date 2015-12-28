@@ -5,5 +5,6 @@ angular.module('ionic-flat', [
   'checkboxes.controller',
   'colors.controller',
   'toggles.controller',
-  'ranges.controller'
+  'ranges.controller',
+  'tabs.controller'
 ]);

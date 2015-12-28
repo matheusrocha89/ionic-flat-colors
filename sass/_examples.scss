@@ -12,4 +12,12 @@
     width: 150px;
     height: 50px;
   }
+
+  .tabs {
+    position: relative;
+  }
+
+  &.doc-tabs { width: 400px; }
 }
+
+

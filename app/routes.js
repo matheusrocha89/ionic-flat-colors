@@ -36,6 +36,11 @@ function Routes($stateProvider, $urlRouterProvider) {
       url: '/ranges',
       templateUrl: 'app/ranges/ranges.html',
       controller: 'RangesController as vm'
+    })
+    .state('tabs', {
+      url: '/tabs',
+      templateUrl: 'app/tabs/tabs.html',
+      controller: 'TabsController as vm'
     });
   
   $urlRouterProvider.otherwise('/');
