@@ -1,4 +1,9 @@
-# ionic-flat-colors [![Build Status](https://travis-ci.org/matheusrocha89/ionic-flat-colors.svg?branch=master)](https://travis-ci.org/matheusrocha89/ionic-flat-colors)
+<script async="async" src="https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=matheus.rocha89@gmail.com" 
+    data-button="donate" 
+    data-name="ionic-flat-colors"
+></script>
+[![Build Status](https://travis-ci.org/matheusrocha89/ionic-flat-colors.svg?branch=master)](https://travis-ci.org/matheusrocha89/ionic-flat-colors)
+# ionic-flat-colors
 
 The Ionic Flat Colors adds new colors options for the Ionic components: buttons, bars, checkboxes...etc.
 
