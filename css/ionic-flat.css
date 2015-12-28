@@ -11357,16 +11357,16 @@ ion-tabs.tabs-color-active-wisteria .tab-item {
   background-color: #446CB3; }
 
 .tabs-striped.tabs-san-marino .tab-item {
-  color: rgba(51, 51, 51, 0.4);
+  color: rgba(255, 255, 255, 0.4);
   opacity: 1; }
   .tabs-striped.tabs-san-marino .tab-item .badge {
     opacity: 0.4; }
   .tabs-striped.tabs-san-marino .tab-item.tab-item-active, .tabs-striped.tabs-san-marino .tab-item.active, .tabs-striped.tabs-san-marino .tab-item.activated {
     margin-top: -2px;
-    color: #333333;
+    color: #FFFFFF;
     border-style: solid;
     border-width: 2px 0 0 0;
-    border-color: #333333; }
+    border-color: #FFFFFF; }
 
 .tabs-striped.tabs-top .tab-item.tab-item-active .badge, .tabs-striped.tabs-top .tab-item.active .badge, .tabs-striped.tabs-top .tab-item.activated .badge {
   top: 4%; }
@@ -11753,16 +11753,16 @@ ion-tabs.tabs-color-active-wisteria .tab-item {
   background-color: #336E7B; }
 
 .tabs-striped.tabs-ming .tab-item {
-  color: rgba(51, 51, 51, 0.4);
+  color: rgba(255, 255, 255, 0.4);
   opacity: 1; }
   .tabs-striped.tabs-ming .tab-item .badge {
     opacity: 0.4; }
   .tabs-striped.tabs-ming .tab-item.tab-item-active, .tabs-striped.tabs-ming .tab-item.active, .tabs-striped.tabs-ming .tab-item.activated {
     margin-top: -2px;
-    color: #333333;
+    color: #FFFFFF;
     border-style: solid;
     border-width: 2px 0 0 0;
-    border-color: #333333; }
+    border-color: #FFFFFF; }
 
 .tabs-striped.tabs-top .tab-item.tab-item-active .badge, .tabs-striped.tabs-top .tab-item.active .badge, .tabs-striped.tabs-top .tab-item.activated .badge {
   top: 4%; }
@@ -12149,16 +12149,16 @@ ion-tabs.tabs-color-active-wisteria .tab-item {
   background-color: #5C97BF; }
 
 .tabs-striped.tabs-fountain-blue .tab-item {
-  color: rgba(51, 51, 51, 0.4);
+  color: rgba(255, 255, 255, 0.4);
   opacity: 1; }
   .tabs-striped.tabs-fountain-blue .tab-item .badge {
     opacity: 0.4; }
   .tabs-striped.tabs-fountain-blue .tab-item.tab-item-active, .tabs-striped.tabs-fountain-blue .tab-item.active, .tabs-striped.tabs-fountain-blue .tab-item.activated {
     margin-top: -2px;
-    color: #333333;
+    color: #FFFFFF;
     border-style: solid;
     border-width: 2px 0 0 0;
-    border-color: #333333; }
+    border-color: #FFFFFF; }
 
 .tabs-striped.tabs-top .tab-item.tab-item-active .badge, .tabs-striped.tabs-top .tab-item.active .badge, .tabs-striped.tabs-top .tab-item.activated .badge {
   top: 4%; }
@@ -13367,16 +13367,16 @@ ion-tabs.tabs-color-active-fountain-blue .tab-item {
   background-color: #F9690E; }
 
 .tabs-striped.tabs-ecstasy .tab-item {
-  color: rgba(51, 51, 51, 0.4);
+  color: rgba(255, 255, 255, 0.4);
   opacity: 1; }
   .tabs-striped.tabs-ecstasy .tab-item .badge {
     opacity: 0.4; }
   .tabs-striped.tabs-ecstasy .tab-item.tab-item-active, .tabs-striped.tabs-ecstasy .tab-item.active, .tabs-striped.tabs-ecstasy .tab-item.activated {
     margin-top: -2px;
-    color: #333333;
+    color: #FFFFFF;
     border-style: solid;
     border-width: 2px 0 0 0;
-    border-color: #333333; }
+    border-color: #FFFFFF; }
 
 .tabs-striped.tabs-top .tab-item.tab-item-active .badge, .tabs-striped.tabs-top .tab-item.active .badge, .tabs-striped.tabs-top .tab-item.activated .badge {
   top: 4%; }
@@ -14202,16 +14202,16 @@ ion-tabs.tabs-color-active-zest .tab-item {
   background-color: #4ECDC4; }
 
 .tabs-striped.tabs-medium-turquoise .tab-item {
-  color: rgba(51, 51, 51, 0.4);
+  color: rgba(255, 255, 255, 0.4);
   opacity: 1; }
   .tabs-striped.tabs-medium-turquoise .tab-item .badge {
     opacity: 0.4; }
   .tabs-striped.tabs-medium-turquoise .tab-item.tab-item-active, .tabs-striped.tabs-medium-turquoise .tab-item.active, .tabs-striped.tabs-medium-turquoise .tab-item.activated {
     margin-top: -2px;
-    color: #333333;
+    color: #FFFFFF;
     border-style: solid;
     border-width: 2px 0 0 0;
-    border-color: #333333; }
+    border-color: #FFFFFF; }
 
 .tabs-striped.tabs-top .tab-item.tab-item-active .badge, .tabs-striped.tabs-top .tab-item.active .badge, .tabs-striped.tabs-top .tab-item.activated .badge {
   top: 4%; }
@@ -14598,16 +14598,16 @@ ion-tabs.tabs-color-active-zest .tab-item {
   background-color: #66CC99; }
 
 .tabs-striped.tabs-medium-aquamarine .tab-item {
-  color: rgba(51, 51, 51, 0.4);
+  color: rgba(255, 255, 255, 0.4);
   opacity: 1; }
   .tabs-striped.tabs-medium-aquamarine .tab-item .badge {
     opacity: 0.4; }
   .tabs-striped.tabs-medium-aquamarine .tab-item.tab-item-active, .tabs-striped.tabs-medium-aquamarine .tab-item.active, .tabs-striped.tabs-medium-aquamarine .tab-item.activated {
     margin-top: -2px;
-    color: #333333;
+    color: #FFFFFF;
     border-style: solid;
     border-width: 2px 0 0 0;
-    border-color: #333333; }
+    border-color: #FFFFFF; }
 
 .tabs-striped.tabs-top .tab-item.tab-item-active .badge, .tabs-striped.tabs-top .tab-item.active .badge, .tabs-striped.tabs-top .tab-item.activated .badge {
   top: 4%; }
@@ -14994,16 +14994,16 @@ ion-tabs.tabs-color-active-zest .tab-item {
   background-color: #00B16A; }
 
 .tabs-striped.tabs-jade .tab-item {
-  color: rgba(51, 51, 51, 0.4);
+  color: rgba(255, 255, 255, 0.4);
   opacity: 1; }
   .tabs-striped.tabs-jade .tab-item .badge {
     opacity: 0.4; }
   .tabs-striped.tabs-jade .tab-item.tab-item-active, .tabs-striped.tabs-jade .tab-item.active, .tabs-striped.tabs-jade .tab-item.activated {
     margin-top: -2px;
-    color: #333333;
+    color: #FFFFFF;
     border-style: solid;
     border-width: 2px 0 0 0;
-    border-color: #333333; }
+    border-color: #FFFFFF; }
 
 .tabs-striped.tabs-top .tab-item.tab-item-active .badge, .tabs-striped.tabs-top .tab-item.active .badge, .tabs-striped.tabs-top .tab-item.activated .badge {
   top: 4%; }
@@ -15030,16 +15030,16 @@ ion-tabs.tabs-color-active-zest .tab-item {
   background-color: #1E824C; }
 
 .tabs-striped.tabs-salem .tab-item {
-  color: rgba(51, 51, 51, 0.4);
+  color: rgba(255, 255, 255, 0.4);
   opacity: 1; }
   .tabs-striped.tabs-salem .tab-item .badge {
     opacity: 0.4; }
   .tabs-striped.tabs-salem .tab-item.tab-item-active, .tabs-striped.tabs-salem .tab-item.active, .tabs-striped.tabs-salem .tab-item.activated {
     margin-top: -2px;
-    color: #333333;
+    color: #FFFFFF;
     border-style: solid;
     border-width: 2px 0 0 0;
-    border-color: #333333; }
+    border-color: #FFFFFF; }
 
 .tabs-striped.tabs-top .tab-item.tab-item-active .badge, .tabs-striped.tabs-top .tab-item.active .badge, .tabs-striped.tabs-top .tab-item.activated .badge {
   top: 4%; }
