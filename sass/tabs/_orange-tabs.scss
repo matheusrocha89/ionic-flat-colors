@@ -40,7 +40,7 @@
 
 .tabs-crusta > .tabs,
 .tabs.tabs-crusta {
-  @include tab-style($crusta, $crusta-d10, $dark);
+  @include tab-style($crusta, $crusta-d10, $white);
   @include tab-badge-style($white, $crusta);
 }
 
@@ -129,7 +129,7 @@
   @include tabs-background('tabs-background-casablanca', $casablanca, $casablanca-d10);
   @include tabs-color('tabs-color-casablanca', $casablanca);
 
-  @include tabs-striped('tabs-crusta', $dark, $crusta);
+  @include tabs-striped('tabs-crusta', $white, $crusta);
   @include tabs-striped-background('tabs-background-crusta', $crusta);
   @include tabs-striped-color('tabs-color-crusta', $crusta);
   @include tabs-background('tabs-background-crusta', $crusta, $crusta-d10);
@@ -191,7 +191,7 @@ ion-tabs {
   @include tabs-standard-color('tabs-color-active-fire-bush', $fireBush, $dark);
   @include tabs-standard-color('tabs-color-active-tahiti-gold', $tahitiGold, $dark);
   @include tabs-standard-color('tabs-color-active-casablanca', $casablanca, $dark);
-  @include tabs-standard-color('tabs-color-active-crusta', $crusta, $white);
+  @include tabs-standard-color('tabs-color-active-crusta', $crusta, $dark);
   @include tabs-standard-color('tabs-color-active-sea-buckthorn', $seaBuckthorn, $dark);
   @include tabs-standard-color('tabs-color-active-lightning-yellow', $lightningYellow, $dark);
   @include tabs-standard-color('tabs-color-active-burnt-orange', $burntOrange, $dark);

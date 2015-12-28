@@ -148,7 +148,7 @@
 
 .tabs-observatory > .tabs,
 .tabs.tabs-observatory {
-  @include tab-style($observatory, $observatory-d10, $dark);
+  @include tab-style($observatory, $observatory-d10, $white);
   @include tab-badge-style($white, $observatory);
 }
 
@@ -303,7 +303,7 @@
   @include tabs-background('tabs-background-salem', $salem, $salem-d10);
   @include tabs-color('tabs-color-salem', $salem);
 
-  @include tabs-striped('tabs-observatory', $dark, $observatory);
+  @include tabs-striped('tabs-observatory', $white, $observatory);
   @include tabs-striped-background('tabs-background-observatory', $observatory);
   @include tabs-striped-color('tabs-color-observatory', $observatory);
   @include tabs-background('tabs-background-observatory', $observatory, $observatory-d10);

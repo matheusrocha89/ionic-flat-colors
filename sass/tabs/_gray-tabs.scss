@@ -4,7 +4,7 @@
 
 .tabs-white-smoke > .tabs,
 .tabs.tabs-white-smoke {
-  @include tab-style($whiteSmoke, $whiteSmoke-d10, $white);
+  @include tab-style($whiteSmoke, $whiteSmoke-d10, $dark);
   @include tab-badge-style($white, $whiteSmoke);
 }
 
@@ -22,7 +22,7 @@
 
 .tabs-gallery > .tabs,
 .tabs.tabs-gallery {
-  @include tab-style($gallery, $gallery-d10, $white);
+  @include tab-style($gallery, $gallery-d10, $dark);
   @include tab-badge-style($white, $gallery);
 }
 
@@ -34,7 +34,7 @@
 
 .tabs-porcelain > .tabs,
 .tabs.tabs-porcelain {
-  @include tab-style($porcelain, $porcelain-d10, $white);
+  @include tab-style($porcelain, $porcelain-d10, $dark);
   @include tab-badge-style($white, $porcelain);
 }
 
@@ -46,7 +46,7 @@
 
 .tabs-iron > .tabs,
 .tabs.tabs-iron {
-  @include tab-style($iron, $iron-d10, $white);
+  @include tab-style($iron, $iron-d10, $dark);
   @include tab-badge-style($white, $iron);
 }
 
@@ -58,7 +58,7 @@
 
 .tabs-cararra > .tabs,
 .tabs.tabs-cararra {
-  @include tab-style($cararra, $cararra-d10, $white);
+  @include tab-style($cararra, $cararra-d10, $dark);
   @include tab-badge-style($white, $cararra);
 }
 
@@ -87,7 +87,7 @@
   @include tabs-background('tabs-background-pumice', $pumice, $pumice-d10);
   @include tabs-color('tabs-color-pumice', $pumice);
 
-  @include tabs-striped('tabs-gallery', $white, $gallery);
+  @include tabs-striped('tabs-gallery', $dark, $gallery);
   @include tabs-striped-background('tabs-background-gallery', $gallery);
   @include tabs-striped-color('tabs-color-gallery', $gallery);
   @include tabs-background('tabs-background-gallery', $gallery, $gallery-d10);
@@ -99,7 +99,7 @@
   @include tabs-background('tabs-background-silver-sand', $silverSand, $silverSand-d10);
   @include tabs-color('tabs-color-silver-sand', $silverSand);
 
-  @include tabs-striped('tabs-porcelain', $white, $porcelain);
+  @include tabs-striped('tabs-porcelain', $dark, $porcelain);
   @include tabs-striped-background('tabs-background-porcelain', $porcelain);
   @include tabs-striped-color('tabs-color-porcelain', $porcelain);
   @include tabs-background('tabs-background-porcelain', $porcelain, $porcelain-d10);
@@ -111,7 +111,7 @@
   @include tabs-background('tabs-background-cascade', $cascade, $cascade-d10);
   @include tabs-color('tabs-color-cascade', $cascade);
 
-  @include tabs-striped('tabs-iron', $white, $iron);
+  @include tabs-striped('tabs-iron', $dark, $iron);
   @include tabs-striped-background('tabs-background-iron', $iron);
   @include tabs-striped-color('tabs-color-iron', $iron);
   @include tabs-background('tabs-background-iron', $iron, $iron-d10);
@@ -123,7 +123,7 @@
   @include tabs-background('tabs-background-edward', $edward, $edward-d10);
   @include tabs-color('tabs-color-edward', $edward);
 
-  @include tabs-striped('tabs-cararra', $white, $cararra);
+  @include tabs-striped('tabs-cararra', $dark, $cararra);
   @include tabs-striped-background('tabs-background-cararra', $cararra);
   @include tabs-striped-color('tabs-color-cararra', $cararra);
   @include tabs-background('tabs-background-cararra', $cararra, $cararra-d10);
@@ -137,7 +137,7 @@
 }
 
 ion-tabs {
-  @include tabs-standard-color('tabs-color-active-white-smoke', $whiteSmoke, $white);
+  @include tabs-standard-color('tabs-color-active-white-smoke', $whiteSmoke, $dark);
   @include tabs-standard-color('tabs-color-active-lynch', $lynch, $dark);
   @include tabs-standard-color('tabs-color-active-pumice', $pumice, $dark);
   @include tabs-standard-color('tabs-color-active-gallery', $gallery, $dark);
