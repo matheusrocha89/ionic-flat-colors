@@ -319,7 +319,8 @@
   height: 50px; }
 
 .example .tabs {
-  position: relative; }
+  position: relative;
+  margin: 15px 0; }
 
 .example.doc-tabs {
   width: 400px; }
