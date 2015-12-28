@@ -48,45 +48,46 @@
   @include tabs-striped('tabs-razzmatazz', $white, $razzmatazz);
   @include tabs-striped-background('tabs-background-razzmatazz', $razzmatazz);
   @include tabs-striped-color('tabs-color-razzmatazz', $razzmatazz);
-  @include tabs-background('tabs-background-razzmatazz', $razzmatazz, $razzmatazz-d10);
-  @include tabs-color('tabs-color-razzmatazz', $razzmatazz);
 
   @include tabs-striped('tabs-sunset-orange', $white, $sunsetOrange);
   @include tabs-striped-background('tabs-background-sunset-orange', $sunsetOrange);
   @include tabs-striped-color('tabs-color-sunset-orange', $sunsetOrange);
-  @include tabs-background('tabs-background-sunset-orange', $sunsetOrange, $sunsetOrange-d10);
-  @include tabs-color('tabs-color-sunset-orange', $sunsetOrange);
 
   @include tabs-striped('tabs-wax-flower', $white, $waxFlower);
   @include tabs-striped-background('tabs-background-wax-flower', $waxFlower);
   @include tabs-striped-color('tabs-color-wax-flower', $waxFlower);
-  @include tabs-background('tabs-background-wax-flower', $waxFlower, $waxFlower-d10);
-  @include tabs-color('tabs-color-wax-flower', $waxFlower);
 
   @include tabs-striped('tabs-cabaret', $white, $cabaret);
   @include tabs-striped-background('tabs-background-cabaret', $cabaret);
   @include tabs-striped-color('tabs-color-cabaret', $cabaret);
-  @include tabs-background('tabs-background-cabaret', $cabaret, $cabaret-d10);
-  @include tabs-color('tabs-color-cabaret', $cabaret);
 
   @include tabs-striped('tabs-new-york-pink', $white, $newYorkPink);
   @include tabs-striped-background('tabs-background-new-york-pink', $newYorkPink);
   @include tabs-striped-color('tabs-color-new-york-pink', $newYorkPink);
-  @include tabs-background('tabs-background-new-york-pink', $newYorkPink, $newYorkPink-d10);
-  @include tabs-color('tabs-color-new-york-pink', $newYorkPink);
 
   @include tabs-striped('tabs-radical-red', $white, $radicalRed);
   @include tabs-striped-background('tabs-background-radical-red', $radicalRed);
   @include tabs-striped-color('tabs-color-radical-red', $radicalRed);
-  @include tabs-background('tabs-background-radical-red', $radicalRed, $radicalRed-d10);
-  @include tabs-color('tabs-color-radical-red', $radicalRed);
 
   @include tabs-striped('tabs-sunglo', $white, $sunglo);
   @include tabs-striped-background('tabs-background-sunglo', $sunglo);
   @include tabs-striped-color('tabs-color-sunglo', $sunglo);
-  @include tabs-background('tabs-background-sunglo', $sunglo, $sunglo-d10);
-  @include tabs-color('tabs-color-sunglo', $sunglo);
 }
+
+@include tabs-background('tabs-background-razzmatazz', $razzmatazz, $razzmatazz-d10);
+@include tabs-color('tabs-color-razzmatazz', $razzmatazz);
+@include tabs-background('tabs-background-sunset-orange', $sunsetOrange, $sunsetOrange-d10);
+@include tabs-color('tabs-color-sunset-orange', $sunsetOrange);
+@include tabs-background('tabs-background-wax-flower', $waxFlower, $waxFlower-d10);
+@include tabs-color('tabs-color-wax-flower', $waxFlower);
+@include tabs-background('tabs-background-cabaret', $cabaret, $cabaret-d10);
+@include tabs-color('tabs-color-cabaret', $cabaret);
+@include tabs-background('tabs-background-new-york-pink', $newYorkPink, $newYorkPink-d10);
+@include tabs-color('tabs-color-new-york-pink', $newYorkPink);
+@include tabs-background('tabs-background-radical-red', $radicalRed, $radicalRed-d10);
+@include tabs-color('tabs-color-radical-red', $radicalRed);
+@include tabs-background('tabs-background-sunglo', $sunglo, $sunglo-d10);
+@include tabs-color('tabs-color-sunglo', $sunglo);
 
 ion-tabs {
   @include tabs-standard-color('tabs-color-active-razzmatazz', $razzmatazz, $dark);
@@ -109,3 +110,4 @@ ion-tabs {
   &.tab-item-radical-red { color: $radicalRed; }
   &.tab-item-sunglo { color: $sunglo; }
 }
+

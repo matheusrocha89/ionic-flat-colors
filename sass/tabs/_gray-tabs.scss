@@ -72,69 +72,70 @@
   @include tabs-striped('tabs-white-smoke', $dark, $whiteSmoke);
   @include tabs-striped-background('tabs-background-white-smoke', $whiteSmoke);
   @include tabs-striped-color('tabs-color-white-smoke', $whiteSmoke);
-  @include tabs-background('tabs-background-white-smoke', $whiteSmoke, $whiteSmoke-d10);
-  @include tabs-color('tabs-color-white-smoke', $whiteSmoke);
 
   @include tabs-striped('tabs-lynch', $white, $lynch);
   @include tabs-striped-background('tabs-background-lynch', $lynch);
   @include tabs-striped-color('tabs-color-lynch', $lynch);
-  @include tabs-background('tabs-background-lynch', $lynch, $lynch-d10);
-  @include tabs-color('tabs-color-lynch', $lynch);
 
   @include tabs-striped('tabs-pumice', $white, $pumice);
   @include tabs-striped-background('tabs-background-pumice', $pumice);
   @include tabs-striped-color('tabs-color-pumice', $pumice);
-  @include tabs-background('tabs-background-pumice', $pumice, $pumice-d10);
-  @include tabs-color('tabs-color-pumice', $pumice);
 
   @include tabs-striped('tabs-gallery', $dark, $gallery);
   @include tabs-striped-background('tabs-background-gallery', $gallery);
   @include tabs-striped-color('tabs-color-gallery', $gallery);
-  @include tabs-background('tabs-background-gallery', $gallery, $gallery-d10);
-  @include tabs-color('tabs-color-gallery', $gallery);
 
   @include tabs-striped('tabs-silver-sand', $white, $silverSand);
   @include tabs-striped-background('tabs-background-silver-sand', $silverSand);
   @include tabs-striped-color('tabs-color-silver-sand', $silverSand);
-  @include tabs-background('tabs-background-silver-sand', $silverSand, $silverSand-d10);
-  @include tabs-color('tabs-color-silver-sand', $silverSand);
 
   @include tabs-striped('tabs-porcelain', $dark, $porcelain);
   @include tabs-striped-background('tabs-background-porcelain', $porcelain);
   @include tabs-striped-color('tabs-color-porcelain', $porcelain);
-  @include tabs-background('tabs-background-porcelain', $porcelain, $porcelain-d10);
-  @include tabs-color('tabs-color-porcelain', $porcelain);
 
   @include tabs-striped('tabs-cascade', $white, $cascade);
   @include tabs-striped-background('tabs-background-cascade', $cascade);
   @include tabs-striped-color('tabs-color-cascade', $cascade);
-  @include tabs-background('tabs-background-cascade', $cascade, $cascade-d10);
-  @include tabs-color('tabs-color-cascade', $cascade);
 
   @include tabs-striped('tabs-iron', $dark, $iron);
   @include tabs-striped-background('tabs-background-iron', $iron);
   @include tabs-striped-color('tabs-color-iron', $iron);
-  @include tabs-background('tabs-background-iron', $iron, $iron-d10);
-  @include tabs-color('tabs-color-iron', $iron);
 
   @include tabs-striped('tabs-edward', $white, $edward);
   @include tabs-striped-background('tabs-background-edward', $edward);
   @include tabs-striped-color('tabs-color-edward', $edward);
-  @include tabs-background('tabs-background-edward', $edward, $edward-d10);
-  @include tabs-color('tabs-color-edward', $edward);
 
   @include tabs-striped('tabs-cararra', $dark, $cararra);
   @include tabs-striped-background('tabs-background-cararra', $cararra);
   @include tabs-striped-color('tabs-color-cararra', $cararra);
-  @include tabs-background('tabs-background-cararra', $cararra, $cararra-d10);
-  @include tabs-color('tabs-color-cararra', $cararra);
 
   @include tabs-striped('tabs-silver', $white, $silver);
   @include tabs-striped-background('tabs-background-silver', $silver);
   @include tabs-striped-color('tabs-color-silver', $silver);
-  @include tabs-background('tabs-background-silver', $silver, $silver-d10);
-  @include tabs-color('tabs-color-silver', $silver);
 }
+
+@include tabs-background('tabs-background-white-smoke', $whiteSmoke, $whiteSmoke-d10);
+@include tabs-color('tabs-color-white-smoke', $whiteSmoke);
+@include tabs-background('tabs-background-lynch', $lynch, $lynch-d10);
+@include tabs-color('tabs-color-lynch', $lynch);
+@include tabs-background('tabs-background-pumice', $pumice, $pumice-d10);
+@include tabs-color('tabs-color-pumice', $pumice);
+@include tabs-background('tabs-background-gallery', $gallery, $gallery-d10);
+@include tabs-color('tabs-color-gallery', $gallery);
+@include tabs-background('tabs-background-silver-sand', $silverSand, $silverSand-d10);
+@include tabs-color('tabs-color-silver-sand', $silverSand);
+@include tabs-background('tabs-background-porcelain', $porcelain, $porcelain-d10);
+@include tabs-color('tabs-color-porcelain', $porcelain);
+@include tabs-background('tabs-background-cascade', $cascade, $cascade-d10);
+@include tabs-color('tabs-color-cascade', $cascade);
+@include tabs-background('tabs-background-iron', $iron, $iron-d10);
+@include tabs-color('tabs-color-iron', $iron);
+@include tabs-background('tabs-background-edward', $edward, $edward-d10);
+@include tabs-color('tabs-color-edward', $edward);
+@include tabs-background('tabs-background-cararra', $cararra, $cararra-d10);
+@include tabs-color('tabs-color-cararra', $cararra);
+@include tabs-background('tabs-background-silver', $silver, $silver-d10);
+@include tabs-color('tabs-color-silver', $silver);
 
 ion-tabs {
   @include tabs-standard-color('tabs-color-active-white-smoke', $whiteSmoke, $dark);

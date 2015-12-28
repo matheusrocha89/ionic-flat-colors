@@ -24,21 +24,22 @@
   @include tabs-striped('tabs-cream-can', $white, $creamCan);
   @include tabs-striped-background('tabs-background-cream-can', $creamCan);
   @include tabs-striped-color('tabs-color-cream-can', $creamCan);
-  @include tabs-background('tabs-background-cream-can', $creamCan, $creamCan-d10);
-  @include tabs-color('tabs-color-cream-can', $creamCan);
 
   @include tabs-striped('tabs-ripe-lemon', $white, $ripeLemon);
   @include tabs-striped-background('tabs-background-ripe-lemon', $ripeLemon);
   @include tabs-striped-color('tabs-color-ripe-lemon', $ripeLemon);
-  @include tabs-background('tabs-background-ripe-lemon', $ripeLemon, $ripeLemon-d10);
-  @include tabs-color('tabs-color-ripe-lemon', $ripeLemon);
 
   @include tabs-striped('tabs-saffron', $white, $saffron);
   @include tabs-striped-background('tabs-background-saffron', $saffron);
   @include tabs-striped-color('tabs-color-saffron', $saffron);
-  @include tabs-background('tabs-background-saffron', $saffron, $saffron-d10);
-  @include tabs-color('tabs-color-saffron', $saffron);
 }
+
+@include tabs-background('tabs-background-cream-can', $creamCan, $creamCan-d10);
+@include tabs-color('tabs-color-cream-can', $creamCan);
+@include tabs-background('tabs-background-ripe-lemon', $ripeLemon, $ripeLemon-d10);
+@include tabs-color('tabs-color-ripe-lemon', $ripeLemon);
+@include tabs-background('tabs-background-saffron', $saffron, $saffron-d10);
+@include tabs-color('tabs-color-saffron', $saffron);
 
 ion-tabs {
   @include tabs-standard-color('tabs-color-active-cream-can', $creamCan, $dark);

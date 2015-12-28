@@ -162,159 +162,160 @@
   @include tabs-striped('tabs-medium-turquoise', $dark, $mediumTurquoise);
   @include tabs-striped-background('tabs-background-medium-turquoise', $mediumTurquoise);
   @include tabs-striped-color('tabs-color-medium-turquoise', $mediumTurquoise);
-  @include tabs-background('tabs-background-medium-turquoise', $mediumTurquoise, $mediumTurquoise-d10);
-  @include tabs-color('tabs-color-medium-turquoise', $mediumTurquoise);
 
   @include tabs-striped('tabs-aqua-island', $dark, $aquaIsland);
   @include tabs-striped-background('tabs-background-aqua-island', $aquaIsland);
   @include tabs-striped-color('tabs-color-aqua-island', $aquaIsland);
-  @include tabs-background('tabs-background-aqua-island', $aquaIsland, $aquaIsland-d10);
-  @include tabs-color('tabs-color-aqua-island', $aquaIsland);
 
   @include tabs-striped('tabs-gossip', $white, $gossip);
   @include tabs-striped-background('tabs-background-gossip', $gossip);
   @include tabs-striped-color('tabs-color-gossip', $gossip);
-  @include tabs-background('tabs-background-gossip', $gossip, $gossip-d10);
-  @include tabs-color('tabs-color-gossip', $gossip);
 
   @include tabs-striped('tabs-dark-sea-green', $white, $darkSeaGreen);
   @include tabs-striped-background('tabs-background-dark-sea-green', $darkSeaGreen);
   @include tabs-striped-color('tabs-color-dark-sea-green', $darkSeaGreen);
-  @include tabs-background('tabs-background-dark-sea-green', $darkSeaGreen, $darkSeaGreen-d10);
-  @include tabs-color('tabs-color-dark-sea-green', $darkSeaGreen);
 
   @include tabs-striped('tabs-eucalyptus', $white, $eucalyptus);
   @include tabs-striped-background('tabs-background-eucalyptus', $eucalyptus);
   @include tabs-striped-color('tabs-color-eucalyptus', $eucalyptus);
-  @include tabs-background('tabs-background-eucalyptus', $eucalyptus, $eucalyptus-d10);
-  @include tabs-color('tabs-color-eucalyptus', $eucalyptus);
 
   @include tabs-striped('tabs-caribbean-green', $white, $caribbeanGreen);
   @include tabs-striped-background('tabs-background-caribbean-green', $caribbeanGreen);
   @include tabs-striped-color('tabs-color-caribbean-green', $caribbeanGreen);
-  @include tabs-background('tabs-background-caribbean-green', $caribbeanGreen, $caribbeanGreen-d10);
-  @include tabs-color('tabs-color-caribbean-green', $caribbeanGreen);
 
   @include tabs-striped('tabs-humming-bird', $dark, $hummingBird);
   @include tabs-striped-background('tabs-background-humming-bird', $hummingBird);
   @include tabs-striped-color('tabs-color-humming-bird', $hummingBird);
-  @include tabs-background('tabs-background-humming-bird', $hummingBird, $hummingBird-d10);
-  @include tabs-color('tabs-color-humming-bird', $hummingBird);
 
   @include tabs-striped('tabs-silver-tree', $white, $silverTree);
   @include tabs-striped-background('tabs-background-silver-tree', $silverTree);
   @include tabs-striped-color('tabs-color-silver-tree', $silverTree);
-  @include tabs-background('tabs-background-silver-tree', $silverTree, $silverTree-d10);
-  @include tabs-color('tabs-color-silver-tree', $silverTree);
 
   @include tabs-striped('tabs-downy', $white, $downy);
   @include tabs-striped-background('tabs-background-downy', $downy);
   @include tabs-striped-color('tabs-color-downy', $downy);
-  @include tabs-background('tabs-background-downy', $downy, $downy-d10);
-  @include tabs-color('tabs-color-downy', $downy);
 
   @include tabs-striped('tabs-mountain-meadow', $white, $mountainMeadow);
   @include tabs-striped-background('tabs-background-mountain-meadow', $mountainMeadow);
   @include tabs-striped-color('tabs-color-mountain-meadow', $mountainMeadow);
-  @include tabs-background('tabs-background-mountain-meadow', $mountainMeadow, $mountainMeadow-d10);
-  @include tabs-color('tabs-color-mountain-meadow', $mountainMeadow);
 
   @include tabs-striped('tabs-light-sea-green', $white, $lightSeaGreen);
   @include tabs-striped-background('tabs-background-light-sea-green', $lightSeaGreen);
   @include tabs-striped-color('tabs-color-light-sea-green', $lightSeaGreen);
-  @include tabs-background('tabs-background-light-sea-green', $lightSeaGreen, $lightSeaGreen-d10);
-  @include tabs-color('tabs-color-light-sea-green', $lightSeaGreen);
 
   @include tabs-striped('tabs-medium-aquamarine', $dark, $mediumAquamarine);
   @include tabs-striped-background('tabs-background-medium-aquamarine', $mediumAquamarine);
   @include tabs-striped-color('tabs-color-medium-aquamarine', $mediumAquamarine);
-  @include tabs-background('tabs-background-medium-aquamarine', $mediumAquamarine, $mediumAquamarine-d10);
-  @include tabs-color('tabs-color-medium-aquamarine', $mediumAquamarine);
 
   @include tabs-striped('tabs-turquoise', $white, $turquoise);
   @include tabs-striped-background('tabs-background-turquoise', $turquoise);
   @include tabs-striped-color('tabs-color-turquoise', $turquoise);
-  @include tabs-background('tabs-background-turquoise', $turquoise, $turquoise-d10);
-  @include tabs-color('tabs-color-turquoise', $turquoise);
 
   @include tabs-striped('tabs-madang', $dark, $madang);
   @include tabs-striped-background('tabs-background-madang', $madang);
   @include tabs-striped-color('tabs-color-madang', $madang);
-  @include tabs-background('tabs-background-madang', $madang, $madang-d10);
-  @include tabs-color('tabs-color-madang', $madang);
 
   @include tabs-striped('tabs-riptide', $white, $riptide);
   @include tabs-striped-background('tabs-background-riptide', $riptide);
   @include tabs-striped-color('tabs-color-riptide', $riptide);
-  @include tabs-background('tabs-background-riptide', $riptide, $riptide-d10);
-  @include tabs-color('tabs-color-riptide', $riptide);
 
   @include tabs-striped('tabs-shamrock', $white, $shamrock);
   @include tabs-striped-background('tabs-background-shamrock', $shamrock);
   @include tabs-striped-color('tabs-color-shamrock', $shamrock);
-  @include tabs-background('tabs-background-shamrock', $shamrock, $shamrock-d10);
-  @include tabs-color('tabs-color-shamrock', $shamrock);
 
   @include tabs-striped('tabs-niagara', $white, $niagara);
   @include tabs-striped-background('tabs-background-niagara', $niagara);
   @include tabs-striped-color('tabs-color-niagara', $niagara);
-  @include tabs-background('tabs-background-niagara', $niagara, $niagara-d10);
-  @include tabs-color('tabs-color-niagara', $niagara);
 
   @include tabs-striped('tabs-esmerald', $white, $esmerald);
   @include tabs-striped-background('tabs-background-esmerald', $esmerald);
   @include tabs-striped-color('tabs-color-esmerald', $esmerald);
-  @include tabs-background('tabs-background-esmerald', $esmerald, $esmerald-d10);
-  @include tabs-color('tabs-color-esmerald', $esmerald);
 
   @include tabs-striped('tabs-green-haze', $white, $greenHaze);
   @include tabs-striped-background('tabs-background-green-haze', $greenHaze);
   @include tabs-striped-color('tabs-color-green-haze', $greenHaze);
-  @include tabs-background('tabs-background-green-haze', $greenHaze, $greenHaze-d10);
-  @include tabs-color('tabs-color-green-haze', $greenHaze);
 
   @include tabs-striped('tabs-free-speech-aquamarine', $white, $freeSpeechAquamarine);
   @include tabs-striped-background('tabs-background-free-speech-aquamarine', $freeSpeechAquamarine);
   @include tabs-striped-color('tabs-color-free-speech-aquamarine', $freeSpeechAquamarine);
-  @include tabs-background('tabs-background-free-speech-aquamarine', $freeSpeechAquamarine, $freeSpeechAquamarine-d10);
-  @include tabs-color('tabs-color-free-speech-aquamarine', $freeSpeechAquamarine);
 
   @include tabs-striped('tabs-ocean-green', $white, $oceanGreen);
   @include tabs-striped-background('tabs-background-ocean-green', $oceanGreen);
   @include tabs-striped-color('tabs-color-ocean-green', $oceanGreen);
-  @include tabs-background('tabs-background-ocean-green', $oceanGreen, $oceanGreen-d10);
-  @include tabs-color('tabs-color-ocean-green', $oceanGreen);
 
   @include tabs-striped('tabs-niagara-one', $white, $niagaraOne);
   @include tabs-striped-background('tabs-background-niagara-one', $niagaraOne);
   @include tabs-striped-color('tabs-color-niagara-one', $niagaraOne);
-  @include tabs-background('tabs-background-niagara-one', $niagaraOne, $niagaraOne-d10);
-  @include tabs-color('tabs-color-niagara-one', $niagaraOne);
 
   @include tabs-striped('tabs-jade', $dark, $jade);
   @include tabs-striped-background('tabs-background-jade', $jade);
   @include tabs-striped-color('tabs-color-jade', $jade);
-  @include tabs-background('tabs-background-jade', $jade, $jade-d10);
-  @include tabs-color('tabs-color-jade', $jade);
 
   @include tabs-striped('tabs-salem', $dark, $salem);
   @include tabs-striped-background('tabs-background-salem', $salem);
   @include tabs-striped-color('tabs-color-salem', $salem);
-  @include tabs-background('tabs-background-salem', $salem, $salem-d10);
-  @include tabs-color('tabs-color-salem', $salem);
 
   @include tabs-striped('tabs-observatory', $white, $observatory);
   @include tabs-striped-background('tabs-background-observatory', $observatory);
   @include tabs-striped-color('tabs-color-observatory', $observatory);
-  @include tabs-background('tabs-background-observatory', $observatory, $observatory-d10);
-  @include tabs-color('tabs-color-observatory', $observatory);
 
   @include tabs-striped('tabs-jungle-green', $white, $jungleGreen);
   @include tabs-striped-background('tabs-background-jungle-green', $jungleGreen);
   @include tabs-striped-color('tabs-color-jungle-green', $jungleGreen);
-  @include tabs-background('tabs-background-jungle-green', $jungleGreen, $jungleGreen-d10);
-  @include tabs-color('tabs-color-jungle-green', $jungleGreen);
 }
+
+@include tabs-background('tabs-background-medium-turquoise', $mediumTurquoise, $mediumTurquoise-d10);
+@include tabs-color('tabs-color-medium-turquoise', $mediumTurquoise);
+@include tabs-background('tabs-background-aqua-island', $aquaIsland, $aquaIsland-d10);
+@include tabs-color('tabs-color-aqua-island', $aquaIsland);
+@include tabs-background('tabs-background-gossip', $gossip, $gossip-d10);
+@include tabs-color('tabs-color-gossip', $gossip);
+@include tabs-background('tabs-background-dark-sea-green', $darkSeaGreen, $darkSeaGreen-d10);
+@include tabs-color('tabs-color-dark-sea-green', $darkSeaGreen);
+@include tabs-background('tabs-background-eucalyptus', $eucalyptus, $eucalyptus-d10);
+@include tabs-color('tabs-color-eucalyptus', $eucalyptus);
+@include tabs-background('tabs-background-caribbean-green', $caribbeanGreen, $caribbeanGreen-d10);
+@include tabs-color('tabs-color-caribbean-green', $caribbeanGreen);
+@include tabs-background('tabs-background-humming-bird', $hummingBird, $hummingBird-d10);
+@include tabs-color('tabs-color-humming-bird', $hummingBird);
+@include tabs-background('tabs-background-silver-tree', $silverTree, $silverTree-d10);
+@include tabs-color('tabs-color-silver-tree', $silverTree);
+@include tabs-background('tabs-background-downy', $downy, $downy-d10);
+@include tabs-color('tabs-color-downy', $downy);
+@include tabs-background('tabs-background-mountain-meadow', $mountainMeadow, $mountainMeadow-d10);
+@include tabs-color('tabs-color-mountain-meadow', $mountainMeadow);
+@include tabs-background('tabs-background-light-sea-green', $lightSeaGreen, $lightSeaGreen-d10);
+@include tabs-color('tabs-color-light-sea-green', $lightSeaGreen);
+@include tabs-background('tabs-background-medium-aquamarine', $mediumAquamarine, $mediumAquamarine-d10);
+@include tabs-color('tabs-color-medium-aquamarine', $mediumAquamarine);
+@include tabs-background('tabs-background-turquoise', $turquoise, $turquoise-d10);
+@include tabs-color('tabs-color-turquoise', $turquoise);
+@include tabs-background('tabs-background-madang', $madang, $madang-d10);
+@include tabs-color('tabs-color-madang', $madang);
+@include tabs-background('tabs-background-riptide', $riptide, $riptide-d10);
+@include tabs-color('tabs-color-riptide', $riptide);
+@include tabs-background('tabs-background-shamrock', $shamrock, $shamrock-d10);
+@include tabs-color('tabs-color-shamrock', $shamrock);
+@include tabs-background('tabs-background-niagara', $niagara, $niagara-d10);
+@include tabs-color('tabs-color-niagara', $niagara);
+@include tabs-background('tabs-background-esmerald', $esmerald, $esmerald-d10);
+@include tabs-color('tabs-color-esmerald', $esmerald);
+@include tabs-background('tabs-background-green-haze', $greenHaze, $greenHaze-d10);
+@include tabs-color('tabs-color-green-haze', $greenHaze);
+@include tabs-background('tabs-background-free-speech-aquamarine', $freeSpeechAquamarine, $freeSpeechAquamarine-d10);
+@include tabs-color('tabs-color-free-speech-aquamarine', $freeSpeechAquamarine);
+@include tabs-background('tabs-background-ocean-green', $oceanGreen, $oceanGreen-d10);
+@include tabs-color('tabs-color-ocean-green', $oceanGreen);
+@include tabs-background('tabs-background-niagara-one', $niagaraOne, $niagaraOne-d10);
+@include tabs-color('tabs-color-niagara-one', $niagaraOne);
+@include tabs-background('tabs-background-jade', $jade, $jade-d10);
+@include tabs-color('tabs-color-jade', $jade);
+@include tabs-background('tabs-background-salem', $salem, $salem-d10);
+@include tabs-color('tabs-color-salem', $salem);
+@include tabs-background('tabs-background-observatory', $observatory, $observatory-d10);
+@include tabs-color('tabs-color-observatory', $observatory);
+@include tabs-background('tabs-background-jungle-green', $jungleGreen, $jungleGreen-d10);
+  @include tabs-color('tabs-color-jungle-green', $jungleGreen);
 
 ion-tabs {
   @include tabs-standard-color('tabs-color-active-medium-turquoise', $mediumTurquoise, $dark);
