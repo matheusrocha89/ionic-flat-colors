@@ -1,6 +1,17 @@
 language: node_js
 node_js:
-  - "5"
+- '5'
 before_script:
-  - npm install -g gulp
+- npm install -g gulp
 script: gulp
+deploy:
+  provider: releases
+  api_key:
+    secure: htIuftK7E5mYFnI27LDB087gTA4dXXAK+iEuhg/f4CPTo3QOPhgaI7XD860IIJaTiJOtZBMljcAB+HWa2GERxA3ayo54t1yjgXWdKqsaYyTGiXfId1dUcbugVQPqtMg32iLcU3vvHjzP9csEkQ6EWvyTQE6zUAWVNNtIn5HACV9/1q9nthLBYTccE88B6oZ3xVinFjyBxeMdsGeYdQYnUSlSnrj2DDHGMQ4uBy0Gucu90UZTOlYjrE2YKXTJZcQ27eNi6hKD2OjIrqqEoWHdymXG1DaJXhxX5TOaGnXjVENSHbFlbk8JRcV8dm3DzXElBLUMPkFeG3i0wbbZD7gdoCwEaEPiUCg2nhs6z9ADuoYKlh9lb1eMMe0eLATNiG+P3a7CslkGopC8dWo3vy57NHlc0tptHqPE+eGUF3rjs9eSETSaDaKbU6VMDUx4zIdqMqLetSEwBZQ+HNbA6q+fn7L6i5QXv21NX29EZDBsZqQ2aOpSZ6d1GZk6ts86IkbOF9QS3MwX3sOSg6RSvQV84LHoI5gN7ul8X03vXjzbfC/1D0kSt3lRPmS/AAwTZX/XlU3g+noS+UvGbsl0Zj1wlbB/OceS6D3m5+XbE9HdX2YZ2a4Ti76WdES2WSd/TehakLFNC2UgFtqp2cKfojeIg4TGPj73gzW8z9yeFnw6rC4=
+  file: 
+    - dist/css/ionic-flat.css
+    - dist/css/ionic-flat.min.css
+  skip_cleanup: true
+  on:
+    repo: matheusrocha89/ionic-flat-colors
+    tags: true
