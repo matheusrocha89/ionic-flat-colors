@@ -1,4 +1,4 @@
-# ionic-flat-colors [![Build Status](https://travis-ci.org/matheusrocha89/ionic-flat-colors.svg?branch=master)](https://travis-ci.org/matheusrocha89/ionic-flat-colors)
+# ![Ionic Colors logo](http://matheusrocha89.github.io/ionic-flat-colors/img/ionic-flat-colors-logo-2.png) [![Build Status](https://travis-ci.org/matheusrocha89/ionic-flat-colors.svg?branch=master)](https://travis-ci.org/matheusrocha89/ionic-flat-colors)
 
 The Ionic Flat Colors adds new colors options for the Ionic components: buttons, bars, checkboxes...etc.
 
