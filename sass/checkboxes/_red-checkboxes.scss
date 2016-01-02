@@ -1,0 +1,36 @@
+.checkbox-chestnut-rose {
+  @include checkbox-style($chestnutRose, $chestnutRose, $chestnutRose);
+}
+
+.checkbox-pomegranate {
+  @include checkbox-style($pomegranate, $pomegranate, $pomegranate);
+}
+
+.checkbox-thunderbird {
+  @include checkbox-style($thunderbird, $thunderbird, $thunderbird);
+}
+
+.checkbox-old-brick {
+  @include checkbox-style($oldBrick, $oldBrick, $oldBrick);
+}
+
+.checkbox-flamingo {
+  @include checkbox-style($flamingo, $flamingo, $flamingo);
+}
+
+.checkbox-valencia {
+  @include checkbox-style($valencia, $valencia, $valencia);
+}
+
+.checkbox-tall-poppy {
+  @include checkbox-style($tallPoppy, $tallPoppy, $tallPoppy);
+}
+
+.checkbox-monza {
+  @include checkbox-style($monza, $monza, $monza);
+}
+
+.checkbox-cinnabar {
+  @include checkbox-style($cinnabar, $cinnabar, $cinnabar);
+}
+

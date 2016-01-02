@@ -1,0 +1,44 @@
+.checkbox-white-smoke {
+  @include checkbox-style($whiteSmoke, $whiteSmoke, $whiteSmoke);
+}
+
+.checkbox-lynch {
+  @include checkbox-style($lynch, $lynch, $lynch);
+}
+
+.checkbox-pumice {
+  @include checkbox-style($pumice, $pumice, $pumice);
+}
+
+.checkbox-gallery {
+  @include checkbox-style($gallery, $gallery, $gallery);
+}
+
+.checkbox-silver-sand {
+  @include checkbox-style($silverSand, $silverSand, $silverSand);
+}
+
+.checkbox-porcelain {
+  @include checkbox-style($porcelain, $porcelain, $porcelain);
+}
+
+.checkbox-cascade {
+  @include checkbox-style($cascade, $cascade, $cascade);
+}
+
+.checkbox-iron {
+  @include checkbox-style($iron, $iron, $iron);
+}
+
+.checkbox-edward {
+  @include checkbox-style($edward, $edward, $edward);
+}
+
+.checkbox-cararra {
+  @include checkbox-style($cararra, $cararra, $cararra);
+}
+
+.checkbox-silver {
+  @include checkbox-style($silver, $silver, $silver);
+}
+
