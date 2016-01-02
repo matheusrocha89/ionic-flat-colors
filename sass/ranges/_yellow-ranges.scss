@@ -1,0 +1,13 @@
+.range {
+  &.range-cream-can {
+    input { @include range-style($creamCan); }
+  }
+
+  &.range-ripe-lemon {
+    input { @include range-style($ripeLemon); }
+  }
+
+  &.range-saffron {
+    input { @include range-style($saffron); }
+  }
+}

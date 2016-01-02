@@ -1,0 +1,41 @@
+.range {
+  &.range-snuff {
+    input { @include range-style($snuff); }
+  }
+
+  &.range-rebecca-purple {
+    input { @include range-style($rebeccaPurple); }
+  }
+
+  &.range-honey-flower {
+    input { @include range-style($honeyFlower); }
+  }
+
+  &.range-wistful {
+    input { @include range-style($wistful); }
+  }
+
+  &.range-plum {
+    input { @include range-style($plum); }
+  }
+
+  &.range-seance {
+    input { @include range-style($seance); }
+  }
+
+  &.range-medium-purple {
+    input { @include range-style($mediumPurple); }
+  }
+
+  &.range-light-wisteria {
+    input { @include range-style($lightWisteria); }
+  }
+
+  &.range-studio {
+    input { @include range-style($studio); }
+  }
+
+  &.range-wisteria {
+    input { @include range-style($wisteria); }
+  }
+}
