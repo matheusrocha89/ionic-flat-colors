@@ -1,0 +1,212 @@
+.bar {
+  &.bar-confetti {
+    @include bar-style($confetti, $capeHoney, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $capeHoney, $capeHoney 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $confetti, $confetti-d10, $confetti-d10, 
+        $confetti-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-cape-honey {
+    @include bar-style($capeHoney, $capeHoney, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $capeHoney, $capeHoney 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $capeHoney, $capeHoney-d10, $capeHoney-d10, 
+        $capeHoney-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
+  }
+
+  &.bar-california {
+    @include bar-style($california, $confetti, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $confetti, $confetti 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $california, $california-d10, $california-d10, 
+        $california-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-fire-bush {
+    @include bar-style($fireBush, $casablanca, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $casablanca, $casablanca 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $fireBush, $fireBush-d10, $fireBush-d10, 
+        $fireBush-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-tahiti-gold {
+    @include bar-style($tahitiGold, $california, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $california, $california 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $tahitiGold, $tahitiGold-d10, $tahitiGold-d10, 
+        $tahitiGold-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-casablanca {
+    @include bar-style($casablanca, $confetti, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $confetti, $confetti 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $casablanca, $casablanca-d10, $casablanca-d10, 
+        $casablanca-d10, $white);
+      @include button-clear($dark, $bar-title-font-size);
+    }
+  }
+
+  &.bar-crusta {
+    @include bar-style($crusta, $jaffa, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $jaffa, $jaffa 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $crusta, $crusta-d10, $crusta-d10, 
+        $crusta-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-sea-buckthorn {
+    @include bar-style($seaBuckthorn, $jaffa, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $jaffa, $jaffa 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $seaBuckthorn, $seaBuckthorn-d10, $seaBuckthorn-d10, 
+        $seaBuckthorn-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-lightning-yellow {
+    @include bar-style($lightningYellow, $sandstorm, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $sandstorm, $sandstorm 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $lightningYellow, $lightningYellow-d10, $lightningYellow-d10, 
+        $lightningYellow-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-burnt-orange {
+    @include bar-style($burntOrange, $ecstasy, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $ecstasy, $ecstasy 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $burntOrange, $burntOrange-d10, $burntOrange-d10, 
+        $burntOrange-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-buttercup {
+    @include bar-style($buttercup, $fireBush, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $fireBush, $fireBush 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $buttercup, $buttercup-d10, $buttercup-d10, 
+        $buttercup-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-ecstasy {
+    @include bar-style($ecstasy, $burntOrange, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $burntOrange, $burntOrange 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $ecstasy, $ecstasy-d10, $ecstasy-d10, 
+        $ecstasy-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-sandstorm {
+    @include bar-style($sandstorm, $casablanca, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $casablanca, $casablanca 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $sandstorm, $sandstorm-d10, $sandstorm-d10, 
+        $sandstorm-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-jaffa {
+    @include bar-style($jaffa, $seaBuckthorn, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $seaBuckthorn, $seaBuckthorn 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $jaffa, $jaffa-d10, $jaffa-d10, 
+        $jaffa-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-zest {
+    @include bar-style($zest, $california, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $california, $california 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $zest, $zest-d10, $zest-d10, 
+        $zest-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+}

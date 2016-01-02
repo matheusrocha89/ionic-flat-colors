@@ -1,0 +1,130 @@
+.bar {
+  &.bar-chestnut-rose {
+    @include bar-style($chestnutRose, $valencia, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $valencia, $valencia 50%, transparent 50%);
+    }
+    
+    .button {
+      @include button-style(
+        $chestnutRose, $chestnutRose-d10, $chestnutRose-d10, 
+        $chestnutRose-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-pomegranate {
+    @include bar-style($pomegranate, $thunderbird, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $thunderbird, $thunderbird 50%, transparent 50%);
+    }
+
+    .button {
+      @include button-style(
+        $pomegranate, $pomegranate-d10, $pomegranate-d10, 
+        $pomegranate-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+  
+  &.bar-thunderbird {
+    @include bar-style($thunderbird, $oldBrick, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $oldBrick, $oldBrick 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $thunderbird, $thunderbird-d10, $thunderbird-d10, 
+        $thunderbird-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-old-brick {
+    @include bar-style($oldBrick, $chestnutRose, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $chestnutRose, $chestnutRose 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $oldBrick, $oldBrick-d10, $oldBrick-d10, 
+        $oldBrick-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-flamingo {
+    @include bar-style($flamingo, $tallPoppy, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $tallPoppy, $tallPoppy 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $flamingo, $flamingo-d10, $flamingo-d10, 
+        $flamingo-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-valencia {
+    @include bar-style($valencia, $oldBrick, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $oldBrick, $oldBrick 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $valencia, $valencia-d10, $valencia-d10, 
+        $valencia-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-tall-poppy {
+    @include bar-style($tallPoppy, $cinnabar, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $cinnabar, $cinnabar 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $tallPoppy, $tallPoppy-d10, $tallPoppy-d10, 
+        $tallPoppy-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-monza {
+    @include bar-style($monza, $cinnabar, $white);
+
+    .bar-footer{
+      background-image: linear-gradient(180deg, $cinnabar, $cinnabar 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $monza, $monza-d10, $monza-d10, 
+        $monza-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-cinnabar {
+    @include bar-style($cinnabar, $tallPoppy, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $tallPoppy, $tallPoppy 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $cinnabar, $cinnabar-d10, $cinnabar-d10, 
+        $cinnabar-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+  
+}

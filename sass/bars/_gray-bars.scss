@@ -1,0 +1,156 @@
+.bar {
+  &.bar-white-smoke {
+    @include bar-style($whiteSmoke, $pumice, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $pumice, $pumice 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $whiteSmoke, $whiteSmoke-d10, $whiteSmoke-d10, 
+        $whiteSmoke-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
+  }
+
+  &.bar-lynch {
+    @include bar-style($lynch, $pumice, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $pumice, $pumice 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $lynch, $lynch-d10, $lynch-d10, 
+        $lynch-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-pumice {
+    @include bar-style($pumice, $silver, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $silver, $silver 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $pumice, $pumice-d10, $pumice-d10, 
+        $pumice-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-gallery {
+    @include bar-style($gallery, $iron, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $iron, $iron 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $gallery, $gallery-d10, $gallery-d10, 
+        $gallery-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
+  }
+
+  &.bar-silver-sand {
+    @include bar-style($silverSand, $cararra, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $cararra, $cararra 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $silverSand, $silverSand-d10, $silverSand-d10, 
+        $silverSand-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
+  }
+
+  &.bar-porcelain {
+    @include bar-style($porcelain, $whiteSmoke, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $whiteSmoke, $whiteSmoke 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $porcelain, $porcelain-d10, $porcelain-d10, 
+        $porcelain-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
+  }
+
+  &.bar-cascade {
+    @include bar-style($cascade, $lynch, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $lynch, $lynch 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $cascade, $cascade-d10, $cascade-d10, 
+        $cascade-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
+  }
+
+  &.bar-iron {
+    @include bar-style($iron, $pumice, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $pumice, $pumice 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $iron, $iron-d10, $iron-d10, 
+        $iron-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
+  }
+
+  &.bar-edward {
+    @include bar-style($edward, $iron, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $iron, $iron 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $edward, $edward-d10, $edward-d10, 
+        $edward-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
+  }
+
+  &.bar-cararra {
+    @include bar-style($cararra, $silverSand, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $silverSand, $silverSand 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $cararra, $cararra-d10, $cararra-d10, 
+        $cararra-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
+  }
+
+  &.bar-silver {
+    @include bar-style($silver, $lynch, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $lynch, $lynch 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $silver, $silver-d10, $silver-d10, 
+        $silver-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
+  }
+
+}

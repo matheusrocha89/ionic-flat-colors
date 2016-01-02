@@ -1,0 +1,44 @@
+.bar {
+  &.bar-cream-can {
+    @include bar-style($creamCan, $saffron, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $saffron, $saffron 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $creamCan, $creamCan-d10, $creamCan-d10, 
+        $creamCan-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
+  }
+
+  &.bar-ripe-lemon {
+    @include bar-style($ripeLemon, $creamCan, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $creamCan, $creamCan 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $ripeLemon, $ripeLemon-d10, $ripeLemon-d10, 
+        $ripeLemon-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
+  }
+
+  &.bar-saffron {
+    @include bar-style($saffron, $ripeLemon, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $ripeLemon, $ripeLemon 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $saffron, $saffron-d10, $saffron-d10, 
+        $saffron-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
+  }
+
+}

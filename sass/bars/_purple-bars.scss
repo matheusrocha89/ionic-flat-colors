@@ -1,0 +1,142 @@
+.bar {
+  &.bar-snuff {
+    @include bar-style($snuff, $lightWisteria, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $snuff, $snuff-d10, $snuff-d10, 
+        $snuff-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
+  }
+
+  &.bar-rebecca-purple {
+    @include bar-style($rebeccaPurple, $honeyFlower, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $honeyFlower, $honeyFlower 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $rebeccaPurple, $rebeccaPurple-d10, $rebeccaPurple-d10, 
+        $rebeccaPurple-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-honey-flower {
+    @include bar-style($honeyFlower, $plum, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $plum, $plum 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $honeyFlower, $honeyFlower-d10, $honeyFlower-d10, 
+        $honeyFlower-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-wistful {
+    @include bar-style($wistful, $lightWisteria, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $wistful, $wistful-d10, $wistful-d10, 
+        $wistful-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-plum {
+    @include bar-style($plum, $wisteria, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $wisteria, $wisteria 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $plum, $plum-d10, $plum-d10, 
+        $plum-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-seance {
+    @include bar-style($seance, $studio, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $studio, $studio 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $seance, $seance-d10, $seance-d10, 
+        $seance-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-medium-purple {
+    @include bar-style($mediumPurple, $lightWisteria, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $lightWisteria, $lightWisteria 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $mediumPurple, $mediumPurple-d10, $mediumPurple-d10, 
+        $mediumPurple-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-light-wisteria {
+    @include bar-style($lightWisteria, $snuff, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $snuff, $snuff 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $lightWisteria, $lightWisteria-d10, $lightWisteria-d10, 
+        $lightWisteria-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-studio {
+    @include bar-style($studio, $wisteria, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $wisteria, $wisteria 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $studio, $studio-d10, $studio-d10, 
+        $studio-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-wisteria {
+    @include bar-style($wisteria, $plum, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $plum, $plum 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $wisteria, $wisteria-d10, $wisteria-d10, 
+        $wisteria-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+}
