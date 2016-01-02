@@ -1,0 +1,108 @@
+.button {
+  &.button-confetti {
+    @include button-style(
+      $confetti, $confetti-d10, $confetti-d10, $confetti-d10, $white);
+    @include button-clear($confetti);
+    @include button-outline($confetti);
+  }
+
+  &.button-cape-honey {
+    @include button-style(
+      $capeHoney, $capeHoney-d10, $capeHoney-d10, $capeHoney-d10, $dark);
+    @include button-clear($capeHoney);
+    @include button-outline($capeHoney);
+  }
+
+  &.button-california {
+    @include button-style(
+      $california, $california-d10, $california-d10, $california-d10, $white);
+    @include button-clear($california);
+    @include button-outline($california);
+  }
+
+  &.button-fire-bush {
+    @include button-style(
+      $fireBush, $fireBush-d10, $fireBush-d10, $fireBush-d10, $white);
+    @include button-clear($fireBush);
+    @include button-outline($fireBush);
+  }
+
+  &.button-tahiti-gold {
+    @include button-style(
+      $tahitiGold, $tahitiGold-d10, $tahitiGold-d10, $tahitiGold-d10, $white);
+    @include button-clear($tahitiGold);
+    @include button-outline($tahitiGold);
+  }
+
+  &.button-casablanca {
+    @include button-style(
+      $casablanca, $casablanca-d10, $casablanca-d10, $casablanca-d10, $white);
+    @include button-clear($casablanca);
+    @include button-outline($casablanca);
+  }
+
+  &.button-crusta {
+    @include button-style(
+      $crusta, $crusta-d10, $crusta-d10, $crusta-d10, $white);
+    @include button-clear($crusta);
+    @include button-outline($crusta);
+  }
+
+  &.button-sea-buckthorn {
+    @include button-style(
+      $seaBuckthorn, $seaBuckthorn-d10, $seaBuckthorn-d10, $seaBuckthorn-d10, $white);
+    @include button-clear($seaBuckthorn);
+    @include button-outline($seaBuckthorn);
+  }
+
+  &.button-lightning-yellow {
+    @include button-style(
+      $lightningYellow, $lightningYellow-d10, $lightningYellow-d10,
+      $lightningYellow-d10, $white);
+    @include button-clear($lightningYellow);
+    @include button-outline($lightningYellow);
+  }
+
+  &.button-burnt-orange {
+    @include button-style(
+      $burntOrange, $burntOrange-d10, $burntOrange-d10, $burntOrange-d10, $white);
+    @include button-clear($burntOrange);
+    @include button-outline($burntOrange);
+  }
+
+  &.button-buttercup {
+    @include button-style(
+      $buttercup, $buttercup-d10, $buttercup-d10, $buttercup-d10, $white);
+    @include button-clear($buttercup);
+    @include button-outline($buttercup);
+  }
+
+  &.button-ecstasy {
+    @include button-style(
+      $ecstasy, $ecstasy-d10, $ecstasy-d10, $ecstasy-d10, $white);
+    @include button-clear($ecstasy);
+    @include button-outline($ecstasy);
+  }
+
+  &.button-sandstorm {
+    @include button-style(
+      $sandstorm, $sandstorm-d10, $sandstorm-d10, $sandstorm-d10, $white);
+    @include button-clear($sandstorm);
+    @include button-outline($sandstorm);
+  }
+
+  &.button-jaffa {
+    @include button-style(
+      $jaffa, $jaffa-d10, $jaffa-d10, $jaffa-d10, $white);
+    @include button-clear($jaffa);
+    @include button-outline($jaffa);
+  }
+
+  &.button-zest {
+    @include button-style(
+      $zest, $zest-d10, $zest-d10, $zest-d10, $white);
+    @include button-clear($zest);
+    @include button-outline($zest);
+  }
+
+}
