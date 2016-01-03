@@ -1,0 +1,51 @@
+.button {
+  &.button-razzmatazz {
+    @include button-style(
+      $razzmatazz, $razzmatazz-d10, $razzmatazz-d10, $razzmatazz-d10, $white);
+    @include button-clear($razzmatazz);
+    @include button-outline($razzmatazz);
+  }
+
+  &.button-sunset-orange {
+    @include button-style(
+      $sunsetOrange, $sunsetOrange-d10, $sunsetOrange-d10, $sunsetOrange-d10, $white);
+    @include button-clear($sunsetOrange);
+    @include button-outline($sunsetOrange);
+  }
+
+  &.button-wax-flower {
+    @include button-style(
+      $waxFlower, $waxFlower-d10, $waxFlower-d10, $waxFlower-d10, $white);
+    @include button-clear($waxFlower);
+    @include button-outline($waxFlower);
+  }
+
+  &.button-cabaret {
+    @include button-style(
+      $cabaret, $cabaret-d10, $cabaret-d10, $cabaret-d10, $white);
+    @include button-clear($cabaret);
+    @include button-outline($cabaret);
+  }
+
+  &.button-new-york-pink {
+    @include button-style(
+      $newYorkPink, $newYorkPink-d10, $newYorkPink-d10, $newYorkPink-d10, $white);
+    @include button-clear($newYorkPink);
+    @include button-outline($newYorkPink);
+  }
+
+  &.button-radical-red {
+    @include button-style(
+      $radicalRed, $radicalRed-d10, $radicalRed-d10, $radicalRed-d10, $white);
+    @include button-clear($radicalRed);
+    @include button-outline($radicalRed);
+  }
+
+  &.button-sunglo {
+    @include button-style(
+      $sunglo, $sunglo-d10, $sunglo-d10, $sunglo-d10, $white);
+    @include button-clear($sunglo);
+    @include button-outline($sunglo);
+  }
+
+}

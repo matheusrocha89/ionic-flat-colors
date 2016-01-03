@@ -1,0 +1,23 @@
+.button {
+  &.button-cream-can {
+    @include button-style(
+      $creamCan, $creamCan-d10, $creamCan-d10, $creamCan-d10, $dark);
+    @include button-clear($creamCan);
+    @include button-outline($creamCan);
+  }
+
+  &.button-ripe-lemon {
+    @include button-style(
+      $ripeLemon, $ripeLemon-d10, $ripeLemon-d10, $ripeLemon-d10, $dark);
+    @include button-clear($ripeLemon);
+    @include button-outline($ripeLemon);
+  }
+
+  &.button-saffron {
+    @include button-style(
+      $saffron, $saffron-d10, $saffron-d10, $saffron-d10, $dark);
+    @include button-clear($saffron);
+    @include button-outline($saffron);
+  }
+
+}
