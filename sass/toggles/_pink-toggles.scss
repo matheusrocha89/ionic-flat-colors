@@ -1,4 +1,4 @@
-.toggles {
+.toggle {
   &.toggle-razzmatazz {
     @include toggle-style($razzmatazz, $razzmatazz);
   }

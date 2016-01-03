@@ -1,4 +1,4 @@
-.toggles {
+.toggle {
   &.toggle-white-smoke {
     @include toggle-style($whiteSmoke, $whiteSmoke);
   }

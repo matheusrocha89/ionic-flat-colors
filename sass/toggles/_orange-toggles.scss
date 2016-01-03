@@ -1,4 +1,4 @@
-.toggles {
+.toggle {
   &.toggle-confetti {
     @include toggle-style($confetti, $confetti);
   }

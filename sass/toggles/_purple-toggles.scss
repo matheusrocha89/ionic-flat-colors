@@ -1,4 +1,4 @@
-.toggles {
+.toggle {
   &.toggle-snuff {
     @include toggle-style($snuff, $snuff);
   }

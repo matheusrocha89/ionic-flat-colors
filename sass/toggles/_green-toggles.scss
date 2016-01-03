@@ -1,4 +1,4 @@
-.toggles {
+.toggle {
   &.toggle-medium-turquoise {
     @include toggle-style($mediumTurquoise, $mediumTurquoise);
   }
