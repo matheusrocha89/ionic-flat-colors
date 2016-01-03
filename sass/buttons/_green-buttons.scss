@@ -1,0 +1,184 @@
+.button {
+  &.button-medium-turquoise {
+    @include button-style(
+      $mediumTurquoise, $mediumTurquoise-d10, $mediumTurquoise-d10,
+      $mediumTurquoise-d10, $white);
+    @include button-clear($mediumTurquoise);
+    @include button-outline($mediumTurquoise);
+  }
+
+  &.button-aqua-island {
+    @include button-style(
+      $aquaIsland, $aquaIsland-d10, $aquaIsland-d10, $aquaIsland-d10, $dark);
+    @include button-clear($aquaIsland);
+    @include button-outline($aquaIsland);
+  }
+
+  &.button-gossip {
+    @include button-style(
+      $gossip, $gossip-d10, $gossip-d10, $gossip-d10, $white);
+    @include button-clear($gossip);
+    @include button-outline($gossip);
+  }
+
+  &.button-dark-sea-green {
+    @include button-style(
+      $darkSeaGreen, $darkSeaGreen-d10, $darkSeaGreen-d10,
+      $darkSeaGreen-d10, $white);
+    @include button-clear($darkSeaGreen);
+    @include button-outline($darkSeaGreen);
+  }
+
+  &.button-eucalyptus {
+    @include button-style(
+      $eucalyptus, $eucalyptus-d10, $eucalyptus-d10, $eucalyptus-d10, $white);
+    @include button-clear($eucalyptus);
+    @include button-outline($eucalyptus);
+  }
+
+  &.button-caribbean-green {
+    @include button-style(
+      $caribbeanGreen, $caribbeanGreen-d10, $caribbeanGreen-d10,
+      $caribbeanGreen-d10, $white);
+    @include button-clear($caribbeanGreen);
+    @include button-outline($caribbeanGreen);
+  }
+
+  &.button-silver-tree {
+    @include button-style(
+      $silverTree, $silverTree-d10, $silverTree-d10, $silverTree-d10, $white);
+    @include button-clear($silverTree);
+    @include button-outline($silverTree);
+  }
+
+  &.button-downy {
+    @include button-style(
+      $downy, $downy-d10, $downy-d10, $downy-d10, $white);
+    @include button-clear($downy);
+    @include button-outline($downy);
+  }
+
+  &.button-mountain-meadow {
+    @include button-style(
+      $mountainMeadow, $mountainMeadow-d10, $mountainMeadow-d10,
+      $mountainMeadow-d10, $white);
+    @include button-clear($mountainMeadow);
+    @include button-outline($mountainMeadow);
+  }
+
+  &.button-light-sea-green {
+    @include button-style(
+      $lightSeaGreen, $lightSeaGreen-d10, $lightSeaGreen-d10,
+      $lightSeaGreen-d10, $white);
+    @include button-clear($lightSeaGreen);
+    @include button-outline($lightSeaGreen);
+  }
+
+  &.button-medium-aquamarine {
+    @include button-style(
+      $mediumAquamarine, $mediumAquamarine-d10, $mediumAquamarine-d10,
+      $mediumAquamarine-d10, $white);
+    @include button-clear($mediumAquamarine);
+    @include button-outline($mediumAquamarine);
+  }
+
+  &.button-turquoise {
+    @include button-style(
+      $turquoise, $turquoise-d10, $turquoise-d10, $turquoise-d10, $white);
+    @include button-clear($turquoise);
+    @include button-outline($turquoise);
+  }
+
+  &.button-madang {
+    @include button-style(
+      $madang, $madang-d10, $madang-d10, $madang-d10, $dark);
+    @include button-clear($madang);
+    @include button-outline($madang);
+  }
+
+  &.button-riptide {
+    @include button-style(
+      $riptide, $riptide-d10, $riptide-d10, $riptide-d10, $white);
+    @include button-clear($riptide);
+    @include button-outline($riptide);
+  }
+
+  &.button-shamrock {
+    @include button-style(
+      $shamrock, $shamrock-d10, $shamrock-d10, $shamrock-d10, $white);
+    @include button-clear($shamrock);
+    @include button-outline($shamrock);
+  }
+
+  &.button-niagara {
+    @include button-style(
+      $niagara, $niagara-d10, $niagara-d10, $niagara-d10, $white);
+    @include button-clear($niagara);
+    @include button-outline($niagara);
+  }
+
+  &.button-esmerald {
+    @include button-style(
+      $esmerald, $esmerald-d10, $esmerald-d10, $esmerald-d10, $white);
+    @include button-clear($esmerald);
+    @include button-outline($esmerald);
+  }
+
+  &.button-green-haze {
+    @include button-style(
+      $greenHaze, $greenHaze-d10, $greenHaze-d10, $greenHaze-d10, $white);
+    @include button-clear($greenHaze);
+    @include button-outline($greenHaze);
+  }
+
+  &.button-free-speech-aquamarine {
+    @include button-style(
+      $freeSpeechAquamarine, $freeSpeechAquamarine-d10, $freeSpeechAquamarine-d10,
+      $freeSpeechAquamarine-d10, $white);
+    @include button-clear($freeSpeechAquamarine);
+    @include button-outline($freeSpeechAquamarine);
+  }
+
+  &.button-ocean-green {
+    @include button-style(
+      $oceanGreen, $oceanGreen-d10, $oceanGreen-d10, $oceanGreen-d10, $white);
+    @include button-clear($oceanGreen);
+    @include button-outline($oceanGreen);
+  }
+
+  &.button-niagara-one {
+    @include button-style(
+      $niagaraOne, $niagaraOne-d10, $niagaraOne-d10, $niagaraOne-d10, $white);
+    @include button-clear($niagaraOne);
+    @include button-outline($niagaraOne);
+  }
+
+  &.button-jade {
+    @include button-style(
+      $jade, $jade-d10, $jade-d10, $jade-d10, $white);
+    @include button-clear($jade);
+    @include button-outline($jade);
+  }
+
+  &.button-salem {
+    @include button-style(
+      $salem, $salem-d10, $salem-d10, $salem-d10, $white);
+    @include button-clear($salem);
+    @include button-outline($salem);
+  }
+
+  &.button-observatory {
+    @include button-style(
+      $observatory, $observatory-d10, $observatory-d10, $observatory-d10, $white);
+    @include button-clear($observatory);
+    @include button-outline($observatory);
+  }
+
+  &.button-jungle-green {
+    @include button-style(
+      $jungleGreen, $jungleGreen-d10, $jungleGreen-d10, $jungleGreen-d10, $white);
+    @include button-clear($jungleGreen);
+    @include button-outline($jungleGreen);
+  }
+
+}
