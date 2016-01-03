@@ -1,0 +1,100 @@
+.bar {
+  &.bar-razzmatazz {
+    @include bar-style($razzmatazz, $cabaret, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $cabaret, $cabaret 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $razzmatazz, $razzmatazz-d10, $razzmatazz-d10, 
+        $razzmatazz-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-sunset-orange {
+    @include bar-style($sunsetOrange, $sunglo, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $sunglo, $sunglo 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $sunsetOrange, $sunsetOrange-d10, $sunsetOrange-d10, 
+        $sunsetOrange-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-wax-flower {
+    @include bar-style($waxFlower, $sunglo, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $sunglo, $sunglo 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $waxFlower, $waxFlower-d10, $waxFlower-d10, 
+        $waxFlower-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-cabaret {
+    @include bar-style($cabaret, $razzmatazz, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $razzmatazz, $razzmatazz 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $cabaret, $cabaret-d10, $cabaret-d10, 
+        $cabaret-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-new-york-pink {
+    @include bar-style($newYorkPink, $sunglo, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $sunglo, $sunglo 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $newYorkPink, $newYorkPink-d10, $newYorkPink-d10, 
+        $newYorkPink-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-radical-red {
+    @include bar-style($radicalRed, $cabaret, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $cabaret, $cabaret 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $radicalRed, $radicalRed-d10, $radicalRed-d10, 
+        $radicalRed-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-sunglo {
+    @include bar-style($sunglo, $waxFlower, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $waxFlower, $waxFlower 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $sunglo, $sunglo-d10, $sunglo-d10, 
+        $sunglo-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+}
