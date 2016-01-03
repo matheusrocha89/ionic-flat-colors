@@ -1,0 +1,29 @@
+.toggle {
+  &.toggle-razzmatazz {
+    @include toggle-style($razzmatazz, $razzmatazz);
+  }
+
+  &.toggle-sunset-orange {
+    @include toggle-style($sunsetOrange, $sunsetOrange);
+  }
+
+  &.toggle-wax-flower {
+    @include toggle-style($waxFlower, $waxFlower);
+  }
+
+  &.toggle-cabaret {
+    @include toggle-style($cabaret, $cabaret);
+  }
+
+  &.toggle-new-york-pink {
+    @include toggle-style($newYorkPink, $newYorkPink);
+  }
+
+  &.toggle-radical-red {
+    @include toggle-style($radicalRed, $radicalRed);
+  }
+
+  &.toggle-sunglo {
+    @include toggle-style($sunglo, $sunglo);
+  }
+}

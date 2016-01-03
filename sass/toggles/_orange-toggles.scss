@@ -1,0 +1,61 @@
+.toggle {
+  &.toggle-confetti {
+    @include toggle-style($confetti, $confetti);
+  }
+
+  &.toggle-cape-honey {
+    @include toggle-style($capeHoney, $capeHoney);
+  }
+
+  &.toggle-california {
+    @include toggle-style($california, $california);
+  }
+
+  &.toggle-fire-bush {
+    @include toggle-style($fireBush, $fireBush);
+  }
+
+  &.toggle-tahiti-gold {
+    @include toggle-style($tahitiGold, $tahitiGold);
+  }
+
+  &.toggle-casablanca {
+    @include toggle-style($casablanca, $casablanca);
+  }
+
+  &.toggle-crusta {
+    @include toggle-style($crusta, $crusta);
+  }
+
+  &.toggle-sea-buckthorn {
+    @include toggle-style($seaBuckthorn, $seaBuckthorn);
+  }
+
+  &.toggle-lightning-yellow {
+    @include toggle-style($lightningYellow, $lightningYellow);
+  }
+
+  &.toggle-burnt-orange {
+    @include toggle-style($burntOrange, $burntOrange);
+  }
+
+  &.toggle-buttercup {
+    @include toggle-style($buttercup, $buttercup);
+  }
+
+  &.toggle-ecstasy {
+    @include toggle-style($ecstasy, $ecstasy);
+  }
+
+  &.toggle-sandstorm {
+    @include toggle-style($sandstorm, $sandstorm);
+  }
+
+  &.toggle-jaffa {
+    @include toggle-style($jaffa, $jaffa);
+  }
+
+  &.toggle-zest {
+    @include toggle-style($zest, $zest);
+  }
+}

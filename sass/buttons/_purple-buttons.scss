@@ -1,0 +1,75 @@
+.button {
+  &.button-snuff {
+    @include button-style(
+      $snuff, $snuff-d10, $snuff-d10, $snuff-d10, $dark);
+    @include button-clear($snuff);
+    @include button-outline($snuff);
+  }
+
+  &.button-rebecca-purple {
+    @include button-style(
+      $rebeccaPurple, $rebeccaPurple-d10, $rebeccaPurple-d10,
+      $rebeccaPurple-d10, $white);
+    @include button-clear($rebeccaPurple);
+    @include button-outline($rebeccaPurple);
+  }
+
+  &.button-honey-flower {
+    @include button-style(
+      $honeyFlower, $honeyFlower-d10, $honeyFlower-d10,
+      $honeyFlower-d10, $white);
+    @include button-clear($honeyFlower);
+    @include button-outline($honeyFlower);
+  }
+
+  &.button-wistful {
+    @include button-style(
+      $wistful, $wistful-d10, $wistful-d10, $wistful-d10, $white);
+    @include button-clear($wistful);
+    @include button-outline($wistful);
+  }
+
+  &.button-plum {
+    @include button-style(
+      $plum, $plum-d10, $plum-d10, $plum-d10, $white);
+    @include button-clear($plum);
+    @include button-outline($plum);
+  }
+
+  &.button-seance {
+    @include button-style(
+      $seance, $seance-d10, $seance-d10, $seance-d10, $white);
+    @include button-clear($seance);
+    @include button-outline($seance);
+  }
+
+  &.button-medium-purple {
+    @include button-style(
+      $mediumPurple, $mediumPurple-d10, $mediumPurple-d10, $mediumPurple-d10, $white);
+    @include button-clear($mediumPurple);
+    @include button-outline($mediumPurple);
+  }
+
+  &.button-light-wisteria {
+    @include button-style(
+      $lightWisteria, $lightWisteria-d10, $lightWisteria-d10,
+      $lightWisteria-d10, $white);
+    @include button-clear($lightWisteria);
+    @include button-outline($lightWisteria);
+  }
+
+  &.button-studio {
+    @include button-style(
+      $studio, $studio-d10, $studio-d10, $studio-d10, $white);
+    @include button-clear($studio);
+    @include button-outline($studio);
+  }
+
+  &.button-wisteria {
+    @include button-style(
+      $wisteria, $wisteria-d10, $wisteria-d10, $wisteria-d10, $white);
+    @include button-clear($wisteria);
+    @include button-outline($wisteria);
+  }
+
+}

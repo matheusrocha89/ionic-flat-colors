@@ -1,0 +1,101 @@
+.toggle {
+  &.toggle-medium-turquoise {
+    @include toggle-style($mediumTurquoise, $mediumTurquoise);
+  }
+
+  &.toggle-aqua-island {
+    @include toggle-style($aquaIsland, $aquaIsland);
+  }
+
+  &.toggle-gossip {
+    @include toggle-style($gossip, $gossip);
+  }
+
+  &.toggle-dark-sea-green {
+    @include toggle-style($darkSeaGreen, $darkSeaGreen);
+  }
+
+  &.toggle-eucalyptus {
+    @include toggle-style($eucalyptus, $eucalyptus);
+  }
+
+  &.toggle-caribbean-green {
+    @include toggle-style($caribbeanGreen, $caribbeanGreen);
+  }
+
+  &.toggle-silver-tree {
+    @include toggle-style($silverTree, $silverTree);
+  }
+
+  &.toggle-downy {
+    @include toggle-style($downy, $downy);
+  }
+
+  &.toggle-mountain-meadow {
+    @include toggle-style($mountainMeadow, $mountainMeadow);
+  }
+
+  &.toggle-light-sea-green {
+    @include toggle-style($lightSeaGreen, $lightSeaGreen);
+  }
+
+  &.toggle-medium-aquamarine {
+    @include toggle-style($mediumAquamarine, $mediumAquamarine);
+  }
+
+  &.toggle-turquoise {
+    @include toggle-style($turquoise, $turquoise);
+  }
+
+  &.toggle-madang {
+    @include toggle-style($madang, $madang);
+  }
+
+  &.toggle-riptide {
+    @include toggle-style($riptide, $riptide);
+  }
+
+  &.toggle-shamrock {
+    @include toggle-style($shamrock, $shamrock);
+  }
+
+  &.toggle-niagara {
+    @include toggle-style($niagara, $niagara);
+  }
+
+  &.toggle-esmerald {
+    @include toggle-style($esmerald, $esmerald);
+  }
+
+  &.toggle-green-haze {
+    @include toggle-style($greenHaze, $greenHaze);
+  }
+
+  &.toggle-free-speech-aquamarine {
+    @include toggle-style($freeSpeechAquamarine, $freeSpeechAquamarine);
+  }
+
+  &.toggle-ocean-green {
+    @include toggle-style($oceanGreen, $oceanGreen);
+  }
+
+  &.toggle-niagara-one {
+    @include toggle-style($niagaraOne, $niagaraOne);
+  }
+
+  &.toggle-jade {
+    @include toggle-style($jade, $jade);
+  }
+
+  &.toggle-salem {
+    @include toggle-style($salem, $salem);
+  }
+
+  &.toggle-observatory {
+    @include toggle-style($observatory, $observatory);
+  }
+
+  &.toggle-jungle-green {
+    @include toggle-style($jungleGreen, $jungleGreen);
+  }
+}

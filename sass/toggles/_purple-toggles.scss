@@ -1,0 +1,41 @@
+.toggle {
+  &.toggle-snuff {
+    @include toggle-style($snuff, $snuff);
+  }
+
+  &.toggle-rebecca-purple {
+    @include toggle-style($rebeccaPurple, $rebeccaPurple);
+  }
+
+  &.toggle-honey-flower {
+    @include toggle-style($honeyFlower, $honeyFlower);
+  }
+
+  &.toggle-wistful {
+    @include toggle-style($wistful, $wistful);
+  }
+
+  &.toggle-plum {
+    @include toggle-style($plum, $plum);
+  }
+
+  &.toggle-seance {
+    @include toggle-style($seance, $seance);
+  }
+
+  &.toggle-medium-purple {
+    @include toggle-style($mediumPurple, $mediumPurple);
+  }
+
+  &.toggle-light-wisteria {
+    @include toggle-style($lightWisteria, $lightWisteria);
+  }
+
+  &.toggle-studio {
+    @include toggle-style($studio, $studio);
+  }
+
+  &.toggle-wisteria {
+    @include toggle-style($wisteria, $wisteria);
+  }
+}

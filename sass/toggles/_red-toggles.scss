@@ -1,0 +1,37 @@
+.toggle {
+  &.toggle-chestnut-rose {
+    @include toggle-style($chestnutRose, $chestnutRose);
+  }
+
+  &.toggle-pomegranate {
+    @include toggle-style($pomegranate, $pomegranate);
+  }
+
+  &.toggle-thunderbird {
+    @include toggle-style($thunderbird, $thunderbird);
+  }
+
+  &.toggle-old-brick {
+    @include toggle-style($oldBrick, $oldBrick);
+  }
+
+  &.toggle-flamingo {
+    @include toggle-style($flamingo, $flamingo);
+  }
+
+  &.toggle-valencia {
+    @include toggle-style($valencia, $valencia);
+  }
+
+  &.toggle-tall-poppy {
+    @include toggle-style($tallPoppy, $tallPoppy);
+  }
+
+  &.toggle-monza {
+    @include toggle-style($monza, $monza);
+  }
+
+  &.toggle-cinnabar {
+    @include toggle-style($cinnabar, $cinnabar);
+  }
+}

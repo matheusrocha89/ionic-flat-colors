@@ -1,0 +1,79 @@
+.button {
+  &.button-white-smoke {
+    @include button-style(
+      $whiteSmoke, $whiteSmoke-d10, $whiteSmoke-d10, $whiteSmoke-d10, $dark);
+    @include button-clear($whiteSmoke);
+    @include button-outline($whiteSmoke);
+  }
+
+  &.button-lynch {
+    @include button-style(
+      $lynch, $lynch-d10, $lynch-d10, $lynch-d10, $white);
+    @include button-clear($lynch);
+    @include button-outline($lynch);
+  }
+
+  &.button-pumice {
+    @include button-style(
+      $pumice, $pumice-d10, $pumice-d10, $pumice-d10, $dark);
+    @include button-clear($pumice);
+    @include button-outline($pumice);
+  }
+
+  &.button-gallery {
+    @include button-style(
+      $gallery, $gallery-d10, $gallery-d10, $gallery-d10, $dark);
+    @include button-clear($gallery);
+    @include button-outline($gallery);
+  }
+
+  &.button-silver-sand {
+    @include button-style(
+      $silverSand, $silverSand-d10, $silverSand-d10, $silverSand-d10, $dark);
+    @include button-clear($silverSand);
+    @include button-outline($silverSand);
+  }
+
+  &.button-porcelain {
+    @include button-style(
+      $porcelain, $porcelain-d10, $porcelain-d10, $porcelain-d10, $dark);
+    @include button-clear($porcelain);
+    @include button-outline($porcelain);
+  }
+
+  &.button-cascade {
+    @include button-style(
+      $cascade, $cascade-d10, $cascade-d10, $cascade-d10, $dark);
+    @include button-clear($cascade);
+    @include button-outline($cascade);
+  }
+
+  &.button-iron {
+    @include button-style(
+      $iron, $iron-d10, $iron-d10, $iron-d10, $dark);
+    @include button-clear($iron);
+    @include button-outline($iron);
+  }
+
+  &.button-edward {
+    @include button-style(
+      $edward, $edward-d10, $edward-d10, $edward-d10, $dark);
+    @include button-clear($edward);
+    @include button-outline($edward);
+  }
+
+  &.button-cararra {
+    @include button-style(
+      $cararra, $cararra-d10, $cararra-d10, $cararra-d10, $dark);
+    @include button-clear($cararra);
+    @include button-outline($cararra);
+  }
+
+  &.button-silver {
+    @include button-style(
+      $silver, $silver-d10, $silver-d10, $silver-d10, $dark);
+    @include button-clear($silver);
+    @include button-outline($silver);
+  }
+
+}
