@@ -1,0 +1,45 @@
+.toggle {
+  &.toggle-white-smoke {
+    @include toggle-style($whiteSmoke, $whiteSmoke);
+  }
+
+  &.toggle-lynch {
+    @include toggle-style($lynch, $lynch);
+  }
+
+  &.toggle-pumice {
+    @include toggle-style($pumice, $pumice);
+  }
+
+  &.toggle-gallery {
+    @include toggle-style($gallery, $gallery);
+  }
+
+  &.toggle-silver-sand {
+    @include toggle-style($silverSand, $silverSand);
+  }
+
+  &.toggle-porcelain {
+    @include toggle-style($porcelain, $porcelain);
+  }
+
+  &.toggle-cascade {
+    @include toggle-style($cascade, $cascade);
+  }
+
+  &.toggle-iron {
+    @include toggle-style($iron, $iron);
+  }
+
+  &.toggle-edward {
+    @include toggle-style($edward, $edward);
+  }
+
+  &.toggle-cararra {
+    @include toggle-style($cararra, $cararra);
+  }
+
+  &.toggle-silver {
+    @include toggle-style($silver, $silver);
+  }
+}

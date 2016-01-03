@@ -1,0 +1,13 @@
+.toggle {
+  &.toggle-cream-can {
+    @include toggle-style($creamCan, $creamCan);
+  }
+
+  &.toggle-ripe-lemon {
+    @include toggle-style($ripeLemon, $ripeLemon);
+  }
+
+  &.toggle-saffron {
+    @include toggle-style($saffron, $saffron);
+  }
+}
