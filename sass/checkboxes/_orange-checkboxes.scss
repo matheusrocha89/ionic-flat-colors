@@ -1,0 +1,60 @@
+.checkbox-confetti {
+  @include checkbox-style($confetti, $confetti, $confetti);
+}
+
+.checkbox-cape-honey {
+  @include checkbox-style($capeHoney, $capeHoney, $capeHoney);
+}
+
+.checkbox-california {
+  @include checkbox-style($california, $california, $california);
+}
+
+.checkbox-fire-bush {
+  @include checkbox-style($fireBush, $fireBush, $fireBush);
+}
+
+.checkbox-tahiti-gold {
+  @include checkbox-style($tahitiGold, $tahitiGold, $tahitiGold);
+}
+
+.checkbox-casablanca {
+  @include checkbox-style($casablanca, $casablanca, $casablanca);
+}
+
+.checkbox-crusta {
+  @include checkbox-style($crusta, $crusta, $crusta);
+}
+
+.checkbox-sea-buckthorn {
+  @include checkbox-style($seaBuckthorn, $seaBuckthorn, $seaBuckthorn);
+}
+
+.checkbox-lightning-yellow {
+  @include checkbox-style($lightningYellow, $lightningYellow, $lightningYellow);
+}
+
+.checkbox-burnt-orange {
+  @include checkbox-style($burntOrange, $burntOrange, $burntOrange);
+}
+
+.checkbox-buttercup {
+  @include checkbox-style($buttercup, $buttercup, $buttercup);
+}
+
+.checkbox-ecstasy {
+  @include checkbox-style($ecstasy, $ecstasy, $ecstasy);
+}
+
+.checkbox-sandstorm {
+  @include checkbox-style($sandstorm, $sandstorm, $sandstorm);
+}
+
+.checkbox-jaffa {
+  @include checkbox-style($jaffa, $jaffa, $jaffa);
+}
+
+.checkbox-zest {
+  @include checkbox-style($zest, $zest, $zest);
+}
+

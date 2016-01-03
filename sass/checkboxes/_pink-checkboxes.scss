@@ -1,0 +1,28 @@
+.checkbox-razzmatazz {
+  @include checkbox-style($razzmatazz, $razzmatazz, $razzmatazz);
+}
+
+.checkbox-sunset-orange {
+  @include checkbox-style($sunsetOrange, $sunsetOrange, $sunsetOrange);
+}
+
+.checkbox-wax-flower {
+  @include checkbox-style($waxFlower, $waxFlower, $waxFlower);
+}
+
+.checkbox-cabaret {
+  @include checkbox-style($cabaret, $cabaret, $cabaret);
+}
+
+.checkbox-new-york-pink {
+  @include checkbox-style($newYorkPink, $newYorkPink, $newYorkPink);
+}
+
+.checkbox-radical-red {
+  @include checkbox-style($radicalRed, $radicalRed, $radicalRed);
+}
+
+.checkbox-sunglo {
+  @include checkbox-style($sunglo, $sunglo, $sunglo);
+}
+
