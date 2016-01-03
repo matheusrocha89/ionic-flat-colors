@@ -1,0 +1,324 @@
+.bar {
+  &.bar-san-marino {
+    @include bar-style($sanMarino, $royalBlue, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $royalBlue, $royalBlue 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $sanMarino, $sanMarino-d10, $sanMarino-d10, 
+        $sanMarino-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-alice-blue {
+    @include bar-style($aliceBlue, $hummingBird, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $hummingBird, $hummingBird 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $aliceBlue, $aliceBlue-d10, $aliceBlue-d10, 
+        $aliceBlue-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
+  }
+
+  &.bar-royal-blue {
+    @include bar-style($royalBlue, $sanMarino, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $sanMarino, $sanMarino 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $royalBlue, $royalBlue-d10, $royalBlue-d10, 
+        $royalBlue-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-picton-blue {
+    @include bar-style($pictonBlue, $curiousBlue, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $curiousBlue, $curiousBlue 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $pictonBlue, $pictonBlue-d10, $pictonBlue-d10, 
+        $pictonBlue-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-spray {
+    @include bar-style($spray, $shakespeare, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $shakespeare, $shakespeare 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $spray, $spray-d10, $spray-d10, 
+        $spray-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-shakespeare {
+    @include bar-style($shakespeare, $spray, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $spray, $spray 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $shakespeare, $shakespeare-d10, $shakespeare-d10, 
+        $shakespeare-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-humming-bird {
+    @include bar-style($hummingBird, $aliceBlue, $dark);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $aliceBlue, $aliceBlue 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $hummingBird, $hummingBird-d10, $hummingBird-d10, 
+        $hummingBird-d10, $dark);
+      @include button-clear($dark, $bar-title-font-size);
+    }
+  }
+
+  &.bar-picton-blue-two {
+    @include bar-style($pictonBlueTwo, $curiousBlue, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $curiousBlue, $curiousBlue 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $pictonBlueTwo, $pictonBlueTwo-d10, $pictonBlueTwo-d10, 
+        $pictonBlueTwo-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-curious-blue {
+    @include bar-style($curiousBlue, $pictonBlue, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $pictonBlue, $pictonBlue 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $curiousBlue, $curiousBlue-d10, $curiousBlue-d10, 
+        $curiousBlue-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-madison {
+    @include bar-style($madison, $ming, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $ming, $ming 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $madison, $madison-d10, $madison-d10, 
+        $madison-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-dodger-blue {
+    @include bar-style($dodgerBlue, $shakespeare, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $shakespeare, $shakespeare 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $dodgerBlue, $dodgerBlue-d10, $dodgerBlue-d10, 
+        $dodgerBlue-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-ming {
+    @include bar-style($ming, $madison, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $madison, $madison 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $ming, $ming-d10, $ming-d10, 
+        $ming-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-ebony-clay {
+    @include bar-style($ebonyClay, $madison, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $madison, $madison 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $ebonyClay, $ebonyClay-d10, $ebonyClay-d10, 
+        $ebonyClay-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-malibu {
+    @include bar-style($malibu, $curiousBlue, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $curiousBlue, $curiousBlue 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $malibu, $malibu-d10, $malibu-d10, 
+        $malibu-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-summer-sky {
+    @include bar-style($summerSky, $malibu, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $malibu, $malibu 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $summerSky, $summerSky-d10, $summerSky-d10, 
+        $summerSky-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-chambray {
+    @include bar-style($chambray, $steelBlue, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $steelBlue, $steelBlue 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $chambray, $chambray-d10, $chambray-d10, 
+        $chambray-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-pickled-bluewood {
+    @include bar-style($pickledBluewood, $hoki, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $hoki, $hoki 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $pickledBluewood, $pickledBluewood-d10, $pickledBluewood-d10, 
+        $pickledBluewood-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-hoki {
+    @include bar-style($hoki, $pickledBluewood, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $pickledBluewood, $pickledBluewood 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $hoki, $hoki-d10, $hoki-d10, 
+        $hoki-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-jelly-bean {
+    @include bar-style($jellyBean, $malibu, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $malibu, $malibu 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $jellyBean, $jellyBean-d10, $jellyBean-d10, 
+        $jellyBean-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-jacksons-purple {
+    @include bar-style($jacksonsPurple, $chambray, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $chambray, $chambray 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $jacksonsPurple, $jacksonsPurple-d10, $jacksonsPurple-d10, 
+        $jacksonsPurple-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-jordy-blue {
+    @include bar-style($jordyBlue, $hoki, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $hoki, $hoki 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $jordyBlue, $jordyBlue-d10, $jordyBlue-d10, 
+        $jordyBlue-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-steel-blue {
+    @include bar-style($steelBlue, $chambray, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $chambray, $chambray 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $steelBlue, $steelBlue-d10, $steelBlue-d10, 
+        $steelBlue-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+
+  &.bar-fountain-blue {
+    @include bar-style($fountainBlue, $jellyBean, $white);
+
+    .bar-footer {
+      background-image: linear-gradient(180deg, $jellyBean, $jellyBean 50%, transparent 50%);
+    }
+    .button {
+      @include button-style(
+        $fountainBlue, $fountainBlue-d10, $fountainBlue-d10, 
+        $fountainBlue-d10, $white);
+      @include button-clear($white, $bar-title-font-size);
+    }
+  }
+}
+

@@ -1,0 +1,66 @@
+.button {
+  &.button-chestnut-rose {
+    @include button-style(
+      $chestnutRose, $chestnutRose-d10, $chestnutRose-d10, 
+      $chestnutRose-d10, $white);
+    @include button-clear($chestnutRose);
+    @include button-outline($chestnutRose);
+  }
+
+  &.button-pomegranate {
+    @include button-style(
+      $pomegranate, $pomegranate-d10, $pomegranate-d10, $pomegranate-d10, $white);
+    @include button-clear($pomegranate);
+    @include button-outline($pomegranate);
+  }
+  
+  &.button-thunderbird {
+    @include button-style(
+      $thunderbird, $thunderbird-d10, $thunderbird-d10, $thunderbird-d10, $white);
+    @include button-clear($thunderbird);
+    @include button-outline($thunderbird);
+  }
+
+  &.button-old-brick {
+    @include button-style(
+      $oldBrick, $oldBrick-d10, $oldBrick-d10, $oldBrick-d10, $white);
+    @include button-clear($oldBrick);
+    @include button-outline($oldBrick);
+  }
+
+  &.button-flamingo {
+    @include button-style(
+      $flamingo, $flamingo-d10, $flamingo-d10, $flamingo-d10, $white);
+    @include button-clear($flamingo);
+    @include button-outline($flamingo);
+  }
+
+  &.button-valencia {
+    @include button-style(
+      $valencia, $valencia-d10, $valencia-d10, $valencia-d10, $white);
+    @include button-clear($valencia);
+    @include button-outline($valencia);
+  }
+
+  &.button-tall-poppy {
+    @include button-style(
+      $tallPoppy, $tallPoppy-d10, $tallPoppy-d10, $tallPoppy-d10, $white);
+    @include button-clear($tallPoppy);
+    @include button-outline($tallPoppy);
+  }
+
+  &.button-monza {
+    @include button-style(
+      $monza, $monza-d10, $monza-d10, $monza-d10, $white);
+    @include button-clear($monza);
+    @include button-outline($monza);
+  }
+
+  &.button-cinnabar {
+    @include button-style(
+      $cinnabar, $cinnabar-d10, $cinnabar-d10, $cinnabar-d10, $white);
+    @include button-clear($cinnabar);
+    @include button-outline($cinnabar);
+  }
+
+}

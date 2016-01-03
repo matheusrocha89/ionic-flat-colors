@@ -1,0 +1,12 @@
+.checkbox-cream-can {
+  @include checkbox-style($creamCan, $creamCan, $creamCan);
+}
+
+.checkbox-ripe-lemon {
+  @include checkbox-style($ripeLemon, $ripeLemon, $ripeLemon);
+}
+
+.checkbox-saffron {
+  @include checkbox-style($saffron, $saffron, $saffron);
+}
+

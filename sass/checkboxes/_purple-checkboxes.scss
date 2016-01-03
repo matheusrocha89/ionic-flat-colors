@@ -1,0 +1,40 @@
+.checkbox-snuff {
+  @include checkbox-style($snuff, $snuff, $snuff);
+}
+
+.checkbox-rebecca-purple {
+  @include checkbox-style($rebeccaPurple, $rebeccaPurple, $rebeccaPurple);
+}
+
+.checkbox-honey-flower {
+  @include checkbox-style($honeyFlower, $honeyFlower, $honeyFlower);
+}
+
+.checkbox-wistful {
+  @include checkbox-style($wistful, $wistful, $wistful);
+}
+
+.checkbox-plum {
+  @include checkbox-style($plum, $plum, $plum);
+}
+
+.checkbox-seance {
+  @include checkbox-style($seance, $seance, $seance);
+}
+
+.checkbox-medium-purple {
+  @include checkbox-style($mediumPurple, $mediumPurple, $mediumPurple);
+}
+
+.checkbox-light-wisteria {
+  @include checkbox-style($lightWisteria, $lightWisteria, $lightWisteria);
+}
+
+.checkbox-studio {
+  @include checkbox-style($studio, $studio, $studio);
+}
+
+.checkbox-wisteria {
+  @include checkbox-style($wisteria, $wisteria, $wisteria);
+}
+
