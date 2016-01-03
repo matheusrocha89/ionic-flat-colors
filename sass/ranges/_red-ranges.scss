@@ -1,0 +1,41 @@
+.range {
+  &.range-chestnut-rose {
+    input { 
+      @include range-style($chestnutRose);
+    }
+  }
+
+  &.range-pomegranate {
+    input { 
+      @include range-style($pomegranate);
+    }
+  }
+
+  &.range-thunderbird {
+    input { @include range-style($thunderbird); }
+  }
+
+  &.range-old-brick {
+    input { @include range-style($oldBrick); }
+  }
+
+  &.range-flamingo {
+    input { @include range-style($flamingo); }
+  }
+
+  &.range-valencia {
+    input { @include range-style($valencia); }
+  }
+
+  &.range-tall-poppy {
+    input { @include range-style($tallPoppy); }
+  }
+
+  &.range-monza {
+    input { @include range-style($monza); }
+  }
+
+  &.range-cinnabar {
+    input { @include range-style($cinnabar); }
+  }
+}

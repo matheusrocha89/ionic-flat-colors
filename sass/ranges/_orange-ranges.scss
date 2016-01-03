@@ -1,0 +1,61 @@
+.range {
+  &.range-confetti {
+    input { @include range-style($confetti); }
+  }
+
+  &.range-cape-honey {
+    input { @include range-style($capeHoney); }
+  }
+
+  &.range-california {
+    input { @include range-style($california); }
+  }
+
+  &.range-fire-bush {
+    input { @include range-style($fireBush); }
+  }
+
+  &.range-tahiti-gold {
+    input { @include range-style($tahitiGold); }
+  }
+
+  &.range-casablanca {
+    input { @include range-style($casablanca); }
+  }
+
+  &.range-crusta {
+    input { @include range-style($crusta); }
+  }
+
+  &.range-sea-buckthorn {
+    input { @include range-style($seaBuckthorn); }
+  }
+
+  &.range-lightning-yellow {
+    input { @include range-style($lightningYellow); }
+  }
+
+  &.range-burnt-orange {
+    input { @include range-style($burntOrange); }
+  }
+
+  &.range-buttercup {
+    input { @include range-style($buttercup); }
+  }
+
+  &.range-ecstasy {
+    input { @include range-style($ecstasy); }
+  }
+
+  &.range-sandstorm {
+    input { @include range-style($sandstorm); }
+  }
+
+  &.range-jaffa {
+    input { @include range-style($jaffa); }
+  }
+
+  &.range-zest {
+    input { @include range-style($zest); }
+  }
+}

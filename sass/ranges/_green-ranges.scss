@@ -1,0 +1,101 @@
+.range {
+  &.range-medium-turquoise {
+    input { @include range-style($mediumTurquoise); }
+  }
+
+  &.range-aqua-island {
+    input { @include range-style($aquaIsland); }
+  }
+
+  &.range-gossip {
+    input { @include range-style($gossip); }
+  }
+
+  &.range-dark-sea-green {
+    input { @include range-style($darkSeaGreen); }
+  }
+
+  &.range-eucalyptus {
+    input { @include range-style($eucalyptus); }
+  }
+
+  &.range-caribbean-green {
+    input { @include range-style($caribbeanGreen); }
+  }
+
+  &.range-silver-tree {
+    input { @include range-style($silverTree); }
+  }
+
+  &.range-downy {
+    input { @include range-style($downy); }
+  }
+
+  &.range-mountain-meadow {
+    input { @include range-style($mountainMeadow); }
+  }
+
+  &.range-light-sea-green {
+    input { @include range-style($lightSeaGreen); }
+  }
+
+  &.range-medium-aquamarine {
+    input { @include range-style($mediumAquamarine); }
+  }
+
+  &.range-turquoise {
+    input { @include range-style($turquoise); }
+  }
+
+  &.range-madang {
+    input { @include range-style($madang); }
+  }
+
+  &.range-riptide {
+    input { @include range-style($riptide); }
+  }
+
+  &.range-shamrock {
+    input { @include range-style($shamrock); }
+  }
+
+  &.range-niagara {
+    input { @include range-style($niagara); }
+  }
+
+  &.range-esmerald {
+    input { @include range-style($esmerald); }
+  }
+
+  &.range-green-haze {
+    input { @include range-style($greenHaze); }
+  }
+
+  &.range-free-speech-aquamarine {
+    input { @include range-style($freeSpeechAquamarine); }
+  }
+
+  &.range-ocean-green {
+    input { @include range-style($oceanGreen); }
+  }
+
+  &.range-niagara-one {
+    input { @include range-style($niagaraOne); }
+  }
+
+  &.range-jade {
+    input { @include range-style($jade); }
+  }
+
+  &.range-salem {
+    input { @include range-style($salem); }
+  }
+
+  &.range-observatory {
+    input { @include range-style($observatory); }
+  }
+
+  &.range-jungle-green {
+    input { @include range-style($jungleGreen); }
+  }
+}

@@ -1,0 +1,45 @@
+.range {
+  &.range-white-smoke {
+    input { @include range-style($whiteSmoke); }
+  }
+
+  &.range-lynch {
+    input { @include range-style($lynch); }
+  }
+
+  &.range-pumice {
+    input { @include range-style($pumice); }
+  }
+
+  &.range-gallery {
+    input { @include range-style($gallery); }
+  }
+
+  &.range-silver-sand {
+    input { @include range-style($silverSand); }
+  }
+
+  &.range-porcelain {
+    input { @include range-style($porcelain); }
+  }
+
+  &.range-cascade {
+    input { @include range-style($cascade); }
+  }
+
+  &.range-iron {
+    input { @include range-style($iron); }
+  }
+
+  &.range-edward {
+    input { @include range-style($edward); }
+  }
+
+  &.range-cararra {
+    input { @include range-style($cararra); }
+  }
+
+  &.range-silver {
+    input { @include range-style($silver); }
+  }
+}

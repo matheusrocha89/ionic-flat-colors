@@ -1,0 +1,93 @@
+.range {
+  &.range-san-marino {
+    input { @include range-style($sanMarino); }
+  }
+
+  &.range-alice-blue {
+    input { @include range-style($aliceBlue); }
+  }
+
+  &.range-royal-blue {
+    input { @include range-style($royalBlue); }
+  }
+
+  &.range-picton-blue {
+    input { @include range-style($pictonBlue); }
+  }
+
+  &.range-spray {
+    input { @include range-style($spray); }
+  }
+
+  &.range-shakespeare {
+    input { @include range-style($shakespeare); }
+  }
+
+  &.range-humming-bird {
+    input { @include range-style($hummingBird); }
+  }
+
+  &.range-picton-blue-two {
+    input { @include range-style($pictonBlueTwo); }
+  }
+
+  &.range-curious-blue {
+    input { @include range-style($curiousBlue); }
+  }
+
+  &.range-madison {
+    input { @include range-style($madison); }
+  }
+
+  &.range-dodger-blue {
+    input { @include range-style($dodgerBlue); }
+  }
+
+  &.range-ming {
+    input { @include range-style($ming); }
+  }
+
+  &.range-ebony-clay {
+    input { @include range-style($ebonyClay); }
+  }
+
+  &.range-malibu {
+    input { @include range-style($malibu); }
+  }
+
+  &.range-summer-sky {
+    input { @include range-style($summerSky); }
+  }
+
+  &.range-chambray {
+    input { @include range-style($chambray); }
+  }
+
+  &.range-pickled-bluewood {
+    input { @include range-style($pickledBluewood); }
+  }
+
+  &.range-hoki {
+    input { @include range-style($hoki); }
+  }
+
+  &.range-jelly-bean {
+    input { @include range-style($jellyBean); }
+  }
+
+  &.range-jacksons-purple {
+    input { @include range-style($jacksonsPurple); }
+  }
+
+  &.range-jordy-blue {
+    input { @include range-style($jordyBlue); }
+  }
+
+  &.range-steel-blue {
+    input { @include range-style($steelBlue); }
+  }
+
+  &.range-fountain-blue {
+    input { @include range-style($fountainBlue); }
+  }
+}

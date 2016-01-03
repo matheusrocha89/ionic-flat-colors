@@ -1,0 +1,29 @@
+.range {
+  &.range-razzmatazz {
+    input { @include range-style($razzmatazz); }
+  }
+
+  &.range-sunset-orange {
+    input { @include range-style($sunsetOrange); }
+  }
+
+  &.range-wax-flower {
+    input { @include range-style($waxFlower); }
+  }
+
+  &.range-cabaret {
+    input { @include range-style($cabaret); }
+  }
+
+  &.range-new-york-pink {
+    input { @include range-style($newYorkPink); }
+  }
+
+  &.range-radical-red {
+    input { @include range-style($radicalRed); }
+  }
+
+  &.range-sunglo {
+    input { @include range-style($sunglo); }
+  }
+}
