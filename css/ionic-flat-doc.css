@@ -326,4 +326,7 @@
   width: 400px; }
 
 .logo-wrapper {
+  width: 100%;
   text-align: center; }
+  .logo-wrapper img {
+    height: 60px; }
