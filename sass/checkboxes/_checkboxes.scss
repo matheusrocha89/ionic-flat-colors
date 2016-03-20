@@ -1,11 +1,7 @@
-@charset "UTF-8";
-
-@import 
-  "red-checkboxes",
-  "yellow-checkboxes",
-  "pink-checkboxes",
-  "gray-checkboxes",
-  "purple-checkboxes",
-  "orange-checkboxes",
-  "green-checkboxes",
-  "blue-checkboxes";
+@each $colorset in $colors {
+  @each $name, $color in $colorset {
+    .checkbox-#{$name} {
+      @include checkbox-style($color, $color, $color);
+    }
+  }
+}
