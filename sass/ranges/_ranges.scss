@@ -1,11 +1,9 @@
-@charset "UTF-8";
-
-@import
-  "red-ranges",
-  "yellow-ranges",
-  "pink-ranges",
-  "gray-ranges",
-  "purple-ranges",
-  "orange-ranges",
-  "green-ranges",
-  "blue-ranges";
+.range {
+  @each $colorset in $colors {
+    @each $name, $color in $colorset {
+      &.range-#{$name} {
+        input { @include range-style($color)}
+      }
+    }
+  }
+}
