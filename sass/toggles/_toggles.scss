@@ -1,11 +1,14 @@
-@charset "UTF-8";
-
-@import 
-  "red-toggles",
-  "yellow-toggles",
-  "pink-toggles",
-  "gray-toggles",
-  "purple-toggles",
-  "orange-toggles",
-  "green-toggles",
-  "blue-toggles";
+@each $colorset in $colors {
+  @each $name, $color in $colorset {
+    .toggle {
+      &.toggle-#{$name} {
+        @include toggle-style($color, $color);
+      }
+    }
+    .toggle-small {
+      &.toggle-#{$name} {
+        @include toggle-small-style($color);
+      }
+    }
+  }
+}
