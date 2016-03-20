@@ -11,9 +11,61 @@
   "mixins",
   "colors/colors",
   "functions",
-  "bars/bars",
-  "buttons/buttons",
-  "checkboxes/checkboxes",
-  "toggles/toggles",
-  "ranges/ranges",
-  "tabs/tabs";
+  "bars/bar.accentmap";
+
+@each $colorset in $colors {
+  @each $name, $color in $colorset {
+    // Shared variables
+    $contrasting-text-color: get-contrasting-text-color($color);
+    // Bars
+    .bar {
+      &.bar-#{$name} {
+        $accent-color-name: map_get($barAccentMap, $name);
+        $accent-color: map_get($colorset, $accent-color-name);
+        @include bar-style($color, $accent-color, $contrasting-text-color);
+        .bar-footer {
+          background-image: linear-gradient(180deg, $accent-color, $accent-color 50%, transparent 50%);
+        }
+        .button {
+          @include button-style($color, $contrasting-text-color);
+          @include button-clear($contrasting-text-color, $bar-title-font-size);
+        }
+      }
+    }
+    // Buttons
+    .button {
+      &.button-#{$name} {
+        @include button-style($color, $contrasting-text-color);
+        @include button-clear($color);
+        @include button-outline($color);
+      }
+    }
+    // Checkboxes
+    .checkbox-#{$name} {
+      @include checkbox-style($color, $color, $color);
+    }
+    // Ranges
+    .range {
+      &.range-#{$name} {
+        input { @include range-style($color)}
+      }
+    }
+    // Tabs
+    .tabs-#{$name} > .tabs,
+    .tabs.tabs-#{$name} {
+      @include tab-style($color, darken($color, 10), $contrasting-text-color);
+      @include tab-badge-style($contrasting-text-color, $color);
+    }
+    // Toggles
+    .toggle {
+      &.toggle-#{$name} {
+        @include toggle-style($color, $color);
+      }
+    }
+    .toggle-small {
+      &.toggle-#{$name} {
+        @include toggle-small-style($color);
+      }
+    }
+  }
+}
