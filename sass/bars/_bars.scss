@@ -1,11 +1,134 @@
-@charset "UTF-8";
+/* Associative array of colors */
+$barAccentColors: (
+  // Blues
+  san-marino: royal-blue,
+  alice-blue: humming-bird,
+  royal-blue: san-marino,
+  picton-blue: curious-blue,
+  spray: shakespeare,
+  shakespeare: spray,
+  humming-bird: alice-blue,
+  picton-blue-two: curious-blue,
+  curious-blue: picton-blue,
+  madison: ming,
+  dodger-blue: shakespeare,
+  ming: madison,
+  ebony-clay: madison,
+  malibu: curious-blue,
+  summer-sky: malibu,
+  chambray: steel-blue,
+  pickled-bluewood: hoki,
+  hoki: pickled-bluewood,
+  jelly-bean: malibu,
+  jacksons-purple: chambray,
+  jordy-blue: hoki,
+  steel-blue: chambray,
+  fountain-blue: jelly-bean,
+  // Greys
+  white-smoke: pumice,
+  lynch: pumice,
+  pumice: silver,
+  gallery: iron,
+  silver-sand: cararra,
+  porcelain: white-smoke,
+  cascade: lynch,
+  iron: pumice,
+  edward: iron,
+  cararra: silver-sand,
+  silver: lynch,
+  // Greens
+  medium-turquoise: aqua-island,
+  aqua-island: medium-turquoise,
+  gossip: dark-sea-green,
+  dark-sea-green: ocean-green,
+  eucalyptus: gossip,
+  caribbean-green: silver-tree,
+  silver-tree: caribbean-green,
+  downy: riptide,
+  mountain-meadow: riptide,
+  light-sea-green: downy,
+  medium-aquamarine: silver-tree,
+  turquoise: caribbean-green,
+  madang: gossip,
+  riptide: downy,
+  shamrock: esmerald,
+  niagara: green-haze,
+  esmerald: shamrock,
+  green-haze: niagara,
+  free-speech-aquamarine: ocean-green,
+  ocean-green: jade,
+  niagaraOne: niagara,
+  jade: esmerald,
+  salem: jade,
+  observatory: green-haze,
+  jungle-green: shamrock,
+  // Orange
+  confetti: cape-honey,
+  cape-honey: cape-honey,
+  california: confetti,
+  fire-bush: casablanca,
+  tahiti-gold: california,
+  casablanca: confetti,
+  crusta: jaffa,
+  sea-buckthorn: jaffa,
+  lightning-yellow: sandstorm,
+  burnt-orange: ecstasy,
+  buttercup: fire-bush,
+  ecstasy: burnt-orange,
+  sandstorm: casablanca,
+  jaffa: sea-buckthorn,
+  zest: california,
+  // Pink
+  razzmatazz: cabaret,
+  sunset-orange: sunglo,
+  wax-flower: sunglo,
+  cabaret: razzmatazz,
+  new-york-pink: sunglo,
+  radical-red: cabaret,
+  sunglo: wax-flower,
+  // Purple
+  snuff: light-wisteria,
+  rebecca-purple: honey-flower,
+  honey-flower: plum,
+  wistful: light-wisteria,
+  plum: wisteria,
+  seance: studio,
+  medium-purple: light-wisteria,
+  light-wisteria: snuff,
+  studio: wisteria,
+  wisteria: plum,
+  // Red
+  chestnut-rose: valencia,
+  pomegranate: thunderbird,
+  thunderbird: old-brick,
+  old-brick: chestnut-rose,
+  flamingo: tall-poppy,
+  valencia: old-brick,
+  tall-poppy: cinnabar,
+  monza: cinnabar,
+  cinnabar: tall-poppy,
+  // Yellow
+  cream-can: saffron,
+  ripe-lemon: cream-can,
+  saffron: ripe-lemon,
+);
 
-@import 
-  "red-bars",
-  "yellow-bars",
-  "orange-bars",
-  "gray-bars",
-  "pink-bars",
-  "purple-bars",
-  "green-bars",
-  "blue-bars";
+.bar {
+  @each $colorset in $colors {
+    @each $name, $color in $colorset {
+      &.bar-#{$name} {
+        $accentColor: map_get($barAccentColors, $name);
+        $contrastingColor: get-contrasting-text-color($color);
+        @include bar-style($color, $accentColor, $contrastingColor);
+        .bar-footer {
+          background-image: linear-gradient(180deg, $accentColor, $accentColor 50%, transparent 50%);
+        }
+        .button {
+          $color-dark: darken($color, 10);
+          @include button-style($color, $color-dark, $color-dark, $color-dark, $contrastingColor);
+          @include button-clear($contrastingColor, $bar-title-font-size);
+        }
+      }
+    }
+  }
+}
