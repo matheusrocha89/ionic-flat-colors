@@ -1,5 +1,5 @@
 /* Associative array of colors */
-$barAccentColors: (
+$barAccentMap: (
   // Blues
   san-marino: royal-blue,
   alice-blue: humming-bird,
@@ -117,15 +117,14 @@ $barAccentColors: (
   @each $colorset in $colors {
     @each $name, $color in $colorset {
       &.bar-#{$name} {
-        $accentColor: map_get($barAccentColors, $name);
+        $accentColor: map_get($barAccentMap, $name);
         $contrastingColor: get-contrasting-text-color($color);
         @include bar-style($color, $accentColor, $contrastingColor);
         .bar-footer {
           background-image: linear-gradient(180deg, $accentColor, $accentColor 50%, transparent 50%);
         }
         .button {
-          $color-dark: darken($color, 10);
-          @include button-style($color, $color-dark, $color-dark, $color-dark, $contrastingColor);
+          @include button-style($color, $contrastingColor);
           @include button-clear($contrastingColor, $bar-title-font-size);
         }
       }
