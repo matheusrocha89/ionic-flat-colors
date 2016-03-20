@@ -57,7 +57,7 @@ $barAccentMap: (
   green-haze: niagara,
   free-speech-aquamarine: ocean-green,
   ocean-green: jade,
-  niagaraOne: niagara,
+  niagara-one: niagara,
   jade: esmerald,
   salem: jade,
   observatory: green-haze,
@@ -117,7 +117,8 @@ $barAccentMap: (
   @each $colorset in $colors {
     @each $name, $color in $colorset {
       &.bar-#{$name} {
-        $accentColor: map_get($barAccentMap, $name);
+        $accentColorName: map_get($barAccentMap, $name);
+        $accentColor: map_get($colorset, $accentColorName);
         $contrastingColor: get-contrasting-text-color($color);
         @include bar-style($color, $accentColor, $contrastingColor);
         .bar-footer {
