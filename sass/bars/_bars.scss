@@ -1,4 +1,4 @@
-/* Associative array of colors */
+// Associative array of colors
 $barAccentMap: (
   // Blues
   alice-blue: humming-bird,
@@ -113,9 +113,9 @@ $barAccentMap: (
   saffron: ripe-lemon
 );
 
-.bar {
-  @each $colorset in $colors {
-    @each $name, $color in $colorset {
+@each $colorset in $colors {
+  @each $name, $color in $colorset {
+    .bar {
       &.bar-#{$name} {
         $accentColorName: map_get($barAccentMap, $name);
         $accentColor: map_get($colorset, $accentColorName);
