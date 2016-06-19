@@ -5,7 +5,6 @@ var sass = require('gulp-sass');
 var nano = require('gulp-cssnano');
 var rename = require('gulp-rename');
 
-
 gulp.task('sass', function() {
   return gulp.src('./sass/ionic-flat.scss')
     .pipe(sass().on('error', sass.logError))
