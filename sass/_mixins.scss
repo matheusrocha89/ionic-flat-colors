@@ -110,6 +110,10 @@
 // --------------------------------------------------
 
 @mixin range-style($track-bg-color) {
+  background-image: linear-gradient(to right, $track-bg-color 0%, $track-bg-color 100%);
+  &::-moz-range-track {
+    background: linear-gradient(to right, $track-bg-color 0%, $track-bg-color 100%);
+  }
   &::-webkit-slider-thumb:before {
     background: $track-bg-color;
   }
