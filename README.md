@@ -1,6 +1,8 @@
 # ![Ionic Colors logo](http://matheusrocha89.github.io/ionic-flat-colors/img/ionic-flat-colors-logo-2.png)
 
-Ionic Flat Colors adds new color options for various Ionic components 
+-[![Build Status](https://travis-ci.org/matheusrocha89/ionic-flat-colors.svg?branch=master)](https://travis-ci.org/matheusrocha89/ionic-flat-colors)
+
+Ionic Flat Colors adds new color options for various Ionic components:
 
 - bars
 - buttons
@@ -19,7 +21,7 @@ Install using bower:
 
     bower install ionic-flat-colors
 
-Or you download the css files from `dist/`.
+Or copy the css files from `dist/`.
 
 Then reference after the `ionic.app.css` link tag. For example:
 
