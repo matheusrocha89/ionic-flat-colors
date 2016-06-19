@@ -5,67 +5,23 @@
  * vbaimas (http://www.vbaimas.com/) to share this colors on
  * his web page.
  */
-
-@import
-  "variables",
-  "mixins",
-  "colors/colors",
-  "functions",
-  "bars/bar.accentmap";
+@import "variables", "mixins", "colors/colors", "functions";
 
 @each $colorset in $colors {
   @each $name, $color in $colorset {
-    // Shared variables
+    // Local variables
     $contrasting-text-color: get-contrasting-text-color($color);
     // Bars
-    .bar {
-      &.bar-#{$name} {
-        $accent-color-name: map_get($barAccentMap, $name);
-        $accent-color: map_get($colorset, $accent-color-name);
-        @include bar-style($color, $accent-color, $contrasting-text-color);
-        .bar-footer {
-          background-image: linear-gradient(180deg, $accent-color, $accent-color 50%, transparent 50%);
-        }
-        .button {
-          @include button-style($color, $contrasting-text-color);
-          @include button-clear($contrasting-text-color, $bar-title-font-size);
-        }
-      }
-    }
+    @import "bars/bars";
     // Buttons
-    .button {
-      &.button-#{$name} {
-        @include button-style($color, $contrasting-text-color);
-        @include button-clear($color);
-        @include button-outline($color);
-      }
-    }
+    @import "buttons/buttons";
     // Checkboxes
-    .checkbox-#{$name} {
-      @include checkbox-style($color, $color, $color);
-    }
+    @import "checkboxes/checkboxes";
     // Ranges
-    .range {
-      &.range-#{$name} {
-        input { @include range-style($color)}
-      }
-    }
+    @import "ranges/ranges";
     // Tabs
-    .tabs-#{$name} > .tabs,
-    .tabs.tabs-#{$name} {
-      @include tab-style($color, darken($color, 10), $contrasting-text-color);
-      @include tab-badge-style($contrasting-text-color, $color);
-    }
+    @import "tabs/tabs";
     // Toggles
-    .toggle {
-      &.toggle-#{$name} {
-        @include toggle-style($color, $color);
-      }
-    }
-    .toggle-small {
-      &.toggle-#{$name} {
-        @include toggle-small-style($color);
-      }
-    }
+    @import "toggles/toggles";
   }
 }

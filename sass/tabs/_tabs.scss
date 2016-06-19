@@ -1,9 +1,5 @@
-@each $colorset in $colors {
-  @each $name, $color in $colorset {
-    .tabs-#{$name} > .tabs,
-    .tabs.tabs-#{$name} {
-      @include tab-style($color, darken($color, 10), get-contrasting-text-color($color));
-      @include tab-badge-style(get-contrasting-text-color($color), $color);
-    }
-  }
+.tabs-#{$name} > .tabs,
+.tabs.tabs-#{$name} {
+  @include tab-style($color, darken($color, 10), get-contrasting-text-color($color));
+  @include tab-badge-style(get-contrasting-text-color($color), $color);
 }

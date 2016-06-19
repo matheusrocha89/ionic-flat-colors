@@ -1,11 +1,7 @@
-@each $colorset in $colors {
-	@each $name, $color in $colorset {
-		.button {
-			&.button-#{$name} {
-			@include button-style($color, get-contrasting-text-color($color));
-				@include button-clear($color);
-				@include button-outline($color);
-			}
-		}
-	}
+.button {
+  &.button-#{$name} {
+    @include button-style($color, get-contrasting-text-color($color));
+    @include button-clear($color);
+    @include button-outline($color);
+  }
 }

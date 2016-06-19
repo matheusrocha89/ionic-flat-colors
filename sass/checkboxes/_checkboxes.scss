@@ -1,7 +1,3 @@
-@each $colorset in $colors {
-  @each $name, $color in $colorset {
-    .checkbox-#{$name} {
-      @include checkbox-style($color, $color, $color);
-    }
-  }
+.checkbox-#{$name} {
+  @include checkbox-style($color, $color, $color);
 }

@@ -1,14 +1,11 @@
-@each $colorset in $colors {
-  @each $name, $color in $colorset {
-    .toggle {
-      &.toggle-#{$name} {
-        @include toggle-style($color, $color);
-      }
-    }
-    .toggle-small {
-      &.toggle-#{$name} {
-        @include toggle-small-style($color);
-      }
-    }
+.toggle {
+  &.toggle-#{$name} {
+    @include toggle-style($color, $color);
+  }
+}
+
+.toggle-small {
+  &.toggle-#{$name} {
+    @include toggle-small-style($color);
   }
 }
