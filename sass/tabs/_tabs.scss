@@ -1,5 +1,7 @@
-.tabs-#{$name} > .tabs,
-.tabs.tabs-#{$name} {
-  @include tab-style($color, darken($color, 10), get-contrasting-text-color($color));
-  @include tab-badge-style(get-contrasting-text-color($color), $color);
+@mixin tabs($name, $color, $contrasting-text-color) {
+  .tabs-#{$name} > .tabs,
+  .tabs.tabs-#{$name} {
+    @include tab-style($color, darken($color, 10), $contrasting-text-color);
+    @include tab-badge-style($contrasting-text-color, $color);
+  }
 }

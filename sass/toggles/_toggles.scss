@@ -1,11 +1,13 @@
-.toggle {
-  &.toggle-#{$name} {
-    @include toggle-style($color, $color);
+@mixin toggles($name, $color) {
+  .toggle {
+    &.toggle-#{$name} {
+      @include toggle-style($color, $color);
+    }
   }
-}
 
-.toggle-small {
-  &.toggle-#{$name} {
-    @include toggle-small-style($color);
+  .toggle-small {
+    &.toggle-#{$name} {
+      @include toggle-small-style($color);
+    }
   }
 }

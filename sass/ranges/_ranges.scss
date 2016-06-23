@@ -1,7 +1,9 @@
-.range {
-  &.range-#{$name} {
-    input {
-      @include range-style($color)
+@mixin ranges($name, $color) {
+  .range {
+    &.range-#{$name} {
+      input {
+        @include range-style($color)
+      }
     }
   }
 }

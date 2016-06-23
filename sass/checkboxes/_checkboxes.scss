@@ -1,3 +1,5 @@
-.checkbox-#{$name} {
-  @include checkbox-style($color, $color, $color);
+@mixin checkboxes($name, $color) {
+  .checkbox-#{$name} {
+    @include checkbox-style($color, $color, $color);
+  }
 }

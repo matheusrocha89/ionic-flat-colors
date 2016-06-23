@@ -1,7 +1,9 @@
-.button {
-  &.button-#{$name} {
-    @include button-style($color, get-contrasting-text-color($color));
-    @include button-clear($color);
-    @include button-outline($color);
+@mixin buttons($name, $color, $contrasting-text-color) {
+  .button {
+    &.button-#{$name} {
+      @include button-style($color, $contrasting-text-color);
+      @include button-clear($color);
+      @include button-outline($color);
+    }
   }
 }
