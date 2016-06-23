@@ -5,23 +5,34 @@
  * vbaimas (http://www.vbaimas.com/) to share this colors on
  * his web page.
  */
-@import "variables", "mixins", "colors/colors", "functions";
+@import
+"variables",
+"mixins",
+"colors/colors",
+"functions",
+// Components
+"bars/bars",
+"buttons/buttons",
+"checkboxes/checkboxes",
+"ranges/ranges",
+"tabs/tabs",
+"toggles/toggles";
 
 @each $colorset in $colors {
   @each $name, $color in $colorset {
     // Local variables
     $contrasting-text-color: get-contrasting-text-color($color);
     // Bars
-    @import "bars/bars";
+    @include bars($name, $color, $colorset, $contrasting-text-color);
     // Buttons
-    @import "buttons/buttons";
+    @include buttons($name, $color, $contrasting-text-color);
     // Checkboxes
-    @import "checkboxes/checkboxes";
+    @include checkboxes($name, $color);
     // Ranges
-    @import "ranges/ranges";
+    @include ranges($name, $color);
     // Tabs
-    @import "tabs/tabs";
+    @include tabs($name, $color, $contrasting-text-color);
     // Toggles
-    @import "toggles/toggles";
+    @include toggles($name, $color);
   }
 }
