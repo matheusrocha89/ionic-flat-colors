@@ -1,11 +1,7 @@
-@charset "UTF-8";
-
-@import 
-  "red-tabs",
-  "yellow-tabs",
-  "pink-tabs",
-  "gray-tabs",
-  "purple-tabs",
-  "blue-tabs",
-  "orange-tabs",
-  "green-tabs";
+@mixin tabs($name, $color, $contrasting-text-color) {
+  .tabs-#{$name} > .tabs,
+  .tabs.tabs-#{$name} {
+    @include tab-style($color, darken($color, 10), $contrasting-text-color);
+    @include tab-badge-style($contrasting-text-color, $color);
+  }
+}

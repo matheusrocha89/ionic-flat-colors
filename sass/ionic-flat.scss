@@ -1,18 +1,38 @@
+@charset "UTF-8";
+
 /*
  * Flat colors used on this lib. I'd like to thanks to
  * vbaimas (http://www.vbaimas.com/) to share this colors on
  * his web page.
  */
-
-@charset "UTF-8";
-
 @import
-  "variables",
-  "mixins",
-  "colors/colors",
-  "bars/bars",
-  "buttons/buttons",
-  "checkboxes/checkboxes",
-  "toggles/toggles",
-  "ranges/ranges",
-  "tabs/tabs";
+"variables",
+"mixins",
+"colors/colors",
+"functions",
+// Components
+"bars/bars",
+"buttons/buttons",
+"checkboxes/checkboxes",
+"ranges/ranges",
+"tabs/tabs",
+"toggles/toggles";
+
+@each $colorset in $colors {
+  @each $name, $color in $colorset {
+    // Local variables
+    $contrasting-text-color: get-contrasting-text-color($color);
+    // Bars
+    @include bars($name, $color, $colorset, $contrasting-text-color);
+    // Buttons
+    @include buttons($name, $color, $contrasting-text-color);
+    // Checkboxes
+    @include checkboxes($name, $color);
+    // Ranges
+    @include ranges($name, $color);
+    // Tabs
+    @include tabs($name, $color, $contrasting-text-color);
+    // Toggles
+    @include toggles($name, $color);
+  }
+}

@@ -3,9 +3,9 @@
 // Button Mixins
 // --------------------------------------------------
 
-@mixin button-style($bg-color, $border-color, $active-bg-color, $active-border-color, $color) {
-  border-color: transparent;//$border-color;
+@mixin button-style($bg-color, $color) {
   background-color: $bg-color;
+  border-color: transparent;
   color: $color;
 
   // Give desktop users something to play with
@@ -15,33 +15,30 @@
   }
   &.active,
   &.activated {
-    //border-color: transparent;//$active-border-color;
-    background-color: $active-bg-color;
-    //box-shadow: inset 0 1px 4px rgba(0,0,0,0.1);
+    background-color: darken($bg-color, 10);
   }
 }
 
 @mixin button-clear($color, $font-size:"") {
   &.button-clear {
-    border-color: transparent;
     background: none;
+    border-color: transparent;
     box-shadow: none;
     color: $color;
-
     @if $font-size != "" {
       font-size: $font-size;
     }
   }
   &.button-icon {
-    border-color: transparent;
     background: none;
+    border-color: transparent;
   }
 }
 
 @mixin button-outline($color, $text-color:"") {
   &.button-outline {
-    border-color: $color;
     background: transparent;
+    border-color: $color;
     @if $text-color == "" {
       $text-color: $color;
     }
@@ -59,9 +56,9 @@
 // --------------------------------------------------
 
 @mixin bar-style($bg-color, $border-color, $color) {
-  border-color: $border-color;
   background-color: $bg-color;
   background-image: linear-gradient(0deg, $border-color, $border-color 50%, transparent 50%);
+  border-color: $border-color;
   color: $color;
 
   .title {
@@ -92,17 +89,17 @@
 @mixin toggle-style($on-border-color, $on-bg-color) {
   // the track when the toggle is "on"
   & input:checked + .track {
-    border-color: $on-border-color;
     background-color: $on-bg-color;
+    border-color: $on-border-color;
   }
 }
 @mixin toggle-small-style($on-bg-color) {
   // the track when the toggle is "on"
   & input:checked + .track {
     background-color: rgba($on-bg-color, .5);
-  }
-  & input:checked + .track .handle {
-    background-color: $on-bg-color;
+    .handle {
+      background-color: $on-bg-color;
+    }
   }
 }
 
@@ -110,10 +107,12 @@
 // --------------------------------------------------
 
 @mixin range-style($track-bg-color) {
-  &::-webkit-slider-thumb:before {
-    background: $track-bg-color;
+  background-image: linear-gradient(to right, $track-bg-color 0%, $track-bg-color 100%);
+  &::-moz-range-progress {
+    background: linear-gradient(to right, $track-bg-color 0%, $track-bg-color 100%);
   }
-  &::-ms-fill-lower{
+  &::-webkit-slider-thumb:before,
+  &::-ms-fill-lower {
     background: $track-bg-color;
   }
 }
@@ -122,9 +121,9 @@
 // --------------------------------------------------
 
 @mixin tab-style($bg-color, $border-color, $color) {
-  border-color: $border-color;
   background-color: $bg-color;
   background-image: linear-gradient(0deg, $border-color, $border-color 50%, transparent 50%);
+  border-color: $border-color;
   color: $color;
 }
 
@@ -144,16 +143,16 @@
       color: rgba($color, $tabs-striped-off-opacity);
       opacity: 1;
       .badge{
-        opacity:$tabs-striped-off-opacity;
+        opacity: $tabs-striped-off-opacity;
       }
       &.tab-item-active,
       &.active,
       &.activated {
-        margin-top: -$tabs-striped-border-width;
-        color: $color;
+        border-color: $color;
         border-style: solid;
         border-width: $tabs-striped-border-width 0 0 0;
-        border-color: $color;
+        color: $color;
+        margin-top: -$tabs-striped-border-width;
       }
     }
   }
@@ -185,7 +184,7 @@
   &.#{$style} {
     .tabs {
       background-color: $color;
-      background-image:none;
+      background-image: none;
     }
   }
 }
@@ -195,15 +194,15 @@
     .tab-item {
       color: rgba($color, $tabs-off-opacity);
       opacity: 1;
-      .badge{
-        opacity:$tabs-off-opacity;
+      .badge {
+        opacity: $tabs-off-opacity;
       }
       &.tab-item-active,
       &.active,
       &.activated {
         color: $color;
         border: 0 solid $color;
-        .badge{
+        .badge {
           opacity: 1;
         }
       }
@@ -217,18 +216,18 @@
       color: rgba($color, $tabs-striped-off-opacity);
       opacity: 1;
       .badge{
-        opacity:$tabs-striped-off-opacity;
+        opacity: $tabs-striped-off-opacity;
       }
       &.tab-item-active,
       &.active,
       &.activated {
-        margin-top: -$tabs-striped-border-width;
         color: $color;
         border: 0 solid $color;
         border-top-width: $tabs-striped-border-width;
-        .badge{
-          top:$tabs-striped-border-width;
+        margin-top: -$tabs-striped-border-width;
+        .badge {
           opacity: 1;
+          top: $tabs-striped-border-width;
         }
       }
     }

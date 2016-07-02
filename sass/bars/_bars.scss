@@ -1,11 +1,18 @@
-@charset "UTF-8";
+@import 'bar.accentmap';
 
-@import 
-  "red-bars",
-  "yellow-bars",
-  "orange-bars",
-  "gray-bars",
-  "pink-bars",
-  "purple-bars",
-  "green-bars",
-  "blue-bars";
+@mixin bars($name, $color, $colorset, $contrasting-text-color) {
+  .bar {
+    &.bar-#{$name} {
+      $accentColorName: map_get($barAccentMap, $name);
+      $accentColor: map_get($colorset, $accentColorName);
+      @include bar-style($color, $accentColor, $contrasting-text-color);
+      .bar-footer {
+        background-image: linear-gradient(180deg, $accentColor, $accentColor 50%, transparent 50%);
+      }
+      .button {
+        @include button-style($color, $contrasting-text-color);
+        @include button-clear($contrasting-text-color, $bar-title-font-size);
+      }
+    }
+  }
+}

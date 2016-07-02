@@ -1,11 +1,13 @@
-@charset "UTF-8";
+@mixin toggles($name, $color) {
+  .toggle {
+    &.toggle-#{$name} {
+      @include toggle-style($color, $color);
+    }
+  }
 
-@import 
-  "red-toggles",
-  "yellow-toggles",
-  "pink-toggles",
-  "gray-toggles",
-  "purple-toggles",
-  "orange-toggles",
-  "green-toggles",
-  "blue-toggles";
+  .toggle-small {
+    &.toggle-#{$name} {
+      @include toggle-small-style($color);
+    }
+  }
+}

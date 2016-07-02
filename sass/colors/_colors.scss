@@ -1,11 +1,2 @@
-@charset "UTF-8";
-
-@import
-  "blue",
-  "red",
-  "gray",
-  "green",
-  "orange",
-  "pink",
-  "purple",
-  "yellow";
+@import "blue", "red", "gray", "green", "orange", "pink", "purple", "yellow";
+$colors: $blues $grays $greens $oranges $pinks $purples $reds;

@@ -1,11 +1,9 @@
-@charset "UTF-8";
-
-@import
-  "red-buttons",
-  "yellow-buttons",
-  "pink-buttons",
-  "gray-buttons",
-  "purple-buttons",
-  "orange-buttons",
-  "green-buttons",
-  "blue-buttons";
+@mixin buttons($name, $color, $contrasting-text-color) {
+  .button {
+    &.button-#{$name} {
+      @include button-style($color, $contrasting-text-color);
+      @include button-clear($color);
+      @include button-outline($color);
+    }
+  }
+}

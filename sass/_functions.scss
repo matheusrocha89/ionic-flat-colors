@@ -1,0 +1,4 @@
+@function get-contrasting-text-color($color) {
+    @if (lightness( $color ) > 40%) { @return $dark; }
+    @else { @return $white; }
+}
